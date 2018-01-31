@@ -5,7 +5,7 @@ import re
 
 known_process_dict = {}
 data_processes_dict = {} 
-
+similar_processes_dict = {}
 def build_processes_dict():
     regex_file = re.compile(r"similar_to_([0-9A-Z])+\.csv")
     
@@ -33,9 +33,32 @@ def build_processes_dict():
         else:
            #caso exista, atualiza a lista de chaves
            known_process_dict.get(process).append(process_hash)
-    
+             
+        compute_similar_process_dict(value)
+       
         data_processes_dict.update({process_hash: value})   
 #end of build_processes_dict    
+
+def compute_similar_process_dict(df):
+    for index, row in df.iterrows():
+        process = row["processo"]
+        similar_file = row["similar_file"]
+        similar_process = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",row["similar_processo"]).group(0)
+        if similar_process not in similar_processes_dict:
+            similar_processes_dict.update({similar_process : [ (similar_file, process) ]})
+        else:
+            value = (similar_file, process) 
+            if not search_tuple(value, similar_processes_dict.get(similar_process)):
+                similar_processes_dict.get(similar_process).append( (similar_file, process) )
+#end of compute_similar_process_dict
+
+def search_tuple(tup,lst):
+    ret = False
+    for t in lst:
+        if t == tup:
+            ret = True
+    return ret
+# end of search_tuple
 
 
 def search_process(process):
@@ -106,5 +129,6 @@ len(known_process_dict.keys())
 
 data_process['re_processo'] = re.search("(autor|Autor)(\s*:\s*)(\w.+)+[^\\n]", data_process['sentenca'][18].to_string()).group(3)
 
-search_process_hash("0004F3E14485394AFAB5ABAD765DD1398D9EC5051528310E")
+search_process_hash("000468C40707FD667E0F22D2B5C3FC9758CFC504571C3751")
+compute_similar_process_dict(data_processes_dict["0004CADF0A424659663AF0E115BD2D45CD44C50550152510"])
 
