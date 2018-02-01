@@ -1,11 +1,17 @@
 {% extends 'search/base.html' %}
 {% block content %}
-    <div class="centered">
+    <div class="container">
+    <div class="center">
         <form method="POST" novalidate>
             {% csrf_token %}
             {{form.as_table}}
             <button type="submit" class="btn btn-success">Pesquisar Processo</button>
         </form>
-        {% if error %}<p>Código do Processo não encontrado</p>{% endif %}
+        {% if error %}
+            <div class="alert alert-danger" role="alert">
+                Código do Processo inválido ou não encontrado
+            </div>
+        {% endif %}
+    </div>
     </div>
 {% endblock %}

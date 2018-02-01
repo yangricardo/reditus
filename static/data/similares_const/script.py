@@ -22,6 +22,7 @@ def build_processes_dict():
         value = pd.read_csv(path + f, sep=";" ,encoding = 'latin1') 
         #armazena o numero do processo do arquivo csv
         process = value['processo'][0]
+        print(process)
         #armazena o numero do hash do arquivo do processo
         process_hash = re.search(r"([0-9A-Z])+",f).group(0)
         #cria a chave composta por: processo + similar_file_number
@@ -33,8 +34,6 @@ def build_processes_dict():
         else:
            #caso exista, atualiza a lista de chaves
            known_process_dict.get(process).append(process_hash)
-             
-        compute_similar_process_dict(value)
        
         data_processes_dict.update({process_hash: value})   
 #end of build_processes_dict    
@@ -81,7 +80,7 @@ def complete_process_data(process):
     if len(process_keys_list) > 1:
         for i in range(1,len(process_keys_list)):
             df = pd.concat([df,data_processes_dict.get(process_keys_list[i])])  
-    
+            print(df['processo'][0])
     return df
 #end of complete_process_data    
     
@@ -131,4 +130,5 @@ data_process['re_processo'] = re.search("(autor|Autor)(\s*:\s*)(\w.+)+[^\\n]", d
 
 search_process_hash("000468C40707FD667E0F22D2B5C3FC9758CFC504571C3751")
 compute_similar_process_dict(data_processes_dict["0004CADF0A424659663AF0E115BD2D45CD44C50550152510"])
+
 

@@ -1,40 +1,41 @@
 {% extends 'search/base.html' %}
 {% block content %}
-<div class="container-fluid" data-spy="scroll" data-target="#sentenca-div">
-    <div class="row">
-        <div class="col-sm-4">
-            <h6>Código do processo:</h6>
-            <p>222222222222</p>
+<div class="container">
+    {% if error %}
+        <div class="sentenca-error alert alert-danger" role="alert">
+            Código do Processo inválido ou não encontrado
         </div>
-        <div class="col-sm-4">
-            <h6>Autor:</h6>
-            <p>222222222222</p>
+    {%else%}
+        <div class="row sentenca-container">
+            <div class="col-sm-4">
+                <h6>Código do processo:</h6>
+                <p>{{ process }}</p>
+            </div>
+            <div class="col-sm-4">
+                <h6>Autor:</h6>
+                <p>{{author}}</p>
+            </div>
+            <div class="col-sm-4">
+                <h6>Réu:</h6>
+                <p>{{reu}}</p>
+            </div>
         </div>
-        <div class="col-sm-4">
-            <h6>Réu:</h6>
-            <p>222222222222</p>
+        <div class="row">
+            <div class="col-sm-8">
+                <h6>Sentença:</h6>
+                <div class="sentenca-box">
+
+                    <p >
+                    {{ sentence | linebreaks }}
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h6>Processos similares que não possuem sentenças:</h6>
+                <p>{{similar}}</p>
+            </div>
         </div>
+    {%endif%}
     </div>
-    <div class="row">
-        <div class="col-sm-8">
-            <h6>Sentença</h6>
-            <p class="sentenca-box">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum eget nunc nec maximus. Nulla in nunc in libero posuere fringilla. Morbi quis mollis purus. Nunc blandit, nunc id eleifend congue, felis odio dapibus justo, consectetur vestibulum turpis ex quis arcu. Suspendisse eu euismod massa. Nulla elementum est dui, id mollis sapien volutpat in. Proin bibendum nec dui et gravida. Nam ac imperdiet sem. Curabitur quis dui a odio pulvinar eleifend ac eget nisl.
-
-Vestibulum vitae venenatis felis. Etiam pulvinar consectetur diam non faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut dictum urna ut magna faucibus, tempor molestie dui faucibus. Fusce eget aliquet felis, ac varius purus. Vestibulum vel malesuada mauris. Duis scelerisque sagittis sapien, in accumsan ipsum feugiat in. Nam risus mauris, commodo eget nisi quis, congue volutpat risus. Suspendisse et magna vitae est ultrices tincidunt. Vestibulum sed finibus odio. Donec fringilla, purus non fringilla sagittis, purus tortor tempor tellus, et consequat massa diam nec velit.
-
-Sed venenatis auctor molestie. Vivamus ut gravida neque. Phasellus sem mauris, fermentum sed suscipit quis, congue non eros. Donec efficitur lobortis eros. Nunc convallis velit pellentesque lectus blandit, ac mollis est hendrerit. Nunc facilisis dolor nec facilisis aliquam. Cras at nunc ante. Vivamus in quam sit amet nisl ultrices tempus ut non risus. Pellentesque vitae velit quis mauris feugiat posuere sit amet ac lorem. Integer dignissim lectus nec sem tincidunt eleifend. Aenean nec magna in enim fermentum placerat nec sed nunc. Praesent at nunc eros. Nam in auctor dui, vel dictum ex. Morbi vehicula, lacus consequat fermentum convallis, neque felis fringilla lacus, sit amet egestas ex turpis in urna.
-
-Phasellus suscipit ultrices elementum. Etiam varius lectus nunc, a finibus leo ullamcorper id. Suspendisse potenti. Cras sed faucibus massa, sit amet aliquet risus. Fusce risus libero, congue non lorem a, laoreet consequat enim. Sed vitae sapien ipsum. Donec in pretium ipsum, eu vestibulum magna. Ut eleifend, quam non vestibulum aliquet, quam lorem vehicula massa, vitae varius nibh augue eget felis. Vivamus in quam non nulla mattis eleifend nec nec orci. Proin nec ornare libero, ut auctor purus. Donec pretium nec massa in posuere. Vestibulum eu nulla turpis. Proin bibendum nisl ac volutpat ultrices.
-
-Morbi ullamcorper porttitor ex sit amet fermentum. Nullam feugiat sapien a tristique iaculis. Donec aliquet, odio non condimentum egestas, ex nibh tristique nisl, sed consectetur leo elit sit amet tellus. Vivamus ullamcorper tortor in interdum efficitur. Ut non feugiat neque. Fusce laoreet vulputate nibh non aliquet. Duis eros tellus, consequat in augue id, aliquet pellentesque dui. Etiam hendrerit gravida congue. Morbi in auctor elit. Aliquam aliquet porta dui nec maximus. Aliquam tincidunt pretium velit non tempus. Aenean viverra fermentum accumsan. Nulla urna nunc, aliquam non dignissim finibus, rutrum sed est. Pellentesque id eros suscipit, scelerisque libero sed, volutpat augue. Maecenas facilisis risus vel egestas sagittis. Fusce hendrerit et nulla id convallis.
-                </p>
-        </div>
-        <div class="col-sm-4">
-            <h6>Processos similares que não possuem sentenças:</h6>
-            <p>222222222222</p>
-        </div>
-    </div>
-</div>
-
 {%endblock%}
+{% include 'includes/pagination.html' %}

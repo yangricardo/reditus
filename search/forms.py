@@ -5,9 +5,9 @@ class SearchForm(forms.Form):
         widget = forms.TextInput(attrs={
             "placeholder" : "2016.001.261711-1",
             "maxLength":"17",
-            "pattern" : "[0-9]{7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",
+            "pattern" : "[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",
         }),
-        label = "Código do Processo",
+        label = "",
         )
 
     class Meta:

@@ -3,7 +3,8 @@ from .forms import SearchForm
 from django.views.generic.edit import FormView
 from .apps import SearchConfig as sc
 import pandas as pd
-from django.core.paginator import Paginator
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
+import re
 
 def search_process(process):
     return sc.known_process_dict.get(process) if process in sc.known_process_dict else False
@@ -24,8 +25,8 @@ def complete_process_data(process):
     #concatena os diferentes hashes
     if len(process_keys_list) > 1:
         for i in range(1,len(process_keys_list)):
-            df = pd.concat([df,sc.data_processes_dict.get(process_keys_list[i])])  
-    
+            #df = pd.concat( [df, sc.data_processes_dict.get(process_keys_list[i])] )  
+            df.append(sc.data_processes_dict.get(process_keys_list[i]))
     return df
 #end of complete_process_data    
 
@@ -35,7 +36,7 @@ def index(request):
         if form.is_valid():
             process_keys_list = search_process(form.cleaned_data['search_field'])
             if process_keys_list != False:
-                return redirect('processo' ,form.cleaned_data['search_field'])
+                return redirect('processo' ,form.cleaned_data['search_field'],0)
             else:
                 error = True
                 return render(request, 'search/index.html',{'form': form, 'error':error } )
@@ -43,13 +44,17 @@ def index(request):
         form = SearchForm()
         return render(request, 'search/index.html',{'form': form } )
 
-def showSentences(request,cod):
+def showSentences(request,cod, index):
     process_keys_list = search_process(cod)
     if process_keys_list != False:
         data = complete_process_data(cod)
-        paginator = Paginator(data, 1)
-        return render(request, 'search/sentenca.html', )
+        process = data['processo'][int(index)]
+        sentence = data['sentenca'][int(index)]
+        similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",data['similar_processo'][int(index)]).group(0)
+        author = re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+[^\n]",sentence)
+        reu = re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+[^\n]",sentence)
+        
+        return render(request, 'search/sentenca.html', {'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu })
     else:
         error = True
         return render(request, 'search/sentenca.html',{'error':error } )
-    
