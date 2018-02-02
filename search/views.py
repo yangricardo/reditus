@@ -3,6 +3,7 @@ from .forms import SearchForm
 from django.views.generic.edit import FormView
 from .apps import SearchConfig as sc
 import pandas as pd
+import numpy as np
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 import re
 
@@ -52,14 +53,16 @@ def index(request):
         return render(request, 'search/index.html',{'form': form, 'error':error } )
 
 def showSentences(request,cod, index):
-    process_keys_list = search_process(cod)
-
     try:
+        process_keys_list = search_process(cod)
         if process_keys_list != False:
             data = complete_process_data(cod)
             print(data)
+
+            #TODO dropar sentenças que contém HOMOLO
             process = data['processo'][int(index)]
             sentence = data['sentenca'][int(index)]
+            url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+data['similar_file'][int(index)]
             similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",data['similar_processo'][int(index)]).group(0)
             author = re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
             similar_atual = re.search(r"[0-9]{7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{6}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
@@ -74,8 +77,37 @@ def showSentences(request,cod, index):
             previousIndex = int(index)-1 if int(index) > 0 else 0
             nextIndex = int(index)+1 if int(index) < pages else pages
             #return render(request, 'search/sentenca.html', {'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu, 'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex })
-            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similar_atual':similar_atual,'author':author,'reu':reu, 'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
-        
+            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similar_atual':similar_atual,'author':author,'reu':reu,'url':url ,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
     except:
         error = True
         return render(request, 'search/sentenca.html',{'error':error } )
+
+
+def show_sentences_list(request, cod):
+    try:
+        process_keys_list = search_process(cod)
+        if process_keys_list != False:
+            data = complete_process_data(cod)
+    except:
+        error = True
+        return render(request, 'search/sentenca.html',{'error':error } )
+
+
+class Process(object):
+    cod = ""
+    similar = ""
+    similar_atual = ""
+    sentence = ""
+    author = ""
+    reu = ""
+    data = ""
+
+    def __init__(self, cod, data):
+        self.cod = cod
+        self.similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",data['similar_processo']).group(0)
+        self.cod = data['processo']
+        self.sentence = data['sentenca']
+        self.similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",data['similar_processo']).group(0)
+        self.author = re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+        self.similar_atual = re.search(r"[0-9]{7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{6}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
+        self.reu = re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""

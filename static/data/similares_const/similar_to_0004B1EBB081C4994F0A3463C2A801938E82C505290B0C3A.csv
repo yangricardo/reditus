@@ -1,5 +1,5 @@
 ;processo;sentenca;similar_file;similar_processo
-0;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+0;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -7,12 +7,12 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004B5F4B7FBEDABE4658BE019E0B2C7B6F6C50506590E48;2016.001.067072-9
-1;2016.001.178298-9;"1327    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004B5F4B7FBEDABE4658BE019E0B2C7B6F6C50506590E48;2016.001.067072-9
-2;2016.001.178298-9;"5458    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004AAB6C9D7127F2500F51DBE5865ED3142C50523063C33;2016.001.134888-8
-3;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004B5F4B7FBEDABE4658BE019E0B2C7B6F6C50506590E48;['2016.001.067072-9']
+1;2016.001.261711-1;"1327    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004B5F4B7FBEDABE4658BE019E0B2C7B6F6C50506590E48;['2016.001.067072-9']
+2;2016.001.261711-1;"5458    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004AAB6C9D7127F2500F51DBE5865ED3142C50523063C33;['2016.001.134888-8']
+3;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -22,10 +22,10 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004AAB6C9D7127F2500F51DBE5865ED3142C50523063C33;2016.001.134888-8
-4;2016.001.178298-9;"3079    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004231F13926A949D25AB2A4C5560DE8B52C50520590E5A;2016.001.157539-0
-5;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004AAB6C9D7127F2500F51DBE5865ED3142C50523063C33;['2016.001.134888-8']
+4;2016.001.261711-1;"3079    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004231F13926A949D25AB2A4C5560DE8B52C50520590E5A;['2016.001.157539-0']
+5;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -33,8 +33,8 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004231F13926A949D25AB2A4C5560DE8B52C50520590E5A;2016.001.157539-0
-6;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004231F13926A949D25AB2A4C5560DE8B52C50520590E5A;['2016.001.157539-0']
+6;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -42,10 +42,10 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00042FE79C37FE0CE738AA07236CDB27C7B2C505015D641F;2016.001.022531-0
-7;2016.001.178298-9;"1308    \nESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\n...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00041B4025424FE8E83B0B8E384ED1B29728C505033E572B;2016.001.025705-0
-8;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00042FE79C37FE0CE738AA07236CDB27C7B2C505015D641F;['2016.001.022531-0']
+7;2016.001.261711-1;"1308    \nESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\n...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00041B4025424FE8E83B0B8E384ED1B29728C505033E572B;['2016.001.025705-0']
+8;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -53,10 +53,10 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00041B4025424FE8E83B0B8E384ED1B29728C505033E572B;2016.001.025705-0
-9;2016.001.178298-9;"5250    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004CD2BD04DB3C589D0FBD94F49B3C81702C5051C152055;2016.001.137584-3
-10;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00041B4025424FE8E83B0B8E384ED1B29728C505033E572B;['2016.001.025705-0']
+9;2016.001.261711-1;"5250    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004CD2BD04DB3C589D0FBD94F49B3C81702C5051C152055;['2016.001.137584-3']
+10;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -66,9 +66,9 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004CD2BD04DB3C589D0FBD94F49B3C81702C5051C152055;2016.001.137584-3
-11;2016.001.178298-9;HOMOLOGO, por sentença, o ACORDO celebrado às fls. e, em consequência, JULGO EXTINTO O PROCESSO, com resolução do mérito, nos moldes do art. 487, III, do NCPC. Retiro o feito de pauta. Sem custas. Com o trânsito em julgado, arquivem-se.;000467E90361C839DCDB460213426725E1B9C50503485650;2016.001.014817-0
-12;2016.001.178298-9;"PROJETO DE SENTENÇA
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004CD2BD04DB3C589D0FBD94F49B3C81702C5051C152055;['2016.001.137584-3']
+11;2016.001.261711-1;HOMOLOGO, por sentença, o ACORDO celebrado às fls. e, em consequência, JULGO EXTINTO O PROCESSO, com resolução do mérito, nos moldes do art. 487, III, do NCPC. Retiro o feito de pauta. Sem custas. Com o trânsito em julgado, arquivem-se.;000467E90361C839DCDB460213426725E1B9C50503485650;['2016.001.014817-0']
+12;2016.001.261711-1;"PROJETO DE SENTENÇA
 
 Ainda que dispensado o relatório, na forma do artigo 38 da lei 9.009/95, faço um breve relato, após o qual passo a decidir.
 Trata-se de ação de obrigação de fazer c/c compensação por danos morais e reparação por danos materiais proposta por MARIA DA CONCEIÇÃO RODRIGUES em face de TELEMAR NORTE LESTE S.A., em que alega ter havido a interrupção dos serviços de telefonia e internet fixas contratados, desde 18 de março de 2016.
@@ -86,8 +86,8 @@ Diante do exposto, julgo IMPROCEDENTE o pedido de compensação de danos morais, n
 Rio de Janeiro, 22 de junho de 2016.
 
 Janayme Vieira de Moraes
-Juíza Leiga";00043AF0D347DC86147739A3A7F5AB65669CC5050C2C0437;2016.001.105651-8
-13;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+Juíza Leiga";00043AF0D347DC86147739A3A7F5AB65669CC5050C2C0437;['2016.001.105651-8']
+13;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -95,8 +95,8 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00043AF0D347DC86147739A3A7F5AB65669CC5050C2C0437;2016.001.105651-8
-14;2016.001.178298-9;"
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00043AF0D347DC86147739A3A7F5AB65669CC5050C2C0437;['2016.001.105651-8']
+14;2016.001.261711-1;"
 ESTADO DO RIO DE JANEIRO
 PODER JUDICIÁRIO
 V JUIZADO ESPECIAL CÍVEL DA COMARCA DA CAPITAL 
@@ -142,8 +142,8 @@ Rio de Janeiro, 10 de agosto de 2016.
 
 
 ANDRÉA LUCIA DUARTE DOS SANTOS
-JUIZA LEIGA";0004631DA6DF5E721AC2A503BC78BEBBBC07C5051F073D04;2016.001.161597-0
-15;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+JUIZA LEIGA";0004631DA6DF5E721AC2A503BC78BEBBBC07C5051F073D04;['2016.001.161597-0']
+15;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -151,10 +151,10 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004631DA6DF5E721AC2A503BC78BEBBBC07C5051F073D04;2016.001.161597-0
-16;2016.001.178298-9;"5354    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00044AAD32D3FD96A6F994AA641D15DA4483C505182F5812;2016.001.108774-6
-17;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004631DA6DF5E721AC2A503BC78BEBBBC07C5051F073D04;['2016.001.161597-0']
+16;2016.001.261711-1;"5354    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00044AAD32D3FD96A6F994AA641D15DA4483C505182F5812;['2016.001.108774-6']
+17;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -164,10 +164,10 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00044AAD32D3FD96A6F994AA641D15DA4483C505182F5812;2016.001.108774-6
-18;2016.001.178298-9;"898    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004BB4875978179FA9053D0DB865938E577C50507562F44;2016.001.069449-7
-19;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00044AAD32D3FD96A6F994AA641D15DA4483C505182F5812;['2016.001.108774-6']
+18;2016.001.261711-1;"898    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004BB4875978179FA9053D0DB865938E577C50507562F44;['2016.001.069449-7']
+19;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -175,21 +175,21 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004BB4875978179FA9053D0DB865938E577C50507562F44;2016.001.069449-7
-20;2016.001.178298-9;"928    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004BB4875978179FA9053D0DB865938E577C50507562F44;2016.001.069449-7
-21;2016.001.178298-9;"2021    Dispensado o relatório pelo art. 38 da lei 9.0...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004C7D4F4169535F247CFC52272B10C77B5C5050806591B;2016.001.066227-7
-22;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004BB4875978179FA9053D0DB865938E577C50507562F44;['2016.001.069449-7']
+20;2016.001.261711-1;"928    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004BB4875978179FA9053D0DB865938E577C50507562F44;['2016.001.069449-7']
+21;2016.001.261711-1;"2021    Dispensado o relatório pelo art. 38 da lei 9.0...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004C7D4F4169535F247CFC52272B10C77B5C5050806591B;['2016.001.066227-7']
+22;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Tendo em vista a admissão da RECUPERAÇÃO JUDICIAL da parte ré, determino a SUSPENSÃO DO PRESENTE PROCESSO, nos termos da decisão proferida nos autos de nº 0203711-65.2016, em curso perante a 7ª Vara Empresarial da comarca da capital do estado do RJ.
 
 INTIMEM-SE AS PARTES PARA CIÊNCIA DO ORA DECIDIDO.
 
-Após, remetam-se os autos ao arquivo provisório.";0004C7D4F4169535F247CFC52272B10C77B5C5050806591B;2016.001.066227-7
-23;2016.001.178298-9;"7260    \t\tDispensado o relatório na forma do artigo ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004B77ABA0364984556DB4CC775C8C9474FC5052E1F0D03;2016.001.176306-5
-24;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Após, remetam-se os autos ao arquivo provisório.";0004C7D4F4169535F247CFC52272B10C77B5C5050806591B;['2016.001.066227-7']
+23;2016.001.261711-1;"7260    \t\tDispensado o relatório na forma do artigo ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004B77ABA0364984556DB4CC775C8C9474FC5052E1F0D03;['2016.001.176306-5']
+24;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -199,8 +199,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004B77ABA0364984556DB4CC775C8C9474FC5052E1F0D03;2016.001.176306-5
-25;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004B77ABA0364984556DB4CC775C8C9474FC5052E1F0D03;['2016.001.176306-5']
+25;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -208,10 +208,10 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00045F8F1EBE8DA13E6205BD71512E5E0016C50511223850;2016.001.111117-7
-26;2016.001.178298-9;"5232    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";000440D1406B6828786371BFD46BBCE040A6C50527635A12;2016.001.149737-7
-27;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00045F8F1EBE8DA13E6205BD71512E5E0016C50511223850;['2016.001.111117-7']
+26;2016.001.261711-1;"5232    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";000440D1406B6828786371BFD46BBCE040A6C50527635A12;['2016.001.149737-7']
+27;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -221,8 +221,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";000440D1406B6828786371BFD46BBCE040A6C50527635A12;2016.001.149737-7
-28;2016.001.178298-9;"Processo n°:  0081532-32.2016.8.19.0001
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";000440D1406B6828786371BFD46BBCE040A6C50527635A12;['2016.001.149737-7']
+28;2016.001.261711-1;"Processo n°:  0081532-32.2016.8.19.0001
 Autor: SUELY MARTINHO
 Réu: OI MO?VEL S/A 
 
@@ -261,8 +261,8 @@ Rio de Janeiro, 15 de junho de 2016.
 
 
 GUILHERME DE OLIVEIRA PIMENTEL
-JUIZ LEIGO";00040824518674666E94A1B0FD4921E114A4C50507351F55;2016.001.068168-5
-29;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+JUIZ LEIGO";00040824518674666E94A1B0FD4921E114A4C50507351F55;['2016.001.068168-5']
+29;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -270,10 +270,10 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00040824518674666E94A1B0FD4921E114A4C50507351F55;2016.001.068168-5
-30;2016.001.178298-9;"3236    VI - JUIZADO ESPECIAL CÍVEL DA GÁVEA\nProc. Nº...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004E3AC3D8D944CA33A14E2479261E06365C5051A0E2E5D;2016.001.111525-0
-31;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00040824518674666E94A1B0FD4921E114A4C50507351F55;['2016.001.068168-5']
+30;2016.001.261711-1;"3236    VI - JUIZADO ESPECIAL CÍVEL DA GÁVEA\nProc. Nº...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004E3AC3D8D944CA33A14E2479261E06365C5051A0E2E5D;['2016.001.111525-0']
+31;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -283,8 +283,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004A5B4C725E5EE8D45D8D383822714ADE6C5052A23261F;2016.001.130613-4
-32;2016.001.178298-9;"Cuida-se de ação sob o rito sumaríssimo por meio da qual busca a parte demandante a condenação da ré (i) a restabelecer seu serviço de telefonia fixa; (ii) a devolver em dobro aquilo que lhe foi indevidamente cobrado e pago e (iii) a indenizar o consumidor por alegados danos morais.
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004A5B4C725E5EE8D45D8D383822714ADE6C5052A23261F;['2016.001.130613-4']
+32;2016.001.261711-1;"Cuida-se de ação sob o rito sumaríssimo por meio da qual busca a parte demandante a condenação da ré (i) a restabelecer seu serviço de telefonia fixa; (ii) a devolver em dobro aquilo que lhe foi indevidamente cobrado e pago e (iii) a indenizar o consumidor por alegados danos morais.
 Como causa de pedir, alega a demandante, em resumo, que sua linha telefônica (21) 2718-7737 parou de funcionar no final de março, apesar da regular quitação das faturas relativas ao serviço. Aduz que buscou a solução administrativa do problema, sem, contudo, ser atendida. 
 Em contestação, a ré afirma que as alegações da autora são inverídicas, na medida em que a linha encontra-se ativa. Por fim, sustenta a impossibilidade de restituição das quantias cobradas e a falta de dano moral reconhecível no feito.
 Embora dispensado pela norma do artigo 38 da Lei 9.099/95, é o breve relatório, DECIDO.
@@ -304,20 +304,20 @@ JULIANA CORREIA GOMES
 JUÍZA LEIGA
 
 
- 		Submeto o projeto de sentença à homologação do Dr. Juiz de Direito, na forma do art. 40 da Lei 9.099/95.";0004A5B4C725E5EE8D45D8D383822714ADE6C5052A23261F;2016.001.130613-4
-33;2016.001.178298-9;"10491    Conforme já indicado no despacho de fl. 109, a...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004A5B4C725E5EE8D45D8D383822714ADE6C5052A23261F;2016.001.130613-4
-34;2016.001.178298-9;HOMOLOGO, por sentença, o ACORDO celebrado às fls. e, em consequência, JULGO EXTINTO O PROCESSO, com resolução do mérito, nos moldes do art. 487, III, do NCPC. Retiro o feito de pauta. Sem custas. Com o trânsito em julgado, arquivem-se.;000481A49460231ECB1FF6B051FDA27FB8F0C505033E6459;2016.001.063795-7
-35;2016.001.178298-9;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
+ 		Submeto o projeto de sentença à homologação do Dr. Juiz de Direito, na forma do art. 40 da Lei 9.099/95.";0004A5B4C725E5EE8D45D8D383822714ADE6C5052A23261F;['2016.001.130613-4']
+33;2016.001.261711-1;"10491    Conforme já indicado no despacho de fl. 109, a...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004A5B4C725E5EE8D45D8D383822714ADE6C5052A23261F;['2016.001.130613-4']
+34;2016.001.261711-1;HOMOLOGO, por sentença, o ACORDO celebrado às fls. e, em consequência, JULGO EXTINTO O PROCESSO, com resolução do mérito, nos moldes do art. 487, III, do NCPC. Retiro o feito de pauta. Sem custas. Com o trânsito em julgado, arquivem-se.;000481A49460231ECB1FF6B051FDA27FB8F0C505033E6459;['2016.001.063795-7']
+35;2016.001.261711-1;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
 
 Se for o caso, comprovado o depósito, expeça-se mandado de pagamento em favor da parte autora, independentemente de nova conclusão.   Após, nada mais sendo requerido, dê-se baixa e arquivem-se. 
 
 
-Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";00046147C920E8F723EBEF3708558E344303C5051F071228;2016.001.153671-1
-36;2016.001.178298-9;HOMOLOGO, por sentença, o ACORDO celebrado às fls. e, em consequência, JULGO EXTINTO O PROCESSO, com resolução do mérito, nos moldes do art. 487, III, do NCPC. Retiro o feito de pauta. Sem custas. Com o trânsito em julgado, arquivem-se.;0004C505178C53F8D34B7B9DD2DEFCB5F29EC505033E362D;2016.001.032590-0
-37;2016.001.178298-9;"8250    A parte autora busca exclusão da negativação e...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004B93070DE9E681C428EAA75E7DBB2C8B3C50532646458;2016.001.123977-7
-38;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";00046147C920E8F723EBEF3708558E344303C5051F071228;['2016.001.153671-1']
+36;2016.001.261711-1;HOMOLOGO, por sentença, o ACORDO celebrado às fls. e, em consequência, JULGO EXTINTO O PROCESSO, com resolução do mérito, nos moldes do art. 487, III, do NCPC. Retiro o feito de pauta. Sem custas. Com o trânsito em julgado, arquivem-se.;0004C505178C53F8D34B7B9DD2DEFCB5F29EC505033E362D;['2016.001.032590-0']
+37;2016.001.261711-1;"8250    A parte autora busca exclusão da negativação e...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004B93070DE9E681C428EAA75E7DBB2C8B3C50532646458;['2016.001.123977-7']
+38;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -327,19 +327,19 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004B93070DE9E681C428EAA75E7DBB2C8B3C50532646458;2016.001.123977-7
-39;2016.001.178298-9;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. Sem custas. 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004B93070DE9E681C428EAA75E7DBB2C8B3C50532646458;['2016.001.123977-7']
+39;2016.001.261711-1;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. Sem custas. 
 
-Cumprido o acordo, dê-se baixa e arquive-se, independente de conclusão.";00041836C3E6766742FB820D3843EBF1AFBAC50604135E03;2016.001.367573-8
-40;2016.001.178298-9;"Dispensado o relatório, nos termos do artigo 38, da Lei 9099/95, PASSO A DECIDIR.
+Cumprido o acordo, dê-se baixa e arquive-se, independente de conclusão.";00041836C3E6766742FB820D3843EBF1AFBAC50604135E03;['2016.001.367573-8']
+40;2016.001.261711-1;"Dispensado o relatório, nos termos do artigo 38, da Lei 9099/95, PASSO A DECIDIR.
 A autora comprovou que sempre era cobrada pelo serviço ""OI VELOX"" (fls. 8 e 9) sem que tenha contratado/instalado.
 Já o réu não trouxe aos autos qualquer fato impeditivo ou modificativo do direito da autora. Ora, cabia ao réu a apresentação do suposto contrato firmado com a autora ou a gravação da ligação telefônica na qual o serviço teria sido contratado, assim como a comprovação de que o serviço foi instalado e era utilizado pela autora. Assim, como o réu não produziu as provas que cabiam a ele, deve ser presumida como verdadeira a alegação da autora de que não contratou o referido serviço.
 Portanto, diante da cobrança de serviço não contratado, restou configurada a falha na prestação do serviço, sendo devida indenização por danos morais in re ipsa, ou seja pela mera ocorrência do fato danoso, já que foi frustrada a legítima expectativa do autor em ter um serviço prestado de forma eficiente, segura e adequada pelo réu. Notadamente pelo fato da autora, inclusive, ter sofrido interrupção do serviço de telefonia em decorrência da cobrança indevida pelo serviço não contratado (fls. 8 e 13).
 A fixação do quantum indenizatório deve ser pautada pelo bom senso e sopesar os fatos praticados pela parte ré contra a parte autora, cabendo, ainda, a observância dos princípios da razoabilidade, proporcionalidade e vedação ao enriquecimento sem causa. À luz de tais critérios, entendo que a quantia de R$ 3.000,00 é necessária e suficiente para compensar o abalo moral sofrido.
 Isto posto, JULGO PROCEDENTE o pedido para CONDENAR o réu a pagar ao autor a quantia de R$ 3.000,00 (Três mil reais), monetariamente corrigida a contar da presente e acrescida de juros legais de 1% a/m (um por cento ao mês) a contar da citação. 
 
-Sem custas e sem honorários, nos termos do artigo 55, da Lei 9099/95.";000498282B8A95B362DAF4A94C04752C573FC5051D4A5B44;2016.001.121664-9
-41;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Sem custas e sem honorários, nos termos do artigo 55, da Lei 9099/95.";000498282B8A95B362DAF4A94C04752C573FC5051D4A5B44;['2016.001.121664-9']
+41;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -349,10 +349,10 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";000498282B8A95B362DAF4A94C04752C573FC5051D4A5B44;2016.001.121664-9
-42;2016.001.178298-9;"946    VI - JUIZADO ESPECIAL CÍVEL DA GÁVEA\nProc. Nº...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004691DB6E44F4F42F27921413589F68747C5050734335E;2016.001.062870-1
-43;2016.001.178298-9;"Processo n°:  0424840-45.2016.8.19.0001
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";000498282B8A95B362DAF4A94C04752C573FC5051D4A5B44;['2016.001.121664-9']
+42;2016.001.261711-1;"946    VI - JUIZADO ESPECIAL CÍVEL DA GÁVEA\nProc. Nº...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004691DB6E44F4F42F27921413589F68747C5050734335E;['2016.001.062870-1']
+43;2016.001.261711-1;"Processo n°:  0424840-45.2016.8.19.0001
 Autor:  RUBEM GRANADO
 Réu:  TELEMAR NORTE LESTE S/A (EM RECUPERAÇÃO JUDICIAL) e  CLARO S/A 
 
@@ -388,8 +388,8 @@ Rio de Janeiro, 08 de março de 2017.
 
 
 ANDRÉA LUCIA DUARTE DOS SANTOS
-JUIZA LEIGA";0004A98E9ADC7FF30F144DE283D03AEF0563C505612E521D;2016.001.369788-6
-44;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+JUIZA LEIGA";0004A98E9ADC7FF30F144DE283D03AEF0563C505612E521D;['2016.001.369788-6']
+44;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -398,8 +398,8 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004A98E9ADC7FF30F144DE283D03AEF0563C505612E521D;2016.001.369788-6
-45;2016.001.178298-9;"Dispensado o relatório, nos termos do artigo 38, da Lei 9099/95, PASSO A DECIDIR.
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004A98E9ADC7FF30F144DE283D03AEF0563C505612E521D;['2016.001.369788-6']
+45;2016.001.261711-1;"Dispensado o relatório, nos termos do artigo 38, da Lei 9099/95, PASSO A DECIDIR.
 
 A autora comprovou que vem recebendo cobranças do réu desde setembro de 2014 (fls. 20/40), tendo ele negativado seu nome em 11/02/2015 (fl. 42).
 
@@ -427,10 +427,10 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004A4DDC8C8BEA82BC5DB277BF29D8DCD45C50511234710;2016.001.087970-9
-46;2016.001.178298-9;"1786    \t\tDispensado o relatório na forma do artigo ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00047FE2422365372E8DAB9AF5D6E1E2601AC505123D1350;2016.001.046631-2
-47;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004A4DDC8C8BEA82BC5DB277BF29D8DCD45C50511234710;['2016.001.087970-9']
+46;2016.001.261711-1;"1786    \t\tDispensado o relatório na forma do artigo ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00047FE2422365372E8DAB9AF5D6E1E2601AC505123D1350;['2016.001.046631-2']
+47;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -440,10 +440,10 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00047FE2422365372E8DAB9AF5D6E1E2601AC505123D1350;2016.001.046631-2
-48;2016.001.178298-9;"3029    VI - JUIZADO ESPECIAL CÍVEL DA GÁVEA\nProc. Nº...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00043CED43202842DC46D8226DD205B33813C5052236084D;2016.001.133268-6
-49;2016.001.178298-9;"Processo nº: 0027616-44.2016.8.19.0208 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00047FE2422365372E8DAB9AF5D6E1E2601AC505123D1350;['2016.001.046631-2']
+48;2016.001.261711-1;"3029    VI - JUIZADO ESPECIAL CÍVEL DA GÁVEA\nProc. Nº...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00043CED43202842DC46D8226DD205B33813C5052236084D;['2016.001.133268-6']
+49;2016.001.261711-1;"Processo nº: 0027616-44.2016.8.19.0208 
 Parte Autora: Carlos Alberto Oliveira Xavier
 Parte Ré: Oi Móvel
 
@@ -485,9 +485,9 @@ Projeto de sentença sujeito à homologação, assim, remeto os autos ao MM. Juiz To
 Rio de Janeiro, 03 de Fevereiro de 2017.
 
 VANESSA DE SOUZA BRISIS
-Juíza Leiga";00042F30E302F47620C834D3DA114378AFB5C50557580A61;2016.208.027313-2
-50;2016.001.178298-9;Homologo por sentença na forma do artigo 40 da Lei nº 9.099/95 o Projeto de Sentença elaborado pelo Juiz Leigo. PRI. Certifique-se o trânsito em julgado. Defiro desde já, se for o caso, independente de nova conclusão e havendo quitação da parte Autora, a expedição de mandado de pagamento. Após, dê-se baixa e arquivem-se.;00042F30E302F47620C834D3DA114378AFB5C50557580A61;2016.208.027313-2
-51;2016.001.178298-9;"
+Juíza Leiga";00042F30E302F47620C834D3DA114378AFB5C50557580A61;['2016.208.027313-2']
+50;2016.001.261711-1;Homologo por sentença na forma do artigo 40 da Lei nº 9.099/95 o Projeto de Sentença elaborado pelo Juiz Leigo. PRI. Certifique-se o trânsito em julgado. Defiro desde já, se for o caso, independente de nova conclusão e havendo quitação da parte Autora, a expedição de mandado de pagamento. Após, dê-se baixa e arquivem-se.;00042F30E302F47620C834D3DA114378AFB5C50557580A61;['2016.208.027313-2']
+51;2016.001.261711-1;"
 
 Relatório dispensado nos termos do artigo 38, da Lei nº 9.099/95. 
 Incontroverso que a relação jurídica existente entre as partes configura-se como de consumo, eis que presentes seus requisitos subjetivos (artigos 2º e 3º da Lei nº 8.078/90 - Código de Defesa do Consumidor) e objetivos (parágrafos 1º e 2º, do artigo 3º da mesma lei), fazendo jus à parte autora a inversão do ônus da prova, que ora determino por força da lei.
@@ -501,14 +501,14 @@ a)	Tornar definitivos os efeitos da tutela concedida antecipadamente;
 b)	Tornar sem efeito a cobrança do mês de janeiro de 2016;
 c)	Condenar a ré no pagamento de R$ 2.000 (dois mil reais), a títulos de danos morais, corrigidos monetariamente a partir da data de intimação da presente sentença e com juros de mora de 1% ao mês a contar da data da citação.
 
-Sem ônus sucumbenciais, na forma do artigo 55 da Lei nº 9099/95. Publique-se e intimem-se. Após certificado o trânsito em julgado, dê-se baixa e arquivem-se.";0004561D5A142F5596CEC8209A888ECF1F12C50460042537;2016.001.040608-0
-52;2016.001.178298-9;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
+Sem ônus sucumbenciais, na forma do artigo 55 da Lei nº 9099/95. Publique-se e intimem-se. Após certificado o trânsito em julgado, dê-se baixa e arquivem-se.";0004561D5A142F5596CEC8209A888ECF1F12C50460042537;['2016.001.040608-0']
+52;2016.001.261711-1;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
 Se for o caso, comprovado o depósito, expeça-se mandado de pagamento em favor da parte autora, independentemente de nova conclusão.  
 Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se. 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";000423C5203BDA5838D533DAD1DD3C6468D5C5045E321923;2016.001.041617-5
-53;2016.001.178298-9;"6048    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004F3E14485394AFAB5ABAD765DD1398D9EC5051528310E;2016.001.125651-9
-54;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";000423C5203BDA5838D533DAD1DD3C6468D5C5045E321923;['2016.001.041617-5']
+53;2016.001.261711-1;"6048    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004F3E14485394AFAB5ABAD765DD1398D9EC5051528310E;['2016.001.125651-9']
+54;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -516,10 +516,10 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004F3E14485394AFAB5ABAD765DD1398D9EC5051528310E;2016.001.125651-9
-55;2016.001.178298-9;"335    Processo nº: 0050712-30.2016.8.19.0001\nAutor:...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004A19E9176BF1300E55986B417D97F23E1C5045E1B1938;2016.001.042109-2
-56;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004F3E14485394AFAB5ABAD765DD1398D9EC5051528310E;['2016.001.125651-9']
+55;2016.001.261711-1;"335    Processo nº: 0050712-30.2016.8.19.0001\nAutor:...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004A19E9176BF1300E55986B417D97F23E1C5045E1B1938;['2016.001.042109-2']
+56;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -527,8 +527,8 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004A19E9176BF1300E55986B417D97F23E1C5045E1B1938;2016.001.042109-2
-57;2016.001.178298-9;"Dispensado o relatório na forma do artigo 38, da Lei 9099/95.
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004A19E9176BF1300E55986B417D97F23E1C5045E1B1938;['2016.001.042109-2']
+57;2016.001.261711-1;"Dispensado o relatório na forma do artigo 38, da Lei 9099/95.
 
 Tendo em vista que a empresa Ré encontra-se em processo de recuperação judicial, em trâmite na 7ª Vara Empresarial da Comarca do Rio de Janeiro (Autos: 0203711-65.2016.8.19.0001)  e considerando que este Juízo deve atender, neste caso, às determinações previstas no artigo 6º da Lei 11.101 de 09 de fevereiro de 2005.
 
@@ -538,8 +538,8 @@ Assim, expeça-se certidão de crédito em favor da parte autora, no que se refere 
 
 Sem custas na forma do art. 55 da Lei 9099/95.
 
-Após o trânsito em julgado, dê-se baixa e arquive-se.";0004A19E9176BF1300E55986B417D97F23E1C5045E1B1938;2016.001.042109-2
-58;2016.001.178298-9;"Processo: 0269327-84.2016.8.19.0001
+Após o trânsito em julgado, dê-se baixa e arquive-se.";0004A19E9176BF1300E55986B417D97F23E1C5045E1B1938;['2016.001.042109-2']
+58;2016.001.261711-1;"Processo: 0269327-84.2016.8.19.0001
 AUTOR: TÂNIA MARA SOUZA JARDIM
 RÉU: OI MÓVEL S/A ¿ Preposto Marbella Retonde
 
@@ -559,13 +559,13 @@ Advogado:
 Parte ré:
 Advogado:
   
-";0004B94F6A2253C660A8A129D8A170B45775C5053D024C1C;2016.001.232396-6
-59;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+";0004B94F6A2253C660A8A129D8A170B45775C5053D024C1C;['2016.001.232396-6']
+59;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
  Após o trânsito em julgado, tratando-se de sentença de improcedência ou de extinção do feito sem resolução do mérito, dê-se baixa e arquivem-se imediatamente. 
 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";000448F20B738F04DCB8079420AA39820CE4C50507343E5C;2016.001.068268-9
-60;2016.001.178298-9;"Cuida-se de ação sob o rito sumaríssimo por meio da qual busca a parte demandante a condenação da ré ao cumprimento de obrigação de fazer, consistente na regularização do valor cobrado pelo plano VELOX contratado. Pede, ainda pagamento de indenização por danos materiais consistente na devolução em dobro dos valores pagos a maior, bem como indenização por danos morais.
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";000448F20B738F04DCB8079420AA39820CE4C50507343E5C;['2016.001.068268-9']
+60;2016.001.261711-1;"Cuida-se de ação sob o rito sumaríssimo por meio da qual busca a parte demandante a condenação da ré ao cumprimento de obrigação de fazer, consistente na regularização do valor cobrado pelo plano VELOX contratado. Pede, ainda pagamento de indenização por danos materiais consistente na devolução em dobro dos valores pagos a maior, bem como indenização por danos morais.
 Como causa de pedir, alega o demandante, em resumo, que já era cliente da empresa ré com a qual mantinha linha de telefone fixo, que decidiu contratar um plano velox em 29 de julho de 2015 no valor de R$65,75. Alega que desde o primeiro mes a fatura passou a cobrar valor maior que o efetivamente contratado pelo autor, não sendo resolvido o problema administrativamente. 
 Em contestação, a ré afirma que a autora não faz prova mínima das alegações, uma vez que não apresenta sequer um número de protocolo que demonstre a tentativa de solucionar qualquer problema administrativamente. Sustenta, ainda, não haver danos morais a serem indenizados.
 Embora dispensado pela norma do artigo 38 da Lei 9.099/95, é o breve relatório. Decido.
@@ -584,8 +584,8 @@ JUÍZA LEIGA
 
 
 
- 		Submeto o projeto  de sentença à homologação do Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";00049E652555A1E030AD0043DF5F9F097323C5045D42174A;2016.001.011778-0
-61;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+ 		Submeto o projeto  de sentença à homologação do Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";00049E652555A1E030AD0043DF5F9F097323C5045D42174A;['2016.001.011778-0']
+61;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -595,25 +595,25 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00049E652555A1E030AD0043DF5F9F097323C5045D42174A;2016.001.011778-0
-62;2016.001.178298-9;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00049E652555A1E030AD0043DF5F9F097323C5045D42174A;['2016.001.011778-0']
+62;2016.001.261711-1;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
 
 Se for o caso, comprovado o depósito, expeça-se mandado de pagamento em favor da parte autora, independentemente de nova conclusão.   Após, nada mais sendo requerido, dê-se baixa e arquivem-se. 
 
 
-Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";000405B4FC2DC28F5BE9AA757C92216F769EC50527633A5B;2016.001.174903-2
-63;2016.001.178298-9;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
+Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";000405B4FC2DC28F5BE9AA757C92216F769EC50527633A5B;['2016.001.174903-2']
+63;2016.001.261711-1;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
 
 Se for o caso, comprovado o depósito, expeça-se mandado de pagamento em favor da parte autora, independentemente de nova conclusão.   Após, nada mais sendo requerido, dê-se baixa e arquivem-se. 
 
 
-Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";00045B9A208A48AC29708D1AE79A66A4584BC5054E0A444A;2016.001.280661-8
-64;2016.001.178298-9;"Considerando a ausência da 2ª autora, RENATA PEREIRA DE OLIVEIRA, à audiência de conciliação, apesar de regularmente intimada, JULGO EXTINTO O PROCESSO, sem resolução de mérito, com fundamento no artigo 51, I, da Lei 9099/95, apenas com relação à 2ª autora. Isento a 2ª autora do pagamento de custas. Dê-se baixa com relação à 2ª autora. 
+Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";00045B9A208A48AC29708D1AE79A66A4584BC5054E0A444A;['2016.001.280661-8']
+64;2016.001.261711-1;"Considerando a ausência da 2ª autora, RENATA PEREIRA DE OLIVEIRA, à audiência de conciliação, apesar de regularmente intimada, JULGO EXTINTO O PROCESSO, sem resolução de mérito, com fundamento no artigo 51, I, da Lei 9099/95, apenas com relação à 2ª autora. Isento a 2ª autora do pagamento de custas. Dê-se baixa com relação à 2ª autora. 
 
-INTIMEM-SE OS AUTORES, para ciência do ora decidido e para manifestarem-se sobre o alegado pela parte ré as fls. 255/256, no prazo de cinco dias.";0004BFE6E0DD4D191A4533C33A478591E78DC505531F1A1C;2016.001.278424-6
-65;2016.001.178298-9;"13323    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004BFE6E0DD4D191A4533C33A478591E78DC505531F1A1C;2016.001.278424-6
-66;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+INTIMEM-SE OS AUTORES, para ciência do ora decidido e para manifestarem-se sobre o alegado pela parte ré as fls. 255/256, no prazo de cinco dias.";0004BFE6E0DD4D191A4533C33A478591E78DC505531F1A1C;['2016.001.278424-6']
+65;2016.001.261711-1;"13323    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004BFE6E0DD4D191A4533C33A478591E78DC505531F1A1C;['2016.001.278424-6']
+66;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -623,8 +623,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004BFE6E0DD4D191A4533C33A478591E78DC505531F1A1C;2016.001.278424-6
-67;2016.001.178298-9;"Trata-se de ação envolvendo as partes acima epigrafadas, na qual a parte autora afirma que efetuou a portabilidade da empresa Vivo para a Oi e desde então não consegue efetuar ligações. Requer a condenação da ré ao pagamento de dano moral e o cancelamento do plano Oi Conta Total. 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004BFE6E0DD4D191A4533C33A478591E78DC505531F1A1C;['2016.001.278424-6']
+67;2016.001.261711-1;"Trata-se de ação envolvendo as partes acima epigrafadas, na qual a parte autora afirma que efetuou a portabilidade da empresa Vivo para a Oi e desde então não consegue efetuar ligações. Requer a condenação da ré ao pagamento de dano moral e o cancelamento do plano Oi Conta Total. 
 A ré apresentou contestação na qual alega no mérito que o serviço está sendo prestado adequadamente e impugna os números de protocolo mencionados, requerendo a improcedência.
 A causa não necessita de prova pericial para ser dirimida, bastando a análise de documentos.
 Presentes as condições da ação especialmente o interesse de agir, considerando que há pretensão resistida.
@@ -640,15 +640,15 @@ Assim sendo, presente o dano moral que decorre in re ipsa e deve ser aquilatado 
 
 Face ao exposto, JULGO PARCIALMENTE PROCEDENTE o pedido inicial, para condenar a ré a pagar a autora o valor de R$ 1.000,00, acrescido de juros de mora de 1% ao mês da citação e correção monetária desde a publicação da sentença, a cancelar o plano OI CONTA TOTAL LIGHT (linha móvel e internet) mantido apenas o serviço OI FIXO, no prazo de 30 dias, sob pena de multa de R$ 250,00 por cada cobrança em desconformidade com a presente decisão e declaro EXTINTO O PROCESSO com resolução de mérito, com fulcro no art. 487, I do CPC.
 Sem custas e honorários, eis que em sede de Juizado Especial Cível.
-Após o trânsito em julgado, dê-se baixa e arquive-se.";0004C81C59EC9B96509B605F4670C8658D02C50536600B43;2016.001.199134-7
-68;2016.001.178298-9;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. 
+Após o trânsito em julgado, dê-se baixa e arquive-se.";0004C81C59EC9B96509B605F4670C8658D02C50536600B43;['2016.001.199134-7']
+68;2016.001.261711-1;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. 
 
 Sem custas. 
 
 REGISTRE-SE. 
 
-Após, dê-se baixa e arquive-se.";00040360F3A5EE61AB424F5932E09DA5476EC5045F631362;2016.001.021266-1
-69;2016.001.178298-9;"ESTADO DO RIO DE JANEIRO
+Após, dê-se baixa e arquive-se.";00040360F3A5EE61AB424F5932E09DA5476EC5045F631362;['2016.001.021266-1']
+69;2016.001.261711-1;"ESTADO DO RIO DE JANEIRO
 PODER JUDICIÁRIO
 VI JUIZADO ESPECIAL CÍVEL
 COMARCA DA CAPITAL
@@ -672,8 +672,8 @@ Transitada em julgado, dê-se baixa e arquivem-se. P.R.I.
 Projeto de sentença sujeito à homologação pelo MM. Juiz de Direito, com base no art. 40 da Lei nº 9.099/95.
 Rio de Janeiro, 15 de agosto de 2016.
 LUIZ EDUARDO FERREIRA DE MORAES
-JUIZ LEIGO";00042B2228610AFBA2099A8CAD260B226675C5050A5C132C;2016.001.073767-8
-70;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+JUIZ LEIGO";00042B2228610AFBA2099A8CAD260B226675C5050A5C132C;['2016.001.073767-8']
+70;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -683,8 +683,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00042B2228610AFBA2099A8CAD260B226675C5050A5C132C;2016.001.073767-8
-71;2016.001.178298-9;"
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00042B2228610AFBA2099A8CAD260B226675C5050A5C132C;['2016.001.073767-8']
+71;2016.001.261711-1;"
 Processo 0122994-66.2016.8.19.0001
 
 AUTOR: CELIA REGINA DIODATO DA COSTA - (Adv. Jacqueline Moraes da Silva, OAB 172.951/RJ)
@@ -696,10 +696,10 @@ TERMO DE AUDIÊNCIA
 Ao terceiro dia do mês de março de 2017, na sala de audiências do VI Juizado Especial Cível, em sessão presidida pelo Juiz MAURO NICOLAU JÚNIOR, feito o pregão, às 11h30min, compareceram as partes e advogados conforme acima mencionado. Proposta a conciliação esta restou infrutífera tendo a parte ré se reportado à contestação já apresentada por meio eletrônico da qual teve vista a parte contrária. Encerrada a fase probatória visto que as partes afirmaram a inexistência de outras provas a produzir, em alegações finais os doutos patronos se reportaram à inicial e contestação. A seguir pelo MM. Juiz foi proferida a seguinte SENTENÇA: Pretende a autora a condenação da empresa ré ao pagamento de indenização por danos morais e materiais. Afirma que o sinal de internet banda larga apresentou inúmeras irregularidades e inconstâncias que inviabilizaram sua utilização. Busca, ainda, o cancelamento do contrato. A ré, em contestação de fls. 36, argui a incompetência do sistema dos Juizados Especiais ante a necessidade de ser produzida prova pericial. Afirma ainda que a autora não comprovou o que alegou sequer com os números de protocolos de atendimento. 	É O RELATÓRIO. DECIDO. Diversamente do sustentado pela defesa, a parte autora apresentou na petição inicial um grande número de registros de protocolos de atendimento o que demonstra não apenas ter buscado de forma incessante e incansável que a ré prestasse melhores serviços como, também, comprova a imprestabilidade dos serviços de acesso a internet banda larga, o que se revela suficiente para demonstrar a falha nos serviços da ré que rende ensejo ao desfazimento do contrato por culpa e responsabilidade da concessionária ré, daí a desnecessidade de produzir prova pericial. Justificado o pleito de buscar a devolução dos valores pagos por serviços prestados de forma deficiente e incompleta bem como indenização por danos morais decorrentes da frustração à justa expectativa de poder se utilizar do aceso à internet, serviço que se revela, atualmente, como de primeira necessidade. Resta rechaçar o que a ré chamou de ""preliminar"" de inexistência de memória de cálculos o que não é exigível sob qualquer aspecto e, ainda pode ser o valor apurado em simples cálculos em fase de cumprimento da sentença. Por tais motivos JULGO PROCEDENTE o pedido para condenar a ré ao pagamento, a título de restituição, de todos os valores cobrados da autora a título de acesso à internet, em dobro, que serão corrigidos e acrescidos de juros de 1% ao mês a contar de cada cobrança. CONDENO ainda a ré ao pagamento, a título de indenização por danos morais, do valor de R$ 6.000,00 com correção monetária desta data e juros de 1% ao mês da citação. Intimados em audiência, registre-se e cumpra-se. Certificados o trânsito em julgado e a inexistência de custas a recolher dê-se baixa e arquive-se. Nada mais havendo a ser consignado considerando que as partes e seus patronos afirmaram a inexistência de dúvidas ou impugnações quanto ao conteúdo da presente ata foi a audiência encerrada as 11:50 horas. 
 
 MAURO NICOLAU JUNIOR
-Juiz de Direito";0004D0C64D6346C3ACFFB77655CE5085927EC5051750333F;2016.001.104863-7
-72;2016.001.178298-9;"5247    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004CE8E4C46DA90D9470EB59C40D464BA6CC5052953421D;2016.001.154731-9
-73;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Juiz de Direito";0004D0C64D6346C3ACFFB77655CE5085927EC5051750333F;['2016.001.104863-7']
+72;2016.001.261711-1;"5247    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004CE8E4C46DA90D9470EB59C40D464BA6CC5052953421D;['2016.001.154731-9']
+73;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -709,8 +709,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004CE8E4C46DA90D9470EB59C40D464BA6CC5052953421D;2016.001.154731-9
-74;2016.001.178298-9;"Dispensado o relatório nos termos do artigo 38 da Lei 9.099/95, bem como a luz dos princípios da oralidade, simplicidade, informalidade, economia processual e celeridade, instituídos no artigo 2º da Lei dos Juizados Especiais, passo a decidir:
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004CE8E4C46DA90D9470EB59C40D464BA6CC5052953421D;['2016.001.154731-9']
+74;2016.001.261711-1;"Dispensado o relatório nos termos do artigo 38 da Lei 9.099/95, bem como a luz dos princípios da oralidade, simplicidade, informalidade, economia processual e celeridade, instituídos no artigo 2º da Lei dos Juizados Especiais, passo a decidir:
 
 Preliminar que se rejeita vez que presentes  os pressupostos  processuais e as condições para o legítimo exercício do direito de ação, afigura-se competente o Juizado, não sendo necessária a realização de perícia para o deslinde da presente ação.
 
@@ -725,8 +725,8 @@ Os danos morais decorreram dos constrangimentos indevidamente impostos à parte a
 
 Isto posto, JULGO PROCEDENTE o pedido para condenar a parte ré a cancelar o plano Oi conta Light, mantendo tão somente a linha telefônica fixa da parte autora, tudo em 10 dias, sob pena de multa a ser fixada em sede de execução, bem como a indenizar a parte autora com o valor de R$ 2.000,00, quantia corrigida monetariamente deste julgado e acrescida de juros da citação, pelos danos morais. 
 
-Sem custas e honorários. PRI. Após o trânsito em julgado, dê-se baixa e arquive-se.";0004C6C400C42BABBDCC2CC2F6BB51DEB005C5050A215836;2016.001.081253-6
-75;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+Sem custas e honorários. PRI. Após o trânsito em julgado, dê-se baixa e arquive-se.";0004C6C400C42BABBDCC2CC2F6BB51DEB005C5050A215836;['2016.001.081253-6']
+75;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -734,12 +734,12 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00044136406C23D25FE74C7CDDD8547A0E8BC505152E0B61;2016.001.126648-3
-76;2016.001.178298-9;"3597    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00044136406C23D25FE74C7CDDD8547A0E8BC505152E0B61;2016.001.126648-3
-77;2016.001.178298-9;"14181    \nESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\n...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004A226E9E84B9479C89719D3C4C260CE94C5056041042D;2016.001.359967-0
-78;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00044136406C23D25FE74C7CDDD8547A0E8BC505152E0B61;['2016.001.126648-3']
+76;2016.001.261711-1;"3597    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00044136406C23D25FE74C7CDDD8547A0E8BC505152E0B61;['2016.001.126648-3']
+77;2016.001.261711-1;"14181    \nESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\n...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004A226E9E84B9479C89719D3C4C260CE94C5056041042D;['2016.001.359967-0']
+78;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -748,10 +748,10 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004A226E9E84B9479C89719D3C4C260CE94C5056041042D;2016.001.359967-0
-79;2016.001.178298-9;"4498    Dispensado o relatório, nos termos do artigo 3...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00041BE5DB16B3CB1B4A7059229D1516CE7EC50524562A4A;2016.001.098791-9
-80;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004A226E9E84B9479C89719D3C4C260CE94C5056041042D;['2016.001.359967-0']
+79;2016.001.261711-1;"4498    Dispensado o relatório, nos termos do artigo 3...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00041BE5DB16B3CB1B4A7059229D1516CE7EC50524562A4A;['2016.001.098791-9']
+80;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -761,8 +761,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00041BE5DB16B3CB1B4A7059229D1516CE7EC50524562A4A;2016.001.098791-9
-81;2016.001.178298-9;"A sentença embargada não apresenta obscuridade, contradição, omissão ou dúvida (artigo 48, da Lei 9099/95). Nela se apresentam consignados, com a devida fundamentação, os motivos que conduziram o julgador à decisão guerreada. Em verdade, o que pretende o embargante é alterar a decisão embargada, o que deve ser feito pela via adequada.
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00041BE5DB16B3CB1B4A7059229D1516CE7EC50524562A4A;['2016.001.098791-9']
+81;2016.001.261711-1;"A sentença embargada não apresenta obscuridade, contradição, omissão ou dúvida (artigo 48, da Lei 9099/95). Nela se apresentam consignados, com a devida fundamentação, os motivos que conduziram o julgador à decisão guerreada. Em verdade, o que pretende o embargante é alterar a decisão embargada, o que deve ser feito pela via adequada.
 
 Cumpre ressaltar que a inversão do ônus da prova não é suficiente para eximir o consumidor de comprovar a realização dos pagamentos, já que tal prova só pode ser produzida por ele, não podendo o réu ser obrigado a fazer prova de fato negativo.
 
@@ -772,9 +772,9 @@ Além disso, não há como se reconhecer que tenha ocorrido falha do sistema proces
 
 Assim, conheço os embargos e não lhes dou provimento.
 
-P.R.I.";00041BE5DB16B3CB1B4A7059229D1516CE7EC50524562A4A;2016.001.098791-9
-82;2016.001.178298-9;HOMOLOGO, por sentença, o ACORDO celebrado às fls. e, em consequência, JULGO EXTINTO O PROCESSO, com resolução do mérito, nos moldes do art. 487, III, do NCPC. Retiro o feito de pauta. Sem custas. Com o trânsito em julgado, arquivem-se.;0004616F53AFDEA40374DFEF599E47D07EF9C505033E2405;2016.001.032617-4
-83;2016.001.178298-9;"Dispensado o Relatório, na forma do artigo 38, da Lei nº 9.099/95, decido.
+P.R.I.";00041BE5DB16B3CB1B4A7059229D1516CE7EC50524562A4A;['2016.001.098791-9']
+82;2016.001.261711-1;HOMOLOGO, por sentença, o ACORDO celebrado às fls. e, em consequência, JULGO EXTINTO O PROCESSO, com resolução do mérito, nos moldes do art. 487, III, do NCPC. Retiro o feito de pauta. Sem custas. Com o trânsito em julgado, arquivem-se.;0004616F53AFDEA40374DFEF599E47D07EF9C505033E2405;['2016.001.032617-4']
+83;2016.001.261711-1;"Dispensado o Relatório, na forma do artigo 38, da Lei nº 9.099/95, decido.
 
 Razão alguma assiste à parte ré/impugnante em suas razões expendidas às fls. 169/171. Senão, vejamos.
 
@@ -785,11 +785,11 @@ Isto posto, JULGO IMPROCEDENTE A IMPUGNAÇÃO OFERTADA, mantendo-se integralmente 
 Sem custas e honorários.
 
 Preclusas as vias impugnativas, determino a expedição de mandado de pagamento em favor da parte autora/impugnada quanto ao valor penhorado e transferido pelo sistema Bacenjud. Outro mandado de pagamento deverá ser expedido em favor da ré quanto ao depósito comprovado a fls. 170, tudo com as cautelas de praxe. Após, dê-se baixa e arquivem-se.
-P.I.";0004616F53AFDEA40374DFEF599E47D07EF9C505033E2405;2016.001.032617-4
-84;2016.001.178298-9;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. Sem custas. 
+P.I.";0004616F53AFDEA40374DFEF599E47D07EF9C505033E2405;['2016.001.032617-4']
+84;2016.001.261711-1;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. Sem custas. 
 
-Cumprido o acordo, dê-se baixa e arquive-se, independentemente de conclusão.";000476717F59B72D8FB5E62BCF379AAE0923C50564455B5F;2016.001.359574-3
-85;2016.001.178298-9;"Cuida-se de ação sob o rito sumaríssimo, por meio do qual busca a parte demandante a condenação da ré ao pagamento de indenização pelos danos morais.
+Cumprido o acordo, dê-se baixa e arquive-se, independentemente de conclusão.";000476717F59B72D8FB5E62BCF379AAE0923C50564455B5F;['2016.001.359574-3']
+85;2016.001.261711-1;"Cuida-se de ação sob o rito sumaríssimo, por meio do qual busca a parte demandante a condenação da ré ao pagamento de indenização pelos danos morais.
 Como causa de pedir, alega a demandante, em resumo, que é cliente da empresa OI, que a internet móvel do seu celular foi bloqueada, sob alegações de pendência financeira. Ocorre que a autora sempre pagou as faturas da ré mediante débito automático, e que a própria ré falhou em executar o débito automático e bloqueou o serviço e que o mesmo somente foi reestabelecido após 10 dias mediante pagamento avulso das faturas de março e abril pela autora. 
 A ré, em contestação  arguiu preliminar de incompetencia do Juízo aduzindo necessidade de prova pericial. No mérito sustenta que o serviço encontra-se ativo afastando a ocorrencia de qualquer dano moral a ser indenizado.
 Embora dispensado pela norma do artigo 38 da Lei 9.099/95, é o breve relatório, DECIDO.
@@ -805,8 +805,8 @@ Rio de Janeiro, 5 de setembro de 2016
 JULIANA CORREIA GOMES
 JUÍZA LEIGA
 
-Submeto o projeto de sentença à homologação da Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004A407CD390BB97625C81BB201759FA42FC505255A0C03;2016.001.146296-0
-86;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Submeto o projeto de sentença à homologação da Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004A407CD390BB97625C81BB201759FA42FC505255A0C03;['2016.001.146296-0']
+86;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -816,16 +816,16 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004A407CD390BB97625C81BB201759FA42FC505255A0C03;2016.001.146296-0
-87;2016.001.178298-9;"1814    VI - JUIZADO ESPECIAL CÍVEL DA GÁVEA\nProc. Nº...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004FA7025F11AE7141ABA5A76D3066BE753C5050F202158;2016.001.081336-0
-88;2016.001.178298-9;Fls. 75: Indefiro, até porque houve a intimação prévia quanto à antecipação do ato, conforme o próprio autor admite, devendo arcar com o ônus de sua inadvertência, ainda mais se tratando de processo eletrônico. Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. Com o trânsito em julgado, dê-se baixa e arquivem-se.;000436894009AF0BE920272E70086C3B0BBDC505033E3242;2016.001.009150-0
-89;2016.001.178298-9;"Homologo o acordo celebrado entre a parte autora  e o segundo e terceiro réus,C &a e BRADESCARD, para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004A407CD390BB97625C81BB201759FA42FC505255A0C03;['2016.001.146296-0']
+87;2016.001.261711-1;"1814    VI - JUIZADO ESPECIAL CÍVEL DA GÁVEA\nProc. Nº...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004FA7025F11AE7141ABA5A76D3066BE753C5050F202158;['2016.001.081336-0']
+88;2016.001.261711-1;Fls. 75: Indefiro, até porque houve a intimação prévia quanto à antecipação do ato, conforme o próprio autor admite, devendo arcar com o ônus de sua inadvertência, ainda mais se tratando de processo eletrônico. Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. Com o trânsito em julgado, dê-se baixa e arquivem-se.;000436894009AF0BE920272E70086C3B0BBDC505033E3242;['2016.001.009150-0']
+89;2016.001.261711-1;"Homologo o acordo celebrado entre a parte autora  e o segundo e terceiro réus,C &a e BRADESCARD, para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
 Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.
 
-Homologo o pedido de desistência da parte autora  quanto ao primeiro réu TELEMAR e JULGO EXTINTO o processo, sem resolução do mérito, na forma do art. 485, inciso VIII, do Novo Código de Processo Civil (Lei nº 13.105, de 16/03/2015). Retirei de pauta a audiência designada.Sem custas na forma do artigo 55, da Lei nº 9099/95.Transitado em julgado, dê-se baixa e arquive-se.";0004E6E4A04174F260773BE043106DA098CDC5055E3B3262;2016.001.353993-4
-90;2016.001.178298-9;Projeto em Revisão;0004EE7015E9D5FDA885648584C8810FDF9AC5050E471052;2016.001.083112-9
-91;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Homologo o pedido de desistência da parte autora  quanto ao primeiro réu TELEMAR e JULGO EXTINTO o processo, sem resolução do mérito, na forma do art. 485, inciso VIII, do Novo Código de Processo Civil (Lei nº 13.105, de 16/03/2015). Retirei de pauta a audiência designada.Sem custas na forma do artigo 55, da Lei nº 9099/95.Transitado em julgado, dê-se baixa e arquive-se.";0004E6E4A04174F260773BE043106DA098CDC5055E3B3262;['2016.001.353993-4']
+90;2016.001.261711-1;Projeto em Revisão;0004EE7015E9D5FDA885648584C8810FDF9AC5050E471052;['2016.001.083112-9']
+91;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -835,8 +835,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004EE7015E9D5FDA885648584C8810FDF9AC5050E471052;2016.001.083112-9
-92;2016.001.178298-9;"Dispensado o relatório pelo art.38 da lei 9.099/95, passo a decidir.
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004EE7015E9D5FDA885648584C8810FDF9AC5050E471052;['2016.001.083112-9']
+92;2016.001.261711-1;"Dispensado o relatório pelo art.38 da lei 9.099/95, passo a decidir.
 O autor alega que após gerar cobranças descabidas, suspenderam o serviço das linhas móveis do autor por 10 dias em razão de falha na prestação do serviço. Assim pleiteia pagamento de indenização pelos danos morais causados no valor de R$20.000,00 bem como cancelar a cobrança indevida e retirar o nome do autor de qualquer cadastro de inadimplentes, caso assim esteja.
 A ré não impugnou objetivamente os fatos narrados. Arguiu preliminar de inepcia da inicial por ausencia de planilha.
 Inicialmente afasto a preliminar arguida, sendo desnecessária planilha, mesmo porque sequer existe pedido de devoluçaão de valores pagos. 
@@ -852,10 +852,10 @@ Rio de Janeiro, 18 de julho de 2016
 JULIANA CORREIA GOMES
 JUÍZA LEIGA
 
-Submeto o projeto de sentença à homologação da Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004EE7015E9D5FDA885648584C8810FDF9AC5050E471052;2016.001.083112-9
-93;2016.001.178298-9;"215    \t\tDispensado o relatório na forma do artigo ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00042663AE38A6C5C167B026EB5BDF0756E9C5045F62630D;2016.001.021114-0
-94;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Submeto o projeto de sentença à homologação da Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004EE7015E9D5FDA885648584C8810FDF9AC5050E471052;['2016.001.083112-9']
+93;2016.001.261711-1;"215    \t\tDispensado o relatório na forma do artigo ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00042663AE38A6C5C167B026EB5BDF0756E9C5045F62630D;['2016.001.021114-0']
+94;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -865,8 +865,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00042663AE38A6C5C167B026EB5BDF0756E9C5045F62630D;2016.001.021114-0
-95;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00042663AE38A6C5C167B026EB5BDF0756E9C5045F62630D;['2016.001.021114-0']
+95;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -874,8 +874,8 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004A89041B58D4AABC8F7352E869C1F2438C5050B5B1E4F;2016.001.038573-7
-96;2016.001.178298-9;"Processo n°:  0046766-50.2016.8.19.0001
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004A89041B58D4AABC8F7352E869C1F2438C5050B5B1E4F;['2016.001.038573-7']
+96;2016.001.261711-1;"Processo n°:  0046766-50.2016.8.19.0001
 Autor: RAFAEL DE NORO~ES CARVALHO
 Réu: OI MO´VEL S/A e TIM CELULAR S/A
 
@@ -911,8 +911,8 @@ Rio de Janeiro, 11 de julho de 2016.
 
 
 ANDRÉA LUCIA DUARTE DOS SANTOS
-JUÍZA LEIGA";0004A89041B58D4AABC8F7352E869C1F2438C5050B5B1E4F;2016.001.038573-7
-97;2016.001.178298-9;"De fato, houve omissão na decisão de fl. 212, uma vez que não foram analisados os pedidos de antecipação dos efeitos da tutela para determinar o refaturamento das contas dos meses de abril até dezembro de 2015 e o cancelamento da linha nº (21) 98837-9097. 
+JUÍZA LEIGA";0004A89041B58D4AABC8F7352E869C1F2438C5050B5B1E4F;['2016.001.038573-7']
+97;2016.001.261711-1;"De fato, houve omissão na decisão de fl. 212, uma vez que não foram analisados os pedidos de antecipação dos efeitos da tutela para determinar o refaturamento das contas dos meses de abril até dezembro de 2015 e o cancelamento da linha nº (21) 98837-9097. 
 
 Porém, tais pedidos devem ser indeferidos, pois a antecipação dos efeitos das tutelas pretendidas requer prova inequívoca da qual decorreria julgamento favorável à parte autora, caso o processo se encontrasse maduro para decisão quando do requerimento, o que não verifico na hipótese destes autos.
 
@@ -920,10 +920,10 @@ Assim, conheço os embargos e lhes dou parcial provimento, para acrescentar à dec
 
 No mais, mantenho a decisão tal qual lançada.
 
-P.R.I";00046C8DA4138F2665A7A369B4FFBBB0746DC50501023B5C;2016.001.044022-0
-98;2016.001.178298-9;"964    VI - JUIZADO ESPECIAL CÍVEL DA GÁVEA\nProc. Nº...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00046C8DA4138F2665A7A369B4FFBBB0746DC50501023B5C;2016.001.044022-0
-99;2016.001.178298-9;"Dispensado o relatório, nos termos do artigo 38, da Lei 9099/95, PASSO A DECIDIR.
+P.R.I";00046C8DA4138F2665A7A369B4FFBBB0746DC50501023B5C;['2016.001.044022-0']
+98;2016.001.261711-1;"964    VI - JUIZADO ESPECIAL CÍVEL DA GÁVEA\nProc. Nº...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00046C8DA4138F2665A7A369B4FFBBB0746DC50501023B5C;['2016.001.044022-0']
+99;2016.001.261711-1;"Dispensado o relatório, nos termos do artigo 38, da Lei 9099/95, PASSO A DECIDIR.
 O autor busca que a Ré seja condenada ao pagamento de indenização por danos morais no valor de R$17.600,00 e declaração de inexistência do débito de r$47,98. Alega que foi cobrada pela ré, por duas vezes, o valor de r$48,58 referente a mudança de endereço. Alega, ainda que a ré interrompeu o serviço em razão do não pagamento pela segunda vez do mesmo valor.
 Passo agora à análise do mérito;
 Verifico que a autora comprovou as referidas cobranças (em duplicidade) às fls. 11 e 12, sendo a primeira paga. 
@@ -939,8 +939,8 @@ Rio de Janeiro, 18 de julho de 2016
 JULIANA CORREIA GOMES
 JUÍZA LEIGA
 
-Submeto o projeto de sentença à homologação da Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004B9D32E616CBB174B8166A6E40D54A9CDC50516220B3C;2016.001.098363-0
-100;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Submeto o projeto de sentença à homologação da Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004B9D32E616CBB174B8166A6E40D54A9CDC50516220B3C;['2016.001.098363-0']
+100;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -950,8 +950,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004B9D32E616CBB174B8166A6E40D54A9CDC50516220B3C;2016.001.098363-0
-101;2016.001.178298-9;"Processo: 0382290-35.2016.8.19.0001
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004B9D32E616CBB174B8166A6E40D54A9CDC50516220B3C;['2016.001.098363-0']
+101;2016.001.261711-1;"Processo: 0382290-35.2016.8.19.0001
 AUTOR: ABRAHAN OBADIA
 RÉU: OI S/A
 
@@ -968,10 +968,10 @@ Parte autora:
 Advogado:
 
 Parte ré:
-Advogado:";00048C510551EA1EF23C50C8067BCFA576A9C50554534215;2016.001.333705-5
-102;2016.001.178298-9;"1781    \t\tDispensado o relatório na forma do artigo ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004540FE1CB794C585B0103CBD4E2B9817BC50463640D08;2016.001.047620-2
-103;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Advogado:";00048C510551EA1EF23C50C8067BCFA576A9C50554534215;['2016.001.333705-5']
+102;2016.001.261711-1;"1781    \t\tDispensado o relatório na forma do artigo ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004540FE1CB794C585B0103CBD4E2B9817BC50463640D08;['2016.001.047620-2']
+103;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -981,8 +981,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004540FE1CB794C585B0103CBD4E2B9817BC50463640D08;2016.001.047620-2
-104;2016.001.178298-9;"
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004540FE1CB794C585B0103CBD4E2B9817BC50463640D08;['2016.001.047620-2']
+104;2016.001.261711-1;"
 Processo: 0350117-55.2016.8.19.0001
 AUTOR: CLÁUDIA BARROS DE AZEVEDO VIANNA
 RÉU: OI MÓVEL S/A
@@ -1003,10 +1003,10 @@ Advogado:
 Parte ré:
 Advogado:
   
-";000490E67A58D89B807DCF1979F8CEF53B66C50552211C30;2016.001.302684-0
-105;2016.001.178298-9;"6557    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";000425C6A90106356F7C441FF9F668C8C3C7C5052A1B4C17;2016.001.185060-0
-106;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+";000490E67A58D89B807DCF1979F8CEF53B66C50552211C30;['2016.001.302684-0']
+105;2016.001.261711-1;"6557    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";000425C6A90106356F7C441FF9F668C8C3C7C5052A1B4C17;['2016.001.185060-0']
+106;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -1014,13 +1014,13 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";000425C6A90106356F7C441FF9F668C8C3C7C5052A1B4C17;2016.001.185060-0
-107;2016.001.178298-9;"Em 05 de abril de 2016, às 16:10 horas na sala de audiências do V Juizado Especial Cível da Capital, perante o MM. Juiz de Direito RAFAEL ESTRELA NÓBREGA foi aberta a Audiência de Conciliação, Instrução e Julgamento nos autos do processo supra mencionado. Efetuado o pregão, ausente a parte autora. Presente a parte ré acompanhada de seu advogado. Pelo M.M. Juiz de Direito foi proferida a seguinte SENTENÇA: Tendo em vista que a parte autora, apesar de intimada, não compareceu à audiência, JULGO EXTINTO O PROCESSO SEM RESOLUÇÃO DO MÉRITO, na forma do art. 51, I, da Lei º 9.099/95. Dê-se baixa na distribuição e arquivem-se os autos. Publicada em audiência. Intimados os presentes. Nada mais havendo, foi determinado o encerramento da presente.
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";000425C6A90106356F7C441FF9F668C8C3C7C5052A1B4C17;['2016.001.185060-0']
+107;2016.001.261711-1;"Em 05 de abril de 2016, às 16:10 horas na sala de audiências do V Juizado Especial Cível da Capital, perante o MM. Juiz de Direito RAFAEL ESTRELA NÓBREGA foi aberta a Audiência de Conciliação, Instrução e Julgamento nos autos do processo supra mencionado. Efetuado o pregão, ausente a parte autora. Presente a parte ré acompanhada de seu advogado. Pelo M.M. Juiz de Direito foi proferida a seguinte SENTENÇA: Tendo em vista que a parte autora, apesar de intimada, não compareceu à audiência, JULGO EXTINTO O PROCESSO SEM RESOLUÇÃO DO MÉRITO, na forma do art. 51, I, da Lei º 9.099/95. Dê-se baixa na distribuição e arquivem-se os autos. Publicada em audiência. Intimados os presentes. Nada mais havendo, foi determinado o encerramento da presente.
 
-";0004042EBC5AD0ADFE60C832B67C0A429805C50460184520;2016.001.034870-4
-108;2016.001.178298-9;"1761    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004417A1FDEC29ED2322FA9B143ED245AF3C505082D0D64;2016.001.096475-0
-109;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+";0004042EBC5AD0ADFE60C832B67C0A429805C50460184520;['2016.001.034870-4']
+108;2016.001.261711-1;"1761    PROJETO DE SENTENÇA\n\nAinda que dispensado o ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004417A1FDEC29ED2322FA9B143ED245AF3C505082D0D64;['2016.001.096475-0']
+109;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -1028,8 +1028,8 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004417A1FDEC29ED2322FA9B143ED245AF3C505082D0D64;2016.001.096475-0
-110;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004417A1FDEC29ED2322FA9B143ED245AF3C505082D0D64;['2016.001.096475-0']
+110;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -1039,8 +1039,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00047E6A41BA6B5E1CF6DFF170325A5F2177C50550234336;2016.001.273965-4
-111;2016.001.178298-9;"Dispensado o relatório, na forma do art. 38, da Lei nº 9.099/95.
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00047E6A41BA6B5E1CF6DFF170325A5F2177C50550234336;['2016.001.273965-4']
+111;2016.001.261711-1;"Dispensado o relatório, na forma do art. 38, da Lei nº 9.099/95.
 Trata-se de ação de conhecimento por meio da qual o autor busca a reparação de danos morais decorrentes da demora de 51 dias para regularizar o fornecimento do serviço de dados de internet em sua residência.
 O réu foi citado e apresentou contestação escrita, na qual argui preliminar de incompetência do juízo, pela necessidade de produção de prova pericial, e, no mérito, sustenta o exercício regular de direito e a inexistência de danos a serem reparados.
 Rejeito o requerimento de perícia, já que a matéria pode ser provada por outros meios.
@@ -1055,15 +1055,15 @@ P.R.I.
 Projeto de sentença sujeito à homologação pelo MM. Juiz de Direito, com base no art. 40 da Lei nº 9.099/95.
 Rio de Janeiro, 22 de fevereiro de 2017..
 LUIZ EDUARDO FERREIRA DE MORAES
-JUIZ LEIGO";00047E6A41BA6B5E1CF6DFF170325A5F2177C50550234336;2016.001.273965-4
-112;2016.001.178298-9;"1703    Dispensado o relatório, nos termos do artigo 3...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004FCEE1F4157621B2411D2FFADC90B4DFCC505033C1858;2016.001.051158-5
-113;2016.001.178298-9;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
+JUIZ LEIGO";00047E6A41BA6B5E1CF6DFF170325A5F2177C50550234336;['2016.001.273965-4']
+112;2016.001.261711-1;"1703    Dispensado o relatório, nos termos do artigo 3...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004FCEE1F4157621B2411D2FFADC90B4DFCC505033C1858;['2016.001.051158-5']
+113;2016.001.261711-1;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
 
 Se for o caso, comprovado o depósito, expeça-se mandado de pagamento em favor da parte autora, independentemente de nova conclusão.  
 
-Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";0004B42DDDABBCFC6CCFC8A84007ACF60761C50507345C2B;2016.001.088859-0
-114;2016.001.178298-9;"Trata-se de ação envolvendo as partes acima epigrafadas, na qual a parte autora afirma que solicitou o cancelamento do contrato que mantinha junto à ré, mas continuou recebendo faturas de cobranças, inclusive com ameaça de inscrição de seu nome nos cadastros restritivos de crédito. Assim, requer abstenção de cobranças, abstenção de inscrição do seu nome nos cadastros restritivos de crédito, cancelamento do contrato, dano material, em dobro e dano moral. 
+Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";0004B42DDDABBCFC6CCFC8A84007ACF60761C50507345C2B;['2016.001.088859-0']
+114;2016.001.261711-1;"Trata-se de ação envolvendo as partes acima epigrafadas, na qual a parte autora afirma que solicitou o cancelamento do contrato que mantinha junto à ré, mas continuou recebendo faturas de cobranças, inclusive com ameaça de inscrição de seu nome nos cadastros restritivos de crédito. Assim, requer abstenção de cobranças, abstenção de inscrição do seu nome nos cadastros restritivos de crédito, cancelamento do contrato, dano material, em dobro e dano moral. 
 A ré apresentou contestação onde sustenta ausência de ato ilícito, regularidade das cobranças, inexistência de dano moral, requerendo a improcedência.
 A relação existente entre as partes é de consumo, razão pela qual se aplica o disposto no CDC especialmente no que pertine à boa-fé, o direito do consumidor à informação, a proteção do consumidor contra práticas abusivas, o dever do fornecedor de solucionar o vício do serviço/produto no prazo de 30 dias, etc.
 Acrescente-se ainda a este rol o disposto no art. 6º, VIII do CDC que estabelece a inversão do ônus da prova em caso de verossimilhança das alegações ou hipossuficiência da parte. Assim, deveria a ré realizar a prova em seu favor, a fim de desconstituir as alegações autorais. 
@@ -1077,8 +1077,8 @@ O dano material se encontra provado às fls. 17/20 e sua devolução deve se dar na
 Face ao exposto, JULGO PROCEDENTE EM PARTE O PEDIDO INICIAL para confirmar a antecipação de tutela concedida às fls. 53, para condenar a ré a abster-se de proceder a cobranças, referente ao serviço de telefonia móvel, objeto do presente feito, sob pena de multa do dobro do valor que vier a ser cobrado em desacordo com esta decisão, para condenar a ré a cancelar o referido contrato, no prazo de 15 dias, sob pena de multa a ser fixada em execução, para condenar a ré a restituir ao autor o valor de R$ 359,04,acrescido de juros de 1% ao mês desde a citação e correção monetária desde o desembolso, e para condenar a ré a pagar a ao autor o valor de R$ 2.000,00, a título de dano moral, acrescido de juros de mora de 1% ao mês e correção monetária desde a sentença, resolvendo o processo com mérito, na forma do art. 487, I do CPC.
 Sem custas e honorários, eis que em sede de Juizado Especial Cível.
 P.I.
-Após o trânsito em julgado, dê-se baixa e arquive-se.";000405983F57B09C207DC509733E53E41F73C5054F440A02;2016.001.284800-5
-115;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+Após o trânsito em julgado, dê-se baixa e arquive-se.";000405983F57B09C207DC509733E53E41F73C5054F440A02;['2016.001.284800-5']
+115;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -1086,16 +1086,16 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004696DD9BF1133ED5AC1D1CD9A591C7AE8C505015E1003;2016.001.013712-2
-116;2016.001.178298-9;"3820    Dispensado o relatório na forma do artigo 38 d...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004F442364D6CE21A5B59E69F48BBAE4613C505070F2159;2016.063.001655-4
-117;2016.001.178298-9;"Dispensado o relatório, na forma do art. 38, da Lei 9.099/95. Decido. 
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004696DD9BF1133ED5AC1D1CD9A591C7AE8C505015E1003;['2016.001.013712-2']
+116;2016.001.261711-1;"3820    Dispensado o relatório na forma do artigo 38 d...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004F442364D6CE21A5B59E69F48BBAE4613C505070F2159;['2016.063.001655-4']
+117;2016.001.261711-1;"Dispensado o relatório, na forma do art. 38, da Lei 9.099/95. Decido. 
 HOMOLOGO o projeto de sentença elaborado pelo Juiz Leigo, que passa a valer como fundamentação deste, com fulcro, na Lei Estadual nº 4578/05 e na Resolução nº 08/05 do E. Órgão Especial do TJRJ, e RESOLVE-SE o mérito, com base no art. 487, I, do NCPC. Sem custas e honorários. 
 Publique-se. Aguarde-se a data designada para a leitura de sentença.
 Após, certificado o trânsito em julgado e comprovado o depósito, no prazo devido, expeça-se mandado de pagamento, independente de nova conclusão. 
 Nada mais havendo, dê-se baixa e arquive-se.
-Ficam as partes cientes de que os prazos perante o JEC continuam sendo contados em dias corridos, nos termos da nota técnica 01/2016 do FONAJE e do entendimento da Corregedora Nacional de Justiça, Ministra Nancy Andrighi.";0004F442364D6CE21A5B59E69F48BBAE4613C505070F2159;2016.063.001655-4
-118;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+Ficam as partes cientes de que os prazos perante o JEC continuam sendo contados em dias corridos, nos termos da nota técnica 01/2016 do FONAJE e do entendimento da Corregedora Nacional de Justiça, Ministra Nancy Andrighi.";0004F442364D6CE21A5B59E69F48BBAE4613C505070F2159;['2016.063.001655-4']
+118;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -1103,10 +1103,10 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004AF441CD0095A37BD7608293405356ED5C5050C2A3512;2016.001.099642-8
-119;2016.001.178298-9;"1789    Dispensado o relatório nos termos do art. 38 d...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004AF441CD0095A37BD7608293405356ED5C5050C2A3512;2016.001.099642-8
-120;2016.001.178298-9;"Dispensado o relatório nos termos do art. 38 da Lei nº 9.099/95, passo a decidir.
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004AF441CD0095A37BD7608293405356ED5C5050C2A3512;['2016.001.099642-8']
+119;2016.001.261711-1;"1789    Dispensado o relatório nos termos do art. 38 d...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004AF441CD0095A37BD7608293405356ED5C5050C2A3512;['2016.001.099642-8']
+120;2016.001.261711-1;"Dispensado o relatório nos termos do art. 38 da Lei nº 9.099/95, passo a decidir.
 
 	Inicialmente, rejeito a preliminar de falta de interesse de agir, pois a parte Autora afirma que vem sofrendo cobranças indevidas pela Ré nas duas linhas que possui em seu nome.
 
@@ -1140,8 +1140,8 @@ Sem custas e honorários vez que em sede de Juizado Especial Cível, conforme disp
 
 Certificado o trânsito em julgado e não havendo novas manifestações no prazo de 15 (quinze) dias, dê-se baixa e arquivem-se. Cientes as partes de que decorridos 90 dias da data do arquivamento definitivo, os autos processuais serão eliminados, nos termos do artigo 1º do Ato Normativo Conjunto 01/2005, publicado no DORJ de 07/01/05.
 
-Projeto de sentença sujeito à homologação, assim, remeto os autos à MM. Juíza Togada, nos termos do artigo 40 da Lei nº 9.099/95.";000455BA59F99FE795E926528EBC43C24205C505123F0C07;2016.001.116746-8
-121;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+Projeto de sentença sujeito à homologação, assim, remeto os autos à MM. Juíza Togada, nos termos do artigo 40 da Lei nº 9.099/95.";000455BA59F99FE795E926528EBC43C24205C505123F0C07;['2016.001.116746-8']
+121;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -1149,11 +1149,11 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";000455BA59F99FE795E926528EBC43C24205C505123F0C07;2016.001.116746-8
-122;2016.001.178298-9;"HOMOLOGO, por sentença, para que produza seus efeitos legais, o ACORDO ajustado pelas partes e, em consequência, JULGO EXTINTO O PROCESSO com resolução do mérito, nos termos do art. 487, inciso III, alínea b, do Código de Processo Civil. Sem Custas. Registre-se. Dê-se baixa e arquivem-se os autos.
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";000455BA59F99FE795E926528EBC43C24205C505123F0C07;['2016.001.116746-8']
+122;2016.001.261711-1;"HOMOLOGO, por sentença, para que produza seus efeitos legais, o ACORDO ajustado pelas partes e, em consequência, JULGO EXTINTO O PROCESSO com resolução do mérito, nos termos do art. 487, inciso III, alínea b, do Código de Processo Civil. Sem Custas. Registre-se. Dê-se baixa e arquivem-se os autos.
 Defiro desde já, se for o caso, independente de nova conclusão e havendo quitação da parte Autora, a expedição de mandado de pagamento. 
-Cientes as partes de que, decorridos 90 dias da data do arquivamento definitivo, os autos processuais (físicos) serão eliminados, nos termos do artigo 1°, do Ato Normativo Conjunto n° 01/2005. PRI.";0004C2FFD467AE04E4D6FE5F862743553577C50513240E3B;2016.208.000300-1
-123;2016.001.178298-9;"Cuida-se de ação sob o rito sumaríssimo, por meio do qual busca a parte demandante a condenação da ré ao pagamento de indenização por danos materiais e morais.
+Cientes as partes de que, decorridos 90 dias da data do arquivamento definitivo, os autos processuais (físicos) serão eliminados, nos termos do artigo 1°, do Ato Normativo Conjunto n° 01/2005. PRI.";0004C2FFD467AE04E4D6FE5F862743553577C50513240E3B;['2016.208.000300-1']
+123;2016.001.261711-1;"Cuida-se de ação sob o rito sumaríssimo, por meio do qual busca a parte demandante a condenação da ré ao pagamento de indenização por danos materiais e morais.
  Como causa de pedir, alega o demandante, em resumo, que o pagamento da fatura do seu cartão de 12/2015 não foi computado pelo réu,que manteve o débito em aberto embora estivesse pago. Que embora tenha informado ao réu na tentativa de solucionar o problema apresentando o comprovante do pagamento efetuado, se viu obrigado a efetuar o pagamento em duplicidade para evitar negativação. 
  		O réu, em contestação, afirma que assim que tomou conhecimento desta ação, tentou firmar acordo com a parte autora, porém a proposta foi declinada. Que não houve inscrição do nome da parte autora no SPC/SERASA. Os fatos e provas trazidos pela parte autora não configuram dano moral, pois caracterizam mero aborrecimento. 
 Embora dispensado pela norma do artigo 38 da Lei 9.099/95, é o breve relatório, DECIDO.
@@ -1172,8 +1172,8 @@ JUÍZA LEIGA
 
 
 
- 		Submeto o projeto  de sentença à homologação do Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004F7CE1DBDA0AF8CA488DBAF65A11FEA1FC504612E4D57;2016.001.032870-5
-124;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+ 		Submeto o projeto  de sentença à homologação do Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004F7CE1DBDA0AF8CA488DBAF65A11FEA1FC504612E4D57;['2016.001.032870-5']
+124;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -1183,8 +1183,8 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004F7CE1DBDA0AF8CA488DBAF65A11FEA1FC504612E4D57;2016.001.032870-5
-125;2016.001.178298-9;"De fato, houve contradição na sentença, uma vez que a improcedência dos pedidos teve como fundamento o fato de os documentos de fls. 11 a 17 estarem em branco, sendo que os documentos foram ali acostadas de forma correta, devendo ter havido um erro no sistema quando da sua visualização.
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004F7CE1DBDA0AF8CA488DBAF65A11FEA1FC504612E4D57;['2016.001.032870-5']
+125;2016.001.261711-1;"De fato, houve contradição na sentença, uma vez que a improcedência dos pedidos teve como fundamento o fato de os documentos de fls. 11 a 17 estarem em branco, sendo que os documentos foram ali acostadas de forma correta, devendo ter havido um erro no sistema quando da sua visualização.
 
 No entanto, os documentos acima referidos não são suficientes para comprovar as alegações autorais, de modo que o restante da fundamentação constante no projeto de sentença de fl. 54 deve ser mantido, como se verá a seguir.
 
@@ -1200,11 +1200,11 @@ Desta forma, conheço os embargos e lhes DOU PARCIAL PROVIMENTO, apenas para acre
 
 No mais, mantenho a sentença tal qual lançada.
 
-P.R.I";0004F7CE1DBDA0AF8CA488DBAF65A11FEA1FC504612E4D57;2016.001.032870-5
-126;2016.001.178298-9;"Dispenso o relatório (art. 38 da Lei 9099/95) e PASSO A DECIDIR.
+P.R.I";0004F7CE1DBDA0AF8CA488DBAF65A11FEA1FC504612E4D57;['2016.001.032870-5']
+126;2016.001.261711-1;"Dispenso o relatório (art. 38 da Lei 9099/95) e PASSO A DECIDIR.
 
-	A parte autora não reside em Copacabana e sim no Humaitá . Os réus tem sua sede  no Centro e Brasília respectivamente. Logo, nada há nos autos que indique que a parte autora faça jus ao ajuizamento da demanda neste Juizado.  Assim sendo, JULGO EXTINTO O PROCESSO, sem resolução de mérito, com fundamento no artigo 51, inciso III, da Lei 9099/95. Sem custas e sem honorários. Retirei de pauta a AC designada pelo Juízo. CANCELE-SE A DISTRIBUIÇÃO.  Saliento que a parte autora deverá aguardar o trânsito em julgado da presente sentença para ajuizar nova ação, a fim de evitar a prevenção nesta Juízo. Após, dê-se baixa e arquive-se.";0004C4AF63F752D45935033262CD3B071D87C50526462318;2016.001.172082-0
-127;2016.001.178298-9;"PROJETO DE SENTENÇA
+	A parte autora não reside em Copacabana e sim no Humaitá . Os réus tem sua sede  no Centro e Brasília respectivamente. Logo, nada há nos autos que indique que a parte autora faça jus ao ajuizamento da demanda neste Juizado.  Assim sendo, JULGO EXTINTO O PROCESSO, sem resolução de mérito, com fundamento no artigo 51, inciso III, da Lei 9099/95. Sem custas e sem honorários. Retirei de pauta a AC designada pelo Juízo. CANCELE-SE A DISTRIBUIÇÃO.  Saliento que a parte autora deverá aguardar o trânsito em julgado da presente sentença para ajuizar nova ação, a fim de evitar a prevenção nesta Juízo. Após, dê-se baixa e arquive-se.";0004C4AF63F752D45935033262CD3B071D87C50526462318;['2016.001.172082-0']
+127;2016.001.261711-1;"PROJETO DE SENTENÇA
 
 Ainda que dispensado o relatório, na forma do artigo 38 da lei 9.009/95, faço um breve relato, após o qual passo a decidir.
 Trata-se de ação de obrigação de fazer c/c  compensação por danos morais proposta por ADRIANNE OGEDA GUEDES em face de TELEMAR NORTE LESTE S.A E OI MÓVEL S.A., em que alega ter a ré procedido a diversas cobranças indevidas, referentes a serviços já cancelados, tendo havido inserção indevida de seu nome nos cadastros de restrição ao crédito.
@@ -1216,8 +1216,8 @@ Submeto o projeto de sentença à apreciação do juiz togado, na forma do artigo 40
 Rio de Janeiro, 02 de agosto de 2016.
 
 Janayme Vieira de Moraes
-Juíza Leiga";0004C4AF63F752D45935033262CD3B071D87C50526462318;2016.001.172082-0
-128;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+Juíza Leiga";0004C4AF63F752D45935033262CD3B071D87C50526462318;['2016.001.172082-0']
+128;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -1225,8 +1225,8 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004C4AF63F752D45935033262CD3B071D87C50526462318;2016.001.172082-0
-129;2016.001.178298-9;"	Vistos...
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004C4AF63F752D45935033262CD3B071D87C50526462318;['2016.001.172082-0']
+129;2016.001.261711-1;"	Vistos...
 
 	Dispensado o relatório.
 
@@ -1266,8 +1266,8 @@ FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELEC
 
 	Sem custas e sem honorários nesta fase.
 
-	Após o trânsito em julgado, baixe-se e arquive-se";0004193A8E973096A0106C6C7DE700FFE1B7C504574D2B14;2016.204.001551-0
-130;2016.001.178298-9;"Vistos, etc.
+	Após o trânsito em julgado, baixe-se e arquive-se";0004193A8E973096A0106C6C7DE700FFE1B7C504574D2B14;['2016.204.001551-0']
+130;2016.001.261711-1;"Vistos, etc.
 Dispensado relatório nos termos do art. 38, da Lei nº 9.099/95. 
 Trata-se de ação indenizatória ajuizada por MARCO AURELIO DIAS FARIA em face de LIGHT - SERVIÇOS DE ELETRICIDADE S/A. Alega a parte autora, em síntese, que a ré emitiu uma cobrança indevida, em 06/05/2015. Pleiteia o cancelamento da dívida, bem como indenização por danos materiais e morais.
 Em contestação, a ré pugna pela total improcedência do pleito autoral.
@@ -1297,9 +1297,9 @@ de sentença acima apresentado, na forma do art. 40 da Lei nº 9.099/95.
 Duque de Caxias, 22/03/2016.
 
 __________________________________________________________
-Juiz de Direito";0004AAFB74F47782EC30639E9263A0235A6BC5044E555F43;2016.021.001124-9
-131;2016.001.178298-9;Vistos etc. HOMOLOGO o PROJETO DE SENTENÇA proferido pelo DD. Juiz Leigo que me foi submetido, para que a mesma produza os seus jurídicos e legais efeitos, nos termos do artigo 4º, inciso III, da Resolução nº 08/2005, do Órgão Especial do TJ/RJ.  Sem custas judiciais, na forma da Lei nº 9.099/95. P.R.I. Certificado o trânsito em julgado, aguarde-se pronunciamento por 30 dias. Na inércia, dê-se baixa e arquive-se.;0004AAFB74F47782EC30639E9263A0235A6BC5044E555F43;2016.021.001124-9
-132;2016.001.178298-9;"Sustenta o   Recorrente  através do  Recurso de  Embargo de  Declaração    em face   da  Sentença   proferida  ,   vicio   que deve ensejar  a  devida    integração  para o  aperfeiçoamento da  prestação jurisdicional .
+Juiz de Direito";0004AAFB74F47782EC30639E9263A0235A6BC5044E555F43;['2016.021.001124-9']
+131;2016.001.261711-1;Vistos etc. HOMOLOGO o PROJETO DE SENTENÇA proferido pelo DD. Juiz Leigo que me foi submetido, para que a mesma produza os seus jurídicos e legais efeitos, nos termos do artigo 4º, inciso III, da Resolução nº 08/2005, do Órgão Especial do TJ/RJ.  Sem custas judiciais, na forma da Lei nº 9.099/95. P.R.I. Certificado o trânsito em julgado, aguarde-se pronunciamento por 30 dias. Na inércia, dê-se baixa e arquive-se.;0004AAFB74F47782EC30639E9263A0235A6BC5044E555F43;['2016.021.001124-9']
+132;2016.001.261711-1;"Sustenta o   Recorrente  através do  Recurso de  Embargo de  Declaração    em face   da  Sentença   proferida  ,   vicio   que deve ensejar  a  devida    integração  para o  aperfeiçoamento da  prestação jurisdicional .
 
 Não merece   reparo  a  Sentença    eis que entendo que   já  houve  pronunciamento correto e preciso   sob todos os   pontos   sustentados       na peça inicial como na   defesa da  ré.
 
@@ -1309,18 +1309,18 @@ Deve ser acrescentado ainda que o Recurso  é   inadequado  em razão da   sua dev
 
 
 Ante o exposto ,  conheço do recurso e nego provimento ao mesmo .
-Intimem-se.";0004AAFB74F47782EC30639E9263A0235A6BC5044E555F43;2016.021.001124-9
-133;2016.001.178298-9;Homologo para que produza os seus jurídicos e legais efeitos o acordo a que chegaram as partes e, em consequência, JULGO EXTINTO O PROCESSO COM RESOLUÇÃO DO MÉRITO, na forma do artigo 487, inciso III, b do CPC.  Defiro, desde já, expedição de guia e de mandado de pagamento, se for o caso, independente de nova conclusão. Com o cumprimento ou decorrido o prazo sem manifestação da parte autora,  certifique-se o  trânsito em julgado, dê-se baixa e arquivem-se, ficando cientes as partes de que, após 90 dias da data do arquivamento definitivo, os autos serão eliminados, na forma do Ato Normativo Conjunto 01/2005, publicado no D.O. de 07/01/2005. P.R.I. Defiro o desentranhamento de documentos mediante cópia.;0004CA56590EDB018644965A54C94AE94016C5054F3F2C4B;2016.204.028823-9
-134;2016.001.178298-9;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. Sem custas. 
+Intimem-se.";0004AAFB74F47782EC30639E9263A0235A6BC5044E555F43;['2016.021.001124-9']
+133;2016.001.261711-1;Homologo para que produza os seus jurídicos e legais efeitos o acordo a que chegaram as partes e, em consequência, JULGO EXTINTO O PROCESSO COM RESOLUÇÃO DO MÉRITO, na forma do artigo 487, inciso III, b do CPC.  Defiro, desde já, expedição de guia e de mandado de pagamento, se for o caso, independente de nova conclusão. Com o cumprimento ou decorrido o prazo sem manifestação da parte autora,  certifique-se o  trânsito em julgado, dê-se baixa e arquivem-se, ficando cientes as partes de que, após 90 dias da data do arquivamento definitivo, os autos serão eliminados, na forma do Ato Normativo Conjunto 01/2005, publicado no D.O. de 07/01/2005. P.R.I. Defiro o desentranhamento de documentos mediante cópia.;0004CA56590EDB018644965A54C94AE94016C5054F3F2C4B;['2016.204.028823-9']
+134;2016.001.261711-1;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. Sem custas. 
 
-Cumprido o acordo, dê-se baixa e arquive-se, independentemente de conclusão.";000467D4F10A07F24478518A94DDD4CC024CC5053A1D644B;2016.001.198332-6
-135;2016.001.178298-9;"     Tendo em   vista que  houve  acordo entre  as  partes , JULGO  EXTINTO COM  RESOLUÇÃO DO MÉRITO, na forma do artigo  487, III,  alínea  b ,  do CPC.
+Cumprido o acordo, dê-se baixa e arquive-se, independentemente de conclusão.";000467D4F10A07F24478518A94DDD4CC024CC5053A1D644B;['2016.001.198332-6']
+135;2016.001.261711-1;"     Tendo em   vista que  houve  acordo entre  as  partes , JULGO  EXTINTO COM  RESOLUÇÃO DO MÉRITO, na forma do artigo  487, III,  alínea  b ,  do CPC.
 
 
- Sem custas. Após as formalidades legais, dê-se baixa e arquive-se. P.R.I.";0004D6A226BA5440A5045C071924BFD3B77DC504645D073E;2016.021.008966-4
-136;2016.001.178298-9;"1734    \t\tDispensado o relatório na forma do artigo ...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004CE1998439A22A5D8BB81B2CB787368CBC50464291F33;2016.001.042471-8
-137;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+ Sem custas. Após as formalidades legais, dê-se baixa e arquive-se. P.R.I.";0004D6A226BA5440A5045C071924BFD3B77DC504645D073E;['2016.021.008966-4']
+136;2016.001.261711-1;"1734    \t\tDispensado o relatório na forma do artigo ...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004CE1998439A22A5D8BB81B2CB787368CBC50464291F33;['2016.001.042471-8']
+137;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -1330,14 +1330,14 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004CE1998439A22A5D8BB81B2CB787368CBC50464291F33;2016.001.042471-8
-138;2016.001.178298-9;"     Tendo em   vista que  houve  acordo entre  as  partes , JULGO  EXTINTO COM  RESOLUÇÃO DO MÉRITO, na forma do artigo  487, III,  alínea  b ,  do CPC.
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004CE1998439A22A5D8BB81B2CB787368CBC50464291F33;['2016.001.042471-8']
+138;2016.001.261711-1;"     Tendo em   vista que  houve  acordo entre  as  partes , JULGO  EXTINTO COM  RESOLUÇÃO DO MÉRITO, na forma do artigo  487, III,  alínea  b ,  do CPC.
 
 
- Sem custas. Após as formalidades legais, dê-se baixa e arquive-se. P.R.I.";0004A3E553EB7F5607D327CEE126A3A08C92C505355A5A05;2016.021.035414-1
-139;2016.001.178298-9;"1308    \nESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\n...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00045821F2121C5AADF2D5A6340AAFF3393AC5045E314E0A;2016.001.025705-0
-140;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+ Sem custas. Após as formalidades legais, dê-se baixa e arquive-se. P.R.I.";0004A3E553EB7F5607D327CEE126A3A08C92C505355A5A05;['2016.021.035414-1']
+139;2016.001.261711-1;"1308    \nESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\n...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00045821F2121C5AADF2D5A6340AAFF3393AC5045E314E0A;['2016.001.025705-0']
+140;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
 
@@ -1345,8 +1345,8 @@ Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, so
 
 Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
 
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00045821F2121C5AADF2D5A6340AAFF3393AC5045E314E0A;2016.001.025705-0
-141;2016.001.178298-9;"Dispensado o relatório nos termos do artigo 38 da Lei 9.099/95, bem como a luz dos princípios da oralidade, simplicidade, informalidade, economia processual e celeridade, instituídos no artigo 2º da Lei dos Juizados Especiais, passo a decidir:
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00045821F2121C5AADF2D5A6340AAFF3393AC5045E314E0A;['2016.001.025705-0']
+141;2016.001.261711-1;"Dispensado o relatório nos termos do artigo 38 da Lei 9.099/95, bem como a luz dos princípios da oralidade, simplicidade, informalidade, economia processual e celeridade, instituídos no artigo 2º da Lei dos Juizados Especiais, passo a decidir:
 
 Publique-se e intime-se conforme requerido em contestação. 
 
@@ -1358,10 +1358,10 @@ Após acurada análise dos elementos coligidos, infere-se a existência de acidente
 
 Os danos morais decorreram dos constrangimentos indevidamente impostos à parte autora, notadamente os resultantes da realização de cobranças excessivas, cancelamento do serviço de duas linhas móveis sem prévio aviso, bem como a suspensão dos serviços desde 07/12/2015. Registre-se, que é da própria lei a reparabilidade de danos morais decorrentes de sofrimentos, dor, perturbações emocionais e psíquicas, constrangimento, angústia e desconforto espiritual por bem ou serviço defeituoso ou inadequadamente fornecido, devendo o quantum indenizatório observar os critérios e princípios que informam o instituto.
    
-Isto posto, confirmando os efeitos da tutela de fls.52, JULGO PROCEDENTE o pedido para condenar os réus, solidariamente, a cancelarem o contrato e todas as linhas existentes em nome da parte autora, sem qualquer ônus, em 10 dias, sob pena de multa a ser fixada em sede de execução e a indenizarem a parte autora com o valor de R$3.000,00, quantia corrigida monetariamente deste julgado e acrescida de juros da citação, pelos danos morais. Sem custas e honorários. PRI. Após o trânsito em julgado, dê-se baixa e arquive-se.";000410D90579D3327DA733744D9A91AAFE92C505034C2244;2016.001.052326-5
-142;2016.001.178298-9;"11166    Dispensado o relatório. Passo a decidir.\n\nIn...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004851B203BCC7506571ED7FFB52DBA78E2C505564C4E18;2016.021.056823-2
-143;2016.001.178298-9;"Processo n. 0002722-80.2016.8.19.0021.
+Isto posto, confirmando os efeitos da tutela de fls.52, JULGO PROCEDENTE o pedido para condenar os réus, solidariamente, a cancelarem o contrato e todas as linhas existentes em nome da parte autora, sem qualquer ônus, em 10 dias, sob pena de multa a ser fixada em sede de execução e a indenizarem a parte autora com o valor de R$3.000,00, quantia corrigida monetariamente deste julgado e acrescida de juros da citação, pelos danos morais. Sem custas e honorários. PRI. Após o trânsito em julgado, dê-se baixa e arquive-se.";000410D90579D3327DA733744D9A91AAFE92C505034C2244;['2016.001.052326-5']
+142;2016.001.261711-1;"11166    Dispensado o relatório. Passo a decidir.\n\nIn...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004851B203BCC7506571ED7FFB52DBA78E2C505564C4E18;['2016.021.056823-2']
+143;2016.001.261711-1;"Processo n. 0002722-80.2016.8.19.0021.
 Dispensado o relatório, na forma do art. 38, caput, da Lei 9.099 de 1995.
 O autor propôs ação em face de CLARO ¿ BCP S.A., alegando que firmou com o réu um contrato de prestação de serviços de telefonia que incluía um chip de telefonia móvel. No entanto, o chip não foi entregue. Assim, pediu a entrega do chip na sua residência e indenização por danos morais.
 A ré apresentou contestação genérica e não impugnou especificamente os fatos narrados pelo autor, estando, portanto, revel.
@@ -1369,10 +1369,10 @@ A revelia gera a presunção de veracidade dos fatos narrados pelo autor. Assim, e
 Quanto aos danos morais, considero que a conduta da ré não causou aborrecimentos ao autor acima do normal na vida em sociedade, não podendo prosperar o pedido de indenização.
 Pelo exposto, JULGO PROCEDENTE EM PARTE OS PEDIDOS para condenar a CLARO ¿ BCP S.A. a entregar na residência do autor, cujo endereço consta da inicial, um chip de telefonia móvel sem ônus, no prazo de 30 dias.
 Com o trânsito em julgado, dê-se baixa e arquive-se.
-P.R.I.C.";00048A7DD2246C4F02F10B655D36801A99B7C50506155221;2016.021.002517-0
-144;2016.001.178298-9;"1403    A autora reclama por ter sofrido apontamento i...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004532FA5013652D264E0332D5C051BA229C505025B6430;2016.001.049453-8
-145;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+P.R.I.C.";00048A7DD2246C4F02F10B655D36801A99B7C50506155221;['2016.021.002517-0']
+144;2016.001.261711-1;"1403    A autora reclama por ter sofrido apontamento i...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004532FA5013652D264E0332D5C051BA229C505025B6430;['2016.001.049453-8']
+145;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -1382,20 +1382,20 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004532FA5013652D264E0332D5C051BA229C505025B6430;2016.001.049453-8
-146;2016.001.178298-9;"Considerando a ausência da parte autora à audiência de conciliação, apesar de regularmente intimada, JULGO EXTINTO O PROCESSO, sem resolução de mérito, com fundamento no artigo 51, I, da Lei 9099/95. 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004532FA5013652D264E0332D5C051BA229C505025B6430;['2016.001.049453-8']
+146;2016.001.261711-1;"Considerando a ausência da parte autora à audiência de conciliação, apesar de regularmente intimada, JULGO EXTINTO O PROCESSO, sem resolução de mérito, com fundamento no artigo 51, I, da Lei 9099/95. 
 
 Isento a parte autora do pagamento de custas.
 
 REGISTRE-SE.
 
-Após, dê-se baixa e arquive-se.";00046798E29E4C48B3214C22EE9414E040CEC50507353D31;2016.001.063063-0
-147;2016.001.178298-9;"HOMOLOGO, por sentença, para que produza seus efeitos legais, o ACORDO ajustado pelas partes e, em consequência, JULGO EXTINTO O PROCESSO com resolução do mérito, nos termos do art. 487, inciso III, alínea b, do Código de Processo Civil. Sem Custas. Registre-se. Dê-se baixa e arquivem-se os autos.
+Após, dê-se baixa e arquive-se.";00046798E29E4C48B3214C22EE9414E040CEC50507353D31;['2016.001.063063-0']
+147;2016.001.261711-1;"HOMOLOGO, por sentença, para que produza seus efeitos legais, o ACORDO ajustado pelas partes e, em consequência, JULGO EXTINTO O PROCESSO com resolução do mérito, nos termos do art. 487, inciso III, alínea b, do Código de Processo Civil. Sem Custas. Registre-se. Dê-se baixa e arquivem-se os autos.
 Defiro desde já, se for o caso, independente de nova conclusão e havendo quitação da parte Autora, a expedição de mandado de pagamento. 
-Cientes as partes de que, decorridos 90 dias da data do arquivamento definitivo, os autos processuais (físicos) serão eliminados, nos termos do artigo 1°, do Ato Normativo Conjunto n° 01/2005. PRI.";0004EA420EE044735188219309147230A9FCC505111E5A2D;2016.208.011057-7
-148;2016.001.178298-9;"983    Dispensado o relatório nos termos do artigo 38...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004DAB5E47A546393AFE55FE7EEDC74AC4AC505033F102F;2016.001.053016-6
-149;2016.001.178298-9;"Dispensado o relatório, nos termos do artigo 38, da Lei 9099/95, PASSO A DECIDIR.
+Cientes as partes de que, decorridos 90 dias da data do arquivamento definitivo, os autos processuais (físicos) serão eliminados, nos termos do artigo 1°, do Ato Normativo Conjunto n° 01/2005. PRI.";0004EA420EE044735188219309147230A9FCC505111E5A2D;['2016.208.011057-7']
+148;2016.001.261711-1;"983    Dispensado o relatório nos termos do artigo 38...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004DAB5E47A546393AFE55FE7EEDC74AC4AC505033F102F;['2016.001.053016-6']
+149;2016.001.261711-1;"Dispensado o relatório, nos termos do artigo 38, da Lei 9099/95, PASSO A DECIDIR.
 A autora busca que a Ré seja condenada ao ressarcimento em dobro dos valores pagos indevidamente e ao pagamento de indenização por danos morais. Alega, em síntese, que contratou o pacote OI CONTA TOTAL 3 MAIS o qual seria instalado em 9/11/2015, como a instalação não foi realizada pelo réu a autora cancelou em 10/11/15.  Ocorre que a autora recebeu cobrança em 11/12/2015 referente a esse contratado não cumprido pela ré e cancelado pela autora.  
 O réu em contestação se limitou a sustentar a regularidade da cobrança.
 A relação estabelecida entre as partes é de consumo, porquanto presentes os requisitos subjetivos (arts. 2º, caput, e 3º, caput, da Lei nº 8.078/90) e objetivo (art. 3º, § 2º, da Lei n.º 8.078/90) que a caracterizam.
@@ -1410,8 +1410,8 @@ Rio de Janeiro, 20 de novembro de 2016
 
 JULIANA CORREIA GOMES
 JUÍZA LEIGA
-Submeto o projeto de sentença à homologação da Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004BFDD44F5085D36A2B85A7A6D6C203153C5053D260964;2016.001.210959-2
-150;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Submeto o projeto de sentença à homologação da Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004BFDD44F5085D36A2B85A7A6D6C203153C5053D260964;['2016.001.210959-2']
+150;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -1421,11 +1421,11 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004BFDD44F5085D36A2B85A7A6D6C203153C5053D260964;2016.001.210959-2
-151;2016.001.178298-9;"HOMOLOGO, por sentença, para que produza seus jurídicos e legais efeitos, o acordo estabelecido pelas partes e, por via de consequência, JULGO EXTINTO O PROCESSO COM RESOLUÇÃO DO MÉRITO, na forma do art. 487, III, ""b"", do Novo Código de Processo Civil. Defiro, desde já, a expedição de guia e do mandado de pagamento, se for o caso, independente de nova conclusão. Depois de cumpridas todas as formalidades legais, dê-se baixa e arquivem-se os autos. Publique-se. Registre-se. Intimem-se.";000424F2822954E31459EA900A274389CF5EC505570D4748;2016.204.031384-2
-152;2016.001.178298-9;"4131    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00049528F41013D4F45ED3D9948794A07733C50521534D3A;2016.001.131499-4
-153;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004BFDD44F5085D36A2B85A7A6D6C203153C5053D260964;['2016.001.210959-2']
+151;2016.001.261711-1;"HOMOLOGO, por sentença, para que produza seus jurídicos e legais efeitos, o acordo estabelecido pelas partes e, por via de consequência, JULGO EXTINTO O PROCESSO COM RESOLUÇÃO DO MÉRITO, na forma do art. 487, III, ""b"", do Novo Código de Processo Civil. Defiro, desde já, a expedição de guia e do mandado de pagamento, se for o caso, independente de nova conclusão. Depois de cumpridas todas as formalidades legais, dê-se baixa e arquivem-se os autos. Publique-se. Registre-se. Intimem-se.";000424F2822954E31459EA900A274389CF5EC505570D4748;['2016.204.031384-2']
+152;2016.001.261711-1;"4131    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";00049528F41013D4F45ED3D9948794A07733C50521534D3A;['2016.001.131499-4']
+153;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
 
@@ -1435,15 +1435,15 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00049528F41013D4F45ED3D9948794A07733C50521534D3A;2016.001.131499-4
-154;2016.001.178298-9;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. Retiro de pauta a audiência anteriormente designada. 
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";00049528F41013D4F45ED3D9948794A07733C50521534D3A;['2016.001.131499-4']
+154;2016.001.261711-1;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. Retiro de pauta a audiência anteriormente designada. 
 
 Sem custas. 
 
 REGISTRE-SE. 
 
-Após, dê-se baixa e arquive-se.";0004775309B6C14C385194128D5DDE910985C50502175146;2016.001.048841-1
-155;2016.001.178298-9;"	Dispensado o relatório, consoante o artigo 38 da Lei nº. 9.099/95, passo a decidir.
+Após, dê-se baixa e arquive-se.";0004775309B6C14C385194128D5DDE910985C50502175146;['2016.001.048841-1']
+155;2016.001.261711-1;"	Dispensado o relatório, consoante o artigo 38 da Lei nº. 9.099/95, passo a decidir.
 
 	Relata a parte autora ter contratado serviço do réu, porém não houve a instalação, em que pese receba cobranças. Requer indenização por danos materiais e morais.
 
@@ -1470,13 +1470,13 @@ Assim, fixo a indenização no montante de R$ 2.000,00.
 
 Projeto de sentença que se submete à homologação.
 
-Rio de Janeiro, 12 de maio de 2016.";000431A7F2BEDDD9B4E21BB5A5AEB08D9FEEC5050344073B;2016.204.007802-6
-156;2016.001.178298-9;Dispensado o relatório na forma do art. 38 da Lei 9099/95. HOMOLOGO o projeto de sentença proferido pelo Juiz Leigo, para que produza seus jurídicos e legais efeitos, na forma do art. 40 da Lei 9.099/95.  FICAM AS PARTES CIENTES DE QUE, NOS TERMOS DO AVISO 02/2016 DA COJES (D.O. 31/03/2016) OS PRAZOS PROCESSUAIS EM SEDE DE JEC CONTINUARÃO A SER CONTADOS EM DIAS CORRIDOS, INAPLICÁVEL O ARTIGO 219 DO NCPC.Fica a parte ré ciente de que caso não pague a quantia certa a que foi condenada em 15 dias, contados do trânsito em julgado da sentença, o valor da condenação será acrescido de multa de 10%, por aplicação do artigo 523,§1º do CPC, sendo certo, ainda, que a comprovação do depósito deverá vir aos autos no prazo de 5 dias, após a efetivação. Comprovado o depósito nos autos, e a quitação por parte do credor, expeça-se mandado de pagamento. Após, dê-se baixa e arquive-se. Caso negativo, após o decurso do prazo de trinta dias do trânsito em julgado, dê-se baixa e arquive-se.;000431A7F2BEDDD9B4E21BB5A5AEB08D9FEEC5050344073B;2016.204.007802-6
-157;2016.001.178298-9;"
-                          Tendo em vista o pagamento do débito pelo Executado, JULGO EXTINTO o presente processo executivo, nos termos do artigo 924, II, do CPC. Expeça-se mandado de pagamento como requerido, se houver poderes tanto. Após o recebimento, dê-se baixa e arquivem-se.";000431A7F2BEDDD9B4E21BB5A5AEB08D9FEEC5050344073B;2016.204.007802-6
-158;2016.001.178298-9;"5353    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
-Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004840FB29BF47B4051D369EAF8934B305AC5052A500A34;2016.001.124504-2
-159;2016.001.178298-9;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
+Rio de Janeiro, 12 de maio de 2016.";000431A7F2BEDDD9B4E21BB5A5AEB08D9FEEC5050344073B;['2016.204.007802-6']
+156;2016.001.261711-1;Dispensado o relatório na forma do art. 38 da Lei 9099/95. HOMOLOGO o projeto de sentença proferido pelo Juiz Leigo, para que produza seus jurídicos e legais efeitos, na forma do art. 40 da Lei 9.099/95.  FICAM AS PARTES CIENTES DE QUE, NOS TERMOS DO AVISO 02/2016 DA COJES (D.O. 31/03/2016) OS PRAZOS PROCESSUAIS EM SEDE DE JEC CONTINUARÃO A SER CONTADOS EM DIAS CORRIDOS, INAPLICÁVEL O ARTIGO 219 DO NCPC.Fica a parte ré ciente de que caso não pague a quantia certa a que foi condenada em 15 dias, contados do trânsito em julgado da sentença, o valor da condenação será acrescido de multa de 10%, por aplicação do artigo 523,§1º do CPC, sendo certo, ainda, que a comprovação do depósito deverá vir aos autos no prazo de 5 dias, após a efetivação. Comprovado o depósito nos autos, e a quitação por parte do credor, expeça-se mandado de pagamento. Após, dê-se baixa e arquive-se. Caso negativo, após o decurso do prazo de trinta dias do trânsito em julgado, dê-se baixa e arquive-se.;000431A7F2BEDDD9B4E21BB5A5AEB08D9FEEC5050344073B;['2016.204.007802-6']
+157;2016.001.261711-1;"
+                          Tendo em vista o pagamento do débito pelo Executado, JULGO EXTINTO o presente processo executivo, nos termos do artigo 924, II, do CPC. Expeça-se mandado de pagamento como requerido, se houver poderes tanto. Após o recebimento, dê-se baixa e arquivem-se.";000431A7F2BEDDD9B4E21BB5A5AEB08D9FEEC5050344073B;['2016.204.007802-6']
+158;2016.001.261711-1;"5353    ESTADO DO RIO DE JANEIRO\nPODER JUDICIÁRIO\nVI...
+Name: ANDPROCCLOB__TXT_DESCR, dtype: object";0004840FB29BF47B4051D369EAF8934B305AC5052A500A34;['2016.001.124504-2']
+159;2016.001.261711-1;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
 
 Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independente de nova conclusão, cumprindo à parte ré, quando do pagamento, apresentar planilha discriminada do valor da condenação.  
 
@@ -1486,4 +1486,4 @@ Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso d
 
 FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
 
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004840FB29BF47B4051D369EAF8934B305AC5052A500A34;2016.001.124504-2
+Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004840FB29BF47B4051D369EAF8934B305AC5052A500A34;['2016.001.124504-2']
