@@ -1,6 +1,7 @@
 .sentenca-box {
   overflow-y: auto; 
   height:300px;
+  border-style: outset;
 }
 
 .sentenca-error {

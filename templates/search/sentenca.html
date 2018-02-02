@@ -2,40 +2,67 @@
 {% block content %}
 <div class="container">
     {% if error %}
-        <div class="sentenca-error alert alert-danger" role="alert">
+    <div class="row sentenca-container justify-content-center">
+        <div class="alert alert-danger justify-content-center" role="alert">
             Código do Processo inválido ou não encontrado
         </div>
+    </div>
     {%else%}
         <div class="row sentenca-container">
             <div class="col-sm-4">
-                <h6>Código do processo:</h6>
-                <p>{{ process }}</p>
+                <strong>Código do processo:</strong>
+                <div class="card-text justify-content-center">{{ process }}</div>
             </div>
             <div class="col-sm-4">
-                <h6>Autor:</h6>
-                <p>{{author}}</p>
+                <strong>Autor:</strong>
+                <div class="card-text justify-content-center">{{author}}</div>
             </div>
             <div class="col-sm-4">
-                <h6>Réu:</h6>
-                <p>{{reu}}</p>
+                <strong>Réu:</strong>
+                <div class="card-text justify-content-center">{{reu}}</div>
             </div>
         </div>
-        <div class="row">
+        <div class="row sentenca-container">
             <div class="col-sm-8">
-                <h6>Sentença:</h6>
-                <div class="sentenca-box">
-
+                <strong>Sentença:</strong>
+                <div class="card sentenca-box">
                     <p >
                     {{ sentence | linebreaks }}
                     </p>
                 </div>
             </div>
             <div class="col-sm-4">
-                <h6>Processos similares que não possuem sentenças:</h6>
-                <p>{{similar}}</p>
+                <strong>Processos similares sem sentença:</strong>
+                <div class="card sentenca-box text-justify">{{similar}}</div>
             </div>
         </div>
+        <div class="row sentenca-container">
+            <ul class="col pagination clearfix justify-content-center">
+            {%if has_previous%}
+                <li class="page-item">
+            {%else%}
+                <li class="page-item disabled">
+            {%endif%}
+                    <a class="page-link" href="{% url 'processo' cod previousindex %}">Anterior</a>
+                </li>
+                
+                <li class="page-item disabled"><span class="page-link">{{ index }} / {{ pages }}</span></li>
+
+            {%if has_next%}
+                <li class="page-item">
+            {%else%}
+                <li class="page-item disabled">
+            {%endif%}
+                    <a class="page-link" href="{% url 'processo' cod nextindex %}">Próximo</a>
+                </li>
+            </ul>
+             
+        </div>
     {%endif%}
+    <div class="row sentenca-container justify-content-center">
+        <a href="{% url 'index' %}">Nova consulta</a>
     </div>
+    
+    
 {%endblock%}
 {% include 'includes/pagination.html' %}

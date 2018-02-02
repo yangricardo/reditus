@@ -31,30 +31,47 @@ def complete_process_data(process):
 #end of complete_process_data    
 
 def index(request):
-    if request.method == 'POST':
-        form = SearchForm(request.POST)
-        if form.is_valid():
-            process_keys_list = search_process(form.cleaned_data['search_field'])
-            if process_keys_list != False:
-                return redirect('processo' ,form.cleaned_data['search_field'],0)
-            else:
-                error = True
-                return render(request, 'search/index.html',{'form': form, 'error':error } )
-    else:
-        form = SearchForm()
-        return render(request, 'search/index.html',{'form': form } )
+    try:
+        if request.method == 'POST':
+            form = SearchForm(request.POST)
+            if form.is_valid():
+                process_keys_list = search_process(form.cleaned_data['search_field'])
+                if process_keys_list != False:
+                    return redirect('processo' ,form.cleaned_data['search_field'],0)
+                else:
+                    error = True
+                    return render(request, 'search/index.html',{'form': form, 'error':error } )
+        else:
+            form = SearchForm()
+            return render(request, 'search/index.html',{'form': form } )
+    except:
+        error = True
+        return render(request, 'search/index.html',{'form': form, 'error':error } )
 
 def showSentences(request,cod, index):
     process_keys_list = search_process(cod)
-    if process_keys_list != False:
-        data = complete_process_data(cod)
-        process = data['processo'][int(index)]
-        sentence = data['sentenca'][int(index)]
-        similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",data['similar_processo'][int(index)]).group(0)
-        author = re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+[^\n]",sentence)
-        reu = re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+[^\n]",sentence)
+
+    try:
+        if process_keys_list != False:
+            data = complete_process_data(cod)
+            print(data)
+            process = data['processo'][int(index)]
+            sentence = data['sentenca'][int(index)]
+            similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",data['similar_processo'][int(index)]).group(0)
+            author = re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+            reu = re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+
+            #pages = [ i for i in range(data['processo'].count()) ]
+            pages = data['processo'].count()-1
+            print(pages)
+            
+            has_previous = True if int(index) > 0 else False
+            has_next = True if int(index) < pages else False
+            previousIndex = int(index)-1 if int(index) > 0 else 0
+            nextIndex = int(index)+1 if int(index) < pages else pages
+            #return render(request, 'search/sentenca.html', {'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu, 'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex })
+            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu, 'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
         
-        return render(request, 'search/sentenca.html', {'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu })
-    else:
+    except:
         error = True
         return render(request, 'search/sentenca.html',{'error':error } )
