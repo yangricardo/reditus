@@ -9,11 +9,15 @@
     </div>
     {%else%}
         <div class="row sentenca-container">
-            <div class="col-sm-4">
-                <strong>Código do processo:</strong>
-                <div class="card-text justify-content-center">{{ process }}</div>
+            <div class="col-sm-2">
+                <strong>Processo Buscado:</strong>
+                <div class="card-text justify-content-center">{{ cod }}</div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-3">
+                <strong>Processo Similar:</strong>
+                <div class="card-text justify-content-center">{{ similar_atual }}</div>
+            </div>
+            <div class="col-sm-3">
                 <strong>Autor:</strong>
                 <div class="card-text justify-content-center">{{author}}</div>
             </div>
@@ -32,7 +36,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <strong>Processos similares sem sentença:</strong>
+                <strong>Processo sem sentença (código antigo)</strong>
                 <div class="card sentenca-box text-justify">{{similar}}</div>
             </div>
         </div>
