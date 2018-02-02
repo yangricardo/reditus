@@ -41,6 +41,9 @@ def index(request):
                 else:
                     error = True
                     return render(request, 'search/index.html',{'form': form, 'error':error } )
+            else: 
+                error = True
+                return render(request, 'search/index.html',{'form': form, 'error':error } )
         else:
             form = SearchForm()
             return render(request, 'search/index.html',{'form': form } )
