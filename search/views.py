@@ -101,6 +101,7 @@ class Process(object):
     author = ""
     reu = ""
     data = ""
+    url = ""
 
     def __init__(self, cod, data):
         self.cod = cod
