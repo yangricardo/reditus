@@ -133,5 +133,4 @@ class SearchConfig(AppConfig):
         self.build_processes_dict()
         print("Lendo processos...")
         self.build_process_dict()
-        print(self.process_dict)
         print('Processos Carregados...')

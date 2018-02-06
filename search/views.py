@@ -102,15 +102,11 @@ def showSentences_test(request,cod, index):
         process = df['processo'][int(index)]
         sentence = df['sentenca'][int(index)]
         similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",df['similar_processo'][int(index)]).group(0)
-        author = re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
-        similar_atual = re.search(r"[0-9]{7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{6}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
-        reu = re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+        author = re.search(r"(autor|Autor|AUTOR)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor|AUTOR)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+        similar_atual = re.search(r"[0-9]{5,7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{5,7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
+        reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
         url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+df['similar_file'][int(index)]
-
         similar_processes = list(process_data.get('similar_processo'))
-
-        print(url)
-
         #pages = [ i for i in range(data['processo'].count()) ]
         pages = df['processo'].count()-1
         

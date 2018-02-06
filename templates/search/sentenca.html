@@ -13,28 +13,35 @@
                 <strong>Processo Buscado:</strong>
                 <div class="card-text justify-content-center">{{ cod }}</div>
             </div>
-            <div class="col-sm-3">
-                <strong>Processo Similar:</strong>
+            <div class="col-sm-5">
+                <strong>Processo Similar sem sentença <small>(Código Antigo)</small>:</strong>
+                <div class="card-text justify-content-center">{{ similar }}</div>
+            </div>
+            <div class="col-sm-4">
+                <strong>Processo Similar sem sentença <small>(Código Atual)</small>: </strong>
                 <div class="card-text justify-content-center">{{ similar_atual }}</div>
             </div>
-            <div class="col-sm-3">
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
                 <strong>Autor:</strong>
                 <div class="card-text justify-content-center">{{author}}</div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <strong>Réu:</strong>
                 <div class="card-text justify-content-center">{{reu}}</div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <strong>Serventia:</strong>
-                <div class="card-text justify-content-center">{{ serventia }}</div>
-            </div>
-            <div class="col-sm-6">
                 <strong>Comarca:</strong>
                 <div class="card-text justify-content-center">{{ comarca }}</div>
             </div>
+            <div class="col-sm-6">
+                <strong>Serventia:</strong>
+                <div class="card-text justify-content-center">{{ serventia }}</div>
+            </div>
+            
         </div>
         <div class="row sentenca-container">
             <div class="col-sm-8">
@@ -46,12 +53,10 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <strong>Processo sem sentença (código antigo)</strong>
+                <strong>Número de Processos sem sentença: <em>{{ similar_processes|length }}</em></strong>
                 <div class="card sentenca-box text-justify">
-                    {{similar}}
-                    <br>
                     {% for sp in similar_processes %}
-                        <p>{{sp}}</p>
+                        {{sp}}</br>
                     {% endfor%}
                 </div>
             </div>
