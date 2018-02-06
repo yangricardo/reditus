@@ -47,7 +47,13 @@
             </div>
             <div class="col-sm-4">
                 <strong>Processo sem sentença (código antigo)</strong>
-                <div class="card sentenca-box text-justify">{{similar}}</div>
+                <div class="card sentenca-box text-justify">
+                    {{similar}}
+                    <br>
+                    {% for sp in similar_processes %}
+                        <p>{{sp}}</p>
+                    {% endfor%}
+                </div>
             </div>
         </div>
         <div class="row sentenca-container">

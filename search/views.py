@@ -89,6 +89,42 @@ def showSentences(request,cod, index):
         error = True
         return render(request, 'search/sentenca.html',{'error':error } )
 
+def search_process_test(cod_process):
+    return sc.process_dict.get(cod_process) if cod_process in sc.process_dict else {}
+
+def showSentences_test(request,cod, index):
+#    try:
+    process_data = search_process_test(cod)
+    if bool(process_data):
+        serventia = process_data.get('serventia')
+        comarca = process_data.get('comarca')
+        df = process_data.get('data')
+        process = df['processo'][int(index)]
+        sentence = df['sentenca'][int(index)]
+        similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",df['similar_processo'][int(index)]).group(0)
+        author = re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+        similar_atual = re.search(r"[0-9]{7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{6}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
+        reu = re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+        url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+df['similar_file'][int(index)]
+
+        similar_processes = list(process_data.get('similar_processo'))
+
+        print(url)
+
+        #pages = [ i for i in range(data['processo'].count()) ]
+        pages = df['processo'].count()-1
+        
+        has_previous = True if int(index) > 0 else False
+        has_next = True if int(index) < pages else False
+        previousIndex = int(index)-1 if int(index) > 0 else 0
+        nextIndex = int(index)+1 if int(index) < pages else pages
+        #return render(request, 'search/sentenca.html', {'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu, 'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex })
+        return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similar_atual':similar_atual,'similar_processes':similar_processes,'author':author,'reu':reu,'url':url,'serventia':serventia,'comarca':comarca,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
+'''
+    except:
+        error = True
+        return render(request, 'search/sentenca.html',{'error':error } )
+'''
 
 def show_sentences_list(request, cod):
     try:

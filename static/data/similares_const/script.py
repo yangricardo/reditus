@@ -9,6 +9,61 @@ similar_processes_dict = {}
 
 processes_meta_dict = {}
 
+process_dict = {}
+
+def build_process_dict():
+    regex_file = re.compile(r"similar_to_([0-9A-Z])+\.csv")
+    path = '//Users/mac/Documents/reditus/reditus/static/data/similares_const/'
+    #cria a lista com o nome de todos os arquivos do diretorio que se adequam ao regex_file
+    onlyfiles = [ f for f in listdir(path) if isfile(join(path, f)) and regex_file.match(f) ]
+    
+    for f in onlyfiles:
+        data = pd.read_csv(path + f, sep=";" ,encoding = 'latin1')
+        
+        #seleciona sentenças que contém a palavra homologo
+        #homologo_exclude = data['sentenca'].str.match(r"(Homologo|HOMOLOGO|homologo)")
+        #print(homologo_exclude)
+        #seleciona o complemento de homologo_exclue
+#        data = data[~data['sentenca'].str.match(r"(Homologo|HOMOLOGO|homologo)")]
+        data.drop(data['sentenca'].str.contains("Homologo|HOMOLOGO|homologo"))
+        print(data['processo'][0])
+    
+        cod_process = data['processo'][0]
+        if data['processo'][0] not in process_dict:
+            process_dict.update({cod_process : {'data':data, 'similar_processo':{}}})
+        else:
+            process_dict.get(cod_process).get('data').append(data)
+
+        for index, row in process_dict.get(cod_process).get('data').iterrows():
+            similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",row['similar_processo']).group(0)
+            
+            if similar not in process_dict.get(cod_process).get('similar_processo'):
+                process_dict.get(cod_process).get('similar_processo').update({similar : similar })
+
+
+
+    regex_file = re.compile(r"elasticinput_([0-9A-Z])+\.csv")
+    path = '//Users/mac/Documents/reditus/reditus/static/data/data_tj/'
+    #cria a lista com o nome de todos os arquivos do diretorio que se adequam ao regex_file
+    onlyfiles = [ f for f in listdir(path) if isfile(join(path, f)) and regex_file.match(f) ]
+    for f in onlyfiles:
+        #le os dados do arquivo csv
+        df = pd.read_csv(path + f, sep=";" ,encoding = 'latin1') 
+        #armazena o numero do processo do arquivo csv
+        for index, row in df.iterrows():
+            cod_process = row['COD_PROC']
+            serventia = row['Serventia']
+            comarca = row['COMARCA']
+            if cod_process in process_dict:
+                process_dict.get(cod_process).update(
+                    { 
+                        'serventia':serventia,
+                        'comarca': comarca,
+                    }
+                )
+
+#end of build_process_dict    
+
 
 def build_processes_dict_elastic():
     regex_file = re.compile(r"elasticinput_([0-9A-Z])+\.csv")
@@ -158,4 +213,11 @@ data_process['re_processo'] = re.search("(autor|Autor)(\s*:\s*)(\w.+)+[^\\n]", d
 search_process_hash("000468C40707FD667E0F22D2B5C3FC9758CFC504571C3751")
 compute_similar_process_dict(data_processes_dict["0004CADF0A424659663AF0E115BD2D45CD44C50550152510"])
 
+homologo_exclue = data['sentenca'].str.contains("Homologo|HOMOLOGO|homologo",na=False)
 
+def search_process_test(cod_process):
+    return process_dict.get(cod_process) if cod_process in process_dict else {}
+
+process_data = search_process_test("2016.063.005102-5")
+process_data = search_process_test("2016.001.261711-1")
+df = process_data.get('data')
