@@ -29,7 +29,11 @@ def complete_process_data(process):
             #df = pd.concat( [df, sc.data_processes_dict.get(process_keys_list[i])] )  
             df.append(sc.data_processes_dict.get(process_keys_list[i]))
     return df
-#end of complete_process_data    
+#end of complete_process_data
+
+def get_meta_process(process):
+    return sc.processes_meta_dict.get(process) if process in sc.processes_meta_dict else ("","")    
+#get_meta_process
 
 def index(request):
     try:
@@ -57,7 +61,6 @@ def showSentences(request,cod, index):
         process_keys_list = search_process(cod)
         if process_keys_list != False:
             data = complete_process_data(cod)
-            print(data)
 
             #TODO dropar sentenças que contém HOMOLO
             process = data['processo'][int(index)]
@@ -68,16 +71,20 @@ def showSentences(request,cod, index):
             similar_atual = re.search(r"[0-9]{7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{6}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
             reu = re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
 
+            print(get_meta_process(process))
+
+            serventia, comarca = get_meta_process(process)
+
             #pages = [ i for i in range(data['processo'].count()) ]
             pages = data['processo'].count()-1
-            print(pages)
             
             has_previous = True if int(index) > 0 else False
             has_next = True if int(index) < pages else False
             previousIndex = int(index)-1 if int(index) > 0 else 0
             nextIndex = int(index)+1 if int(index) < pages else pages
             #return render(request, 'search/sentenca.html', {'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu, 'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex })
-            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similar_atual':similar_atual,'author':author,'reu':reu,'url':url ,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
+            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similar_atual':similar_atual,'author':author,'reu':reu,'url':url,
+            'serventia':serventia,'comarca':comarca,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
     except:
         error = True
         return render(request, 'search/sentenca.html',{'error':error } )
