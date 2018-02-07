@@ -20,6 +20,10 @@
   margin-top: 2%; 
 }
 
+.row-height{
+  height: 35px;
+}
+
 .center {
   position: absolute;
   width: 450px;
