@@ -30,7 +30,7 @@ class SearchConfig(AppConfig):
 
     def build_process_dict(self):
         regex_file = re.compile(r"similar_to_([0-9A-Z])+\.csv")
-        path = os.path.join(settings.BASE_DIR, 'static/data/similares_const/'),
+        path = os.path.join(settings.BASE_DIR, 'static/data/similar_const_test2/'),
         #cria a lista com o nome de todos os arquivos do diretorio que se adequam ao regex_file
         onlyfiles = [ f for f in listdir(path[0]) if isfile(join(path[0], f)) and regex_file.match(f) ]
 
@@ -49,7 +49,8 @@ class SearchConfig(AppConfig):
                 similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",row['similar_processo']).group(0)
                 
                 if similar not in self.process_dict.get(cod_process).get('similar_processo'):
-                    self.process_dict.get(cod_process).get('similar_processo').update({similar : similar })
+                    similar_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+row['similar_file']
+                    self.process_dict.get(cod_process).get('similar_processo').update({similar : (similar,similar_url) })
 
 
 
@@ -130,7 +131,7 @@ class SearchConfig(AppConfig):
     #end of build_processes_dict    
 
     def ready(self):
-        self.build_processes_dict()
         print("Lendo processos...")
         self.build_process_dict()
         print('Processos Carregados...')
+        print(self.process_dict.keys())

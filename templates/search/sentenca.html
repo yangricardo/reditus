@@ -8,7 +8,7 @@
         </div>
     </div>
     {%else%}
-        <div class="row sentenca-container">
+        <div class="row row-container">
             <div class="col-sm-2">
                 <strong>Processo Buscado:</strong>
                 <div class="card-text justify-content-center">{{ cod }}</div>
@@ -22,28 +22,28 @@
                 <div class="card-text justify-content-center">{{ similar_atual }}</div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
+        <div class="row row-container">
+            <div class="col-sm-7">
                 <strong>Autor:</strong>
                 <div class="card-text justify-content-center">{{author}}</div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
                 <strong>Réu:</strong>
                 <div class="card-text justify-content-center">{{reu}}</div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
+        <div class="row row-container">
+            <div class="col-sm-7">
                 <strong>Comarca:</strong>
                 <div class="card-text justify-content-center">{{ comarca }}</div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-5">
                 <strong>Serventia:</strong>
                 <div class="card-text justify-content-center">{{ serventia }}</div>
             </div>
             
         </div>
-        <div class="row sentenca-container">
+        <div class="row row-container">
             <div class="col-sm-8">
                 <strong>Sentença:</strong>
                 <div class="card sentenca-box">
@@ -56,12 +56,12 @@
                 <strong>Número de Processos sem sentença: <em>{{ similar_processes|length }}</em></strong>
                 <div class="card sentenca-box text-justify">
                     {% for sp in similar_processes %}
-                        {{sp}}</br>
+                        <a href="{{sp.1.1}}">{{sp.1.0}}</a></br>
                     {% endfor%}
                 </div>
             </div>
         </div>
-        <div class="row sentenca-container">
+        <div class="row row-container">
             <div class="col-sm-1">
                 <strong>Relatório:</strong>
             </div>
@@ -71,7 +71,7 @@
         </div>
 
 
-        <div class="row sentenca-container">
+        <div class="row row-container">
             <ul class="col pagination clearfix justify-content-center">
             {%if has_previous%}
                 <li class="page-item">
@@ -94,7 +94,7 @@
              
         </div>
     {%endif%}
-    <div class="row sentenca-container justify-content-center">
+    <div class="row row-container justify-content-center">
         <a href="{% url 'index' %}">Nova consulta</a>
     </div>
     

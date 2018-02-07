@@ -12,8 +12,12 @@
   margin-top: -25px; 
 }
 
-.sentenca-container {
+.container {
   margin-top: 5%; 
+}
+
+.row-container {
+  margin-top: 2%; 
 }
 
 .center {

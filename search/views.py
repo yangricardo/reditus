@@ -7,129 +7,66 @@ import numpy as np
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 import re
 
-def search_process(process):
-    return sc.known_process_dict.get(process) if process in sc.known_process_dict else False
-#end of search_process
 
-def search_process_hash(process):
-    return sc.data_processes_dict.get(process) if process in sc.data_processes_dict else False
-#end of search_process_hash
+def search_process_test(cod_process):
+    return sc.process_dict.get(cod_process) if cod_process in sc.process_dict else {}
 
-def complete_process_data(process):
-    #obtem a lista de hashes para os dados de sentenças
-    process_keys_list = search_process(process)
-    
-    #inicializa o dataframe de retorno
-    df = sc.data_processes_dict.get(process_keys_list[0])   
-    
-    #caso haja mais de uma referencia ao codigo do process(hash), 
-    #concatena os diferentes hashes
-    if len(process_keys_list) > 1:
-        for i in range(1,len(process_keys_list)):
-            #df = pd.concat( [df, sc.data_processes_dict.get(process_keys_list[i])] )  
-            df.append(sc.data_processes_dict.get(process_keys_list[i]))
-    return df
-#end of complete_process_data
-
-def get_meta_process(process):
-    return sc.processes_meta_dict.get(process) if process in sc.processes_meta_dict else ("","")    
-#get_meta_process
-
-def index(request):
+def index_view(request):
     try:
         if request.method == 'POST':
             form = SearchForm(request.POST)
             if form.is_valid():
-                process_keys_list = search_process(form.cleaned_data['search_field'])
-                if process_keys_list != False:
+                process_data = search_process_test(form.cleaned_data['search_field'])
+                print(process_data)
+                if bool(process_data):
                     return redirect('processo' ,form.cleaned_data['search_field'],0)
                 else:
-                    error = True
-                    return render(request, 'search/index.html',{'form': form, 'error':error } )
+                    raise Exception()
             else: 
-                error = True
-                return render(request, 'search/index.html',{'form': form, 'error':error } )
-        else:
-            form = SearchForm()
-            return render(request, 'search/index.html',{'form': form } )
+                raise Exception()
+        form = SearchForm()
+        return render(request, 'search/index.html',{'form': form } )
     except:
         error = True
         return render(request, 'search/index.html',{'form': form, 'error':error } )
 
-def showSentences(request,cod, index):
+
+def process_view(request,cod, index):
     try:
-        process_keys_list = search_process(cod)
-        if process_keys_list != False:
-            data = complete_process_data(cod)
+        process_data = search_process_test(cod)
+        print(process_data)
+        
+        if bool(process_data):
+            serventia = process_data.get('serventia')
+            comarca = process_data.get('comarca')
+            df = process_data.get('data')
+            process = df['processo'][int(index)]
+            sentence = df['sentenca'][int(index)]
+            similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",df['similar_processo'][int(index)]).group(0)
+            author = re.search(r"(autor|Autor|AUTOR)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor|AUTOR)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+            similar_atual = re.search(r"[0-9]{5,7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{5,7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
+            reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+            url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+df['similar_file'][int(index)]
 
-            #TODO dropar sentenças que contém HOMOLO
-            process = data['processo'][int(index)]
-            sentence = data['sentenca'][int(index)]
-            url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+data['similar_file'][int(index)]
-            similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",data['similar_processo'][int(index)]).group(0)
-            author = re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
-            similar_atual = re.search(r"[0-9]{7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{6}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
-            reu = re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+            print(process_data.get('similar_processo'))
 
-            print(get_meta_process(process))
-
-            serventia, comarca = get_meta_process(process)
-
+            similar_processes = list(process_data.get('similar_processo').items())
+            print(similar_processes)
             #pages = [ i for i in range(data['processo'].count()) ]
-            pages = data['processo'].count()-1
+            pages = df['processo'].count()-1
             
             has_previous = True if int(index) > 0 else False
             has_next = True if int(index) < pages else False
             previousIndex = int(index)-1 if int(index) > 0 else 0
             nextIndex = int(index)+1 if int(index) < pages else pages
             #return render(request, 'search/sentenca.html', {'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu, 'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex })
-            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similar_atual':similar_atual,'author':author,'reu':reu,'url':url,
-            'serventia':serventia,'comarca':comarca,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
-    except:
-        error = True
-        return render(request, 'search/sentenca.html',{'error':error } )
-
-def search_process_test(cod_process):
-    return sc.process_dict.get(cod_process) if cod_process in sc.process_dict else {}
-
-def showSentences_test(request,cod, index):
-#    try:
-    process_data = search_process_test(cod)
-    if bool(process_data):
-        serventia = process_data.get('serventia')
-        comarca = process_data.get('comarca')
-        df = process_data.get('data')
-        process = df['processo'][int(index)]
-        sentence = df['sentenca'][int(index)]
-        similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",df['similar_processo'][int(index)]).group(0)
-        author = re.search(r"(autor|Autor|AUTOR)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor|AUTOR)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
-        similar_atual = re.search(r"[0-9]{5,7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{5,7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
-        reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
-        url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+df['similar_file'][int(index)]
-        similar_processes = list(process_data.get('similar_processo'))
-        #pages = [ i for i in range(data['processo'].count()) ]
-        pages = df['processo'].count()-1
+            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similar_atual':similar_atual,'similar_processes':similar_processes,'author':author,'reu':reu,'url':url,'serventia':serventia,'comarca':comarca,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
         
-        has_previous = True if int(index) > 0 else False
-        has_next = True if int(index) < pages else False
-        previousIndex = int(index)-1 if int(index) > 0 else 0
-        nextIndex = int(index)+1 if int(index) < pages else pages
-        #return render(request, 'search/sentenca.html', {'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu, 'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex })
-        return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similar_atual':similar_atual,'similar_processes':similar_processes,'author':author,'reu':reu,'url':url,'serventia':serventia,'comarca':comarca,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
-'''
+        return render(request, 'search/sentenca.html')
     except:
         error = True
         return render(request, 'search/sentenca.html',{'error':error } )
-'''
 
-def show_sentences_list(request, cod):
-    try:
-        process_keys_list = search_process(cod)
-        if process_keys_list != False:
-            data = complete_process_data(cod)
-    except:
-        error = True
-        return render(request, 'search/sentenca.html',{'error':error } )
 
 
 class Process(object):
