@@ -17,7 +17,7 @@ def index_view(request):
             form = SearchForm(request.POST)
             if form.is_valid():
                 process_data = search_process_test(form.cleaned_data['search_field'])
-                print(process_data)
+
                 if bool(process_data):
                     return redirect('processo' ,form.cleaned_data['search_field'],0)
                 else:

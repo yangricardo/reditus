@@ -9,7 +9,7 @@
     </div>
     {%else%}
         <div class="row row-container">
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <strong>Processo Buscado:</strong>
                 <div class="card-text justify-content-center">{{ cod }}</div>
             </div>
@@ -56,7 +56,7 @@
                 <strong>Número de Processos sem sentença: <em>{{ similar_processes|length }}</em></strong>
                 <div class="card sentenca-box text-justify">
                     {% for sp in similar_processes %}
-                        <a href="{{sp.1.1}}">{{sp.1.0}}</a></br>
+                        <a href="{{sp.1.1}}" target="_blank">{{sp.1.0}}</a></br>
                     {% endfor%}
                 </div>
             </div>

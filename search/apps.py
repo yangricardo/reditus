@@ -72,7 +72,7 @@ class SearchConfig(AppConfig):
     #end of build_process_dict    
 
     def ready(self):
-        print("Lendo processos...")
+        print("Carregando dados dos processos...")
         self.build_process_dict()
-        print('Processos Carregados...')
+        print('Códigos de Processos Carregados:')
         print(self.process_dict.keys())
