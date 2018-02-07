@@ -34,7 +34,6 @@ def index_view(request):
 def process_view(request,cod, index):
     try:
         process_data = search_process_test(cod)
-        print(process_data)
         
         if bool(process_data):
             serventia = process_data.get('serventia')
@@ -42,17 +41,14 @@ def process_view(request,cod, index):
             df = process_data.get('data')
             process = df['processo'][int(index)]
             sentence = df['sentenca'][int(index)]
-            similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",df['similar_processo'][int(index)]).group(0)
-            author = re.search(r"(autor|Autor|AUTOR)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor|AUTOR)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
-            similar_atual = re.search(r"[0-9]{5,7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{5,7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
-            reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+            similar = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",df['similar_processo'][int(index)]).group(0)
+            author = re.search(r"(autor|Autor|AUTOR|Parte Autora)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor|AUTOR|Parte Autora)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+            similar_atual = re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}",sentence).group(0) if re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}",sentence) else ""
+            reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU|Parte RÉ|Parte Ré)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU|Parte RÉ|Parte Ré)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
             url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+df['similar_file'][int(index)]
 
-            print(process_data.get('similar_processo'))
-
             similar_processes = list(process_data.get('similar_processo').items())
-            print(similar_processes)
-            #pages = [ i for i in range(data['processo'].count()) ]
+            
             pages = df['processo'].count()-1
             
             has_previous = True if int(index) > 0 else False
@@ -81,10 +77,10 @@ class Process(object):
 
     def __init__(self, cod, data):
         self.cod = cod
-        self.similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",data['similar_processo']).group(0)
+        self.similar = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",data['similar_processo']).group(0)
         self.cod = data['processo']
         self.sentence = data['sentenca']
-        self.similar = re.search(r"[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",data['similar_processo']).group(0)
+        self.similar = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",data['similar_processo']).group(0)
         self.author = re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
-        self.similar_atual = re.search(r"[0-9]{7}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence).group(0) if re.search(r"[0-9]{6}-[0-9]{2}\.[0-9]{4}\.[0-9]\.[0-9]{2}\.[0-9]{4}",sentence) else ""
+        self.similar_atual = re.search(r"\d{7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}",sentence).group(0) if re.search(r"\d{6}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}",sentence) else ""
         self.reu = re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
