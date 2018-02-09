@@ -9,6 +9,9 @@
     </div>
     {%else%}
         <div class="row row-container row-height">
+            <div class="row row-container justify-content-center">
+                <a href="{% url 'processo_lista' %}">Visualizar em Lista</a>
+            </div>
             <div class="col-sm-3">
                 <strong>Processo Buscado:</strong>
                 <div class="card-text justify-content-center">{{ cod }}</div>
