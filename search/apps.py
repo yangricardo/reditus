@@ -26,7 +26,7 @@ class SearchConfig(AppConfig):
 
     def build_process_dict(self):
         regex_file = re.compile(r"similar_to_([0-9A-Z])+\.csv")
-        path = os.path.join(settings.BASE_DIR, 'static/data/similar_const_test2/'),
+        path = os.path.join(settings.BASE_DIR, 'static/data/similar_const_test/'),
         #cria a lista com o nome de todos os arquivos do diretorio que se adequam ao regex_file
         onlyfiles = [ f for f in listdir(path[0]) if isfile(join(path[0], f)) and regex_file.match(f) ]
 
