@@ -46,6 +46,7 @@ def process_view(request,cod, index):
             similar_atual = re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}",sentence).group(0) if re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}",sentence) else ""
             reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU|Parte RÉ|Parte Ré)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU|Parte RÉ|Parte Ré)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
             url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+df['similar_file'][int(index)]
+            similaridade = df['similaridade'][int(index)]
 
             similar_processes = list(process_data.get('similar_processo').items())
             
@@ -56,7 +57,7 @@ def process_view(request,cod, index):
             previousIndex = int(index)-1 if int(index) > 0 else 0
             nextIndex = int(index)+1 if int(index) < pages else pages
             #return render(request, 'search/sentenca.html', {'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu, 'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex })
-            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similar_atual':similar_atual,'similar_processes':similar_processes,'author':author,'reu':reu,'url':url,'serventia':serventia,'comarca':comarca,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
+            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similaridade':similaridade,'similar_atual':similar_atual,'similar_processes':similar_processes,'author':author,'reu':reu,'url':url,'serventia':serventia,'comarca':comarca,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
         
         return render(request, 'search/sentenca.html')
     except:
