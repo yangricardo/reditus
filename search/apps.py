@@ -34,9 +34,12 @@ class SearchConfig(AppConfig):
             data = pd.read_csv(path[0] + f, sep=";" ,encoding = 'latin1')
             
             #data.drop(data['sentenca'].str.contains("Homologo|HOMOLOGO|homologo"))
-            #data = data[~data.sentenca.str.contains('Homologo')]
-            cod_process = data['processo'][0]
-            if data['processo'][0] not in self.process_dict:
+            data = data[~data['sentenca'].str.contains('Homologo|HOMOLOGO|homologo')]
+            #print(data['sentenca'].str.contains('Homologo'))
+            data = data.reset_index(drop=True)
+
+            cod_process = list(data['processo'])[0]
+            if cod_process not in self.process_dict:
                 self.process_dict.update({cod_process : {'data':data, 'similar_processo':{} }})
             else:
                 self.process_dict.get(cod_process).get('data').append(data)

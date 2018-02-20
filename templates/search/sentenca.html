@@ -14,11 +14,11 @@
                 <div class="card-text justify-content-center">{{ cod }}</div>
             </div>
             <div class="col-sm-5">
-                <strong>Processo Similar sem sentença <small>(Código Antigo)</small>:</strong>
+                <strong>Processo Similar <small>(Código Antigo)</small>:</strong>
                 <div class="card-text justify-content-center">{{ similar }}</div>
             </div>
             <div class="col-sm-4">
-                <strong>Processo Similar sem sentença <small>(Código Atual)</small>: </strong>
+                <strong>Processo Similar <small>(Código Atual)</small>: </strong>
                 <div class="card-text justify-content-center">{{ similar_atual }}</div>
             </div>
         </div>
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <strong>Número de Processos sem sentença: <em>{{ similar_processes|length }}</em></strong>
+                <strong>Número de Processos Similares: <em>{{ similar_processes|length }}</em></strong>
                 <div class="card sentenca-box text-justify">
                     {% for sp in similar_processes %}
                         <a href="{{sp.1.1}}" target="_blank">
@@ -67,7 +67,7 @@
         </div>
         <div class="row row-container row-height">
             <div class="col-sm-1">
-                <strong>Relatório:</strong>
+                <strong>Contestação:</strong>
             </div>
             <div class="col-sm-11">
                 <div class="card text-justify"> <a href="{{url}}" target="_blank"> {{ url }} </a> </div>
