@@ -1,4 +1,5 @@
 {% extends 'search/base.html' %}
+{% load form_tags widget_tweaks %}
 {% block content %}
 <div class="container">
     {% if error %}
@@ -11,11 +12,15 @@
         <div class="row row-container row-height">
             <div class="col-sm-3">
                 <strong>Processo Buscado:</strong>
-                <div class="card-text justify-content-center">{{ cod }}</div>
+                <div class="card-text justify-content-center">
+                    <a href="{{process_url}}" target="_blank">{{ cod }}</a>
+                </div>
             </div>
             <div class="col-sm-3">
                 <strong>Processo Similar <small>(Código Antigo)</small>:</strong>
-                <div class="card-text justify-content-center">{{ similar }}</div>
+                <div class="card-text justify-content-center">
+                    <a href="{{url}}" target="_blank">{{ similar }}</a>
+                </div>
             </div>
             <div class="col-sm-3">
                 <strong>Processo Similar <small>(Código Atual)</small>: </strong>
@@ -23,7 +28,7 @@
             </div>
             <div class="col-sm-3">
                 <strong>Percentual de Similaridade</small>: </strong>
-                <div class="card-text justify-content-center">{{ similaridade }}</div>
+                <div class="card-text justify-content-center">{{ similaridade | percentage}}</div>
             </div>
         </div>
         <div class="row row-container row-height">
@@ -69,15 +74,6 @@
                 </div>
             </div>
         </div>
-        <div class="row row-container row-height">
-            <div class="col-sm-1">
-                <strong>Contestação:</strong>
-            </div>
-            <div class="col-sm-11">
-                <div class="card text-justify"> <a href="{{url}}" target="_blank"> {{ url }} </a> </div>
-            </div>
-        </div>
-
 
         <div class="row row-container">
             <ul class="col pagination clearfix justify-content-center">

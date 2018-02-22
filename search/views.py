@@ -40,6 +40,7 @@ def process_view(request,cod, index):
             comarca = process_data.get('comarca')
             df = process_data.get('data')
             process = df['processo'][int(index)]
+            process_url = process_data.get('process_url')
             sentence = df['sentenca'][int(index)]
             similar = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",df['similar_processo'][int(index)]).group(0)
             author = re.search(r"(autor|Autor|AUTOR|Parte Autora)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor|AUTOR|Parte Autora)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
@@ -49,6 +50,7 @@ def process_view(request,cod, index):
             similaridade = df['similaridade'][int(index)]
 
             similar_processes = list(process_data.get('similar_processo').items())
+
             
             pages = df['processo'].count()-1
             
@@ -57,7 +59,7 @@ def process_view(request,cod, index):
             previousIndex = int(index)-1 if int(index) > 0 else 0
             nextIndex = int(index)+1 if int(index) < pages else pages
             #return render(request, 'search/sentenca.html', {'process': process,'sentence':sentence,'similar':similar,'author':author,'reu':reu, 'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex })
-            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'sentence':sentence,'similar':similar,'similaridade':similaridade,'similar_atual':similar_atual,'similar_processes':similar_processes,'author':author,'reu':reu,'url':url,'serventia':serventia,'comarca':comarca,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
+            return render(request, 'search/sentenca.html', {'cod':cod, 'index':index ,'process': process,'process_url':process_url,'sentence':sentence,'similar':similar,'similaridade':similaridade,'similar_atual':similar_atual,'similar_processes':similar_processes,'author':author,'reu':reu,'url':url,'serventia':serventia,'comarca':comarca,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next  })
         
         return render(request, 'search/sentenca.html')
     except:
