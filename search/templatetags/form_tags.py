@@ -14,4 +14,4 @@ def input_class(bound_field):
 
 @register.filter
 def percentage(value):
-    return '{0:.4%}'.format(value)
+    return '{0:.2%}'.format(value)

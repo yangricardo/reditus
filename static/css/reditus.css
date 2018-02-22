@@ -1,3 +1,9 @@
+.header{
+  height: 50px;
+  border: chocolate;
+  background-color: cornflowerblue;
+}
+
 .sentenca-box {
   overflow-y: auto; 
   height:300px;

@@ -50,7 +50,7 @@ class SearchConfig(AppConfig):
 
                 if similar not in self.process_dict.get(cod_process).get('similar_processo'):
                     similar_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+row['similar_file']
-                    self.process_dict.get(cod_process).get('similar_processo').update({similar : (similar,similar_url) })
+                    self.process_dict.get(cod_process).get('similar_processo').update({similar : (similar,similar_url,row['similaridade']) })
 
             process_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+re.search(r"similar_to_([0-9A-Z]+)\.csv",path[0] + f).group(1)
             self.process_dict.get(cod_process).update({'process_url':process_url})

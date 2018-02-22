@@ -67,7 +67,7 @@
                     {% for sp in similar_processes %}
                         <a href="{{sp.1.1}}" target="_blank">
                             {% ifequal sp.1.0 similar %}<strong>{% endifequal %}
-                            {{sp.1.0}}
+                                &emsp;{{sp.1.0}}&emsp;&emsp;&emsp;{{sp.1.2 | percentage}}
                             {% ifequal sp.1.0 similar %}</strong>{% endifequal %}
                         </a></br>
                     {% endfor%}
