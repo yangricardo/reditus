@@ -7,7 +7,7 @@ class SearchForm(forms.Form):
             "maxLength":"17",
             "pattern" : "[0-9]{4}\.[0-9]{3}\.[0-9]{6}-[0-9]",
         }),
-        label = "",
+        label = "Processo",
         )
 
     class Meta:

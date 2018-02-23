@@ -1,13 +1,18 @@
+body{
+  background-color: #FDFDFD;
+}
 .header{
-  height: 50px;
-  border: chocolate;
-  background-color: cornflowerblue;
+  height: 100 px;
+  border-color: cornflowerblue;
+  background-color: #FDFDFD;
 }
 
 .sentenca-box {
   overflow-y: auto; 
   height:300px;
   border-style: outset;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .sentenca-error {
@@ -19,7 +24,7 @@
 }
 
 .container {
-  margin-top: 5%; 
+  margin-top: 3%; 
 }
 
 .row-container {

@@ -1,17 +1,22 @@
 {% extends 'search/base.html' %}
+{% load static %}
 {% block content %}
     <div class="container">
-    <div class="row center align-middle justify-content-center">
-        <form method="POST" novalidate>
-            {% csrf_token %}
-            {{form.as_table}}
-            <button type="submit" class="btn btn-primary">Pesquisar Processo</button>
-        </form>
-        {% if error %}
-            <div class="alert alert-danger" role="alert">
-                Código do Processo inválido ou não encontrado
-            </div>
-        {% endif %}
-    </div>
+    <div class="center">
+        <div class="row justify-content-center">
+            <a href="{% url 'index' %}"><img src="{% static 'img/logo-reditus.png'%}"/></a>
+        </div>
+        <div class="row justify-content-center">
+            <form method="POST" novalidate>
+                {% csrf_token %}
+                {{form.as_table}}
+                <button type="submit" class="btn btn-primary">Pesquisar</button>
+            </form>
+            {% if error %}
+                <div class="alert alert-danger" role="alert">
+                    Código do Processo inválido ou não encontrado
+                </div>
+            {% endif %}
+        </div>
     </div>
 {% endblock %}

@@ -10,8 +10,12 @@
 
 </head>
 <body>
-    <div class="header">
-        oi
+    <div class="header border">
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="{% url 'index' %}"><img src="{% static 'img/logo.png'%}"/></a>
+            </div>
+        </div>
     </div>
     {% block body %}
         {% block content %}
