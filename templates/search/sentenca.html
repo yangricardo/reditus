@@ -9,28 +9,50 @@
         </div>
     </div>
     {%else%}
-        <div class="row row-container row-height">
+        <div class="row row-container row-height border-1">
             <div class="col-sm-3">
                 <strong>Processo Buscado:</strong>
                 <div class="card-text justify-content-center">
-                    <a href="{{process_url}}" target="_blank">{{ cod }}</a>
+                    {{ cod }}
                 </div>
             </div>
             <div class="col-sm-3">
+                <div class="card-text justify-content-center"><a href="{{process_contestacao_url}}" target="_blank">Contestação</a></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card-text justify-content-center">
+                    <a href="#" target="_blank">Inicial</a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card-text justify-content-center"><a href="{{process_movimento_url}}" target="_blank">Movimentos</a></div>
+            </div>
+        </div>
+        <hr>
+        <div class="row row-container row-height">
+            <div class="col-sm-3 ">
                 <strong>Processo Similar <small>(Código Antigo)</small>:</strong>
                 <div class="card-text justify-content-center">
-                    <a href="{{url}}" target="_blank">{{ similar }}</a>
+                    {{ similar }}
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-2 ">
+                <strong>Similaridade</small>: </strong>
+                <div class="card-text justify-content-center">{{ similaridade | percentage}}</div>
+            </div>
+            <div class="col-sm-3 ">
                 <strong>Processo Similar <small>(Código Atual)</small>: </strong>
                 <div class="card-text justify-content-center">{{ similar_atual }}</div>
             </div>
-            <div class="col-sm-3">
-                <strong>Percentual de Similaridade</small>: </strong>
-                <div class="card-text justify-content-center">{{ similaridade | percentage}}</div>
+            <div class="col-sm-4 d-inline-block">
+                <div class="row">
+                    <div class="col-sm-4"><a href="{{similar_movimento_url}}" target="_blank">Contestação</a></div>
+                    <div class="col-sm-3"><a href="#" target="_blank">Inicial</a></div>
+                    <div class="col-sm-4"><a href="{{similar_movimento_url}}" target="_blank">Movimentos</a></div>
+                </div>
             </div>
         </div>
+        <hr>
         <div class="row row-container row-height">
             <div class="col-sm-7">
                 <strong>Autor:</strong>
@@ -41,6 +63,7 @@
                 <div class="card-text justify-content-center">{{reu}}</div>
             </div>
         </div>
+        <hr>
         <div class="row row-container row-height">
             <div class="col-sm-7">
                 <strong>Comarca:</strong>
@@ -50,8 +73,8 @@
                 <strong>Serventia:</strong>
                 <div class="card-text justify-content-center">{{ serventia }}</div>
             </div>
-            
         </div>
+        <hr>
         <div class="row row-container">
             <div class="col-sm-8">
                 <strong>Sentença:</strong>
@@ -74,7 +97,6 @@
                 </div>
             </div>
         </div>
-
         <div class="row row-container">
             <ul class="col pagination clearfix justify-content-center">
             {%if has_previous%}
