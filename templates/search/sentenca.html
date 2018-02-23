@@ -9,74 +9,78 @@
         </div>
     </div>
     {%else%}
+    <div class="info">
         <div class="row row-container row-height border-1">
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <strong>Processo Buscado:</strong>
                 <div class="card-text justify-content-center">
                     {{ cod }}
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="card-text justify-content-center"><a href="{{process_contestacao_url}}" target="_blank">Contestação</a></div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card-text justify-content-center">
-                    <a href="#" target="_blank">Inicial</a>
+            <div class="col-md-5"></div>
+            <div class="col-md-4 d-inline-block">
+                <div class="row">
+                    <div class="col-md-5 card-text">
+                        <a href="{{process_contestacao_url}}" target="_blank">Contestação</a>
+                    </div>
+                    <div class="col-md-3 card-text">
+                        <a href="#" target="_blank">Inicial</a>
+                    </div>
+                    <div class="col-md-4 card-text">
+                        <a href="{{process_movimento_url}}" target="_blank">Movimentos</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card-text justify-content-center"><a href="{{process_movimento_url}}" target="_blank">Movimentos</a></div>
             </div>
         </div>
         <hr>
         <div class="row row-container row-height">
-            <div class="col-sm-3 ">
+            <div class="col-md-3 card-text">
                 <strong>Processo Similar <small>(Código Antigo)</small>:</strong>
                 <div class="card-text justify-content-center">
                     {{ similar }}
                 </div>
             </div>
-            <div class="col-sm-2 ">
+            <div class="col-md-2 ">
                 <strong>Similaridade</small>: </strong>
                 <div class="card-text justify-content-center">{{ similaridade | percentage}}</div>
             </div>
-            <div class="col-sm-3 ">
+            <div class="col-md-3 ">
                 <strong>Processo Similar <small>(Código Atual)</small>: </strong>
                 <div class="card-text justify-content-center">{{ similar_atual }}</div>
             </div>
-            <div class="col-sm-4 d-inline-block">
+            <div class="col-md-4 d-inline-block">
                 <div class="row">
-                    <div class="col-sm-4"><a href="{{similar_movimento_url}}" target="_blank">Contestação</a></div>
-                    <div class="col-sm-3"><a href="#" target="_blank">Inicial</a></div>
-                    <div class="col-sm-4"><a href="{{similar_movimento_url}}" target="_blank">Movimentos</a></div>
+                    <div class="col-md-5 card-text"><a href="{{similar_movimento_url}}" target="_blank">Contestação</a></div>
+                    <div class="col-md-3 card-text"><a href="#" target="_blank">Inicial</a></div>
+                    <div class="col-md-4 card-text"><a href="{{similar_movimento_url}}" target="_blank">Movimentos</a></div>
                 </div>
             </div>
         </div>
         <hr>
         <div class="row row-container row-height">
-            <div class="col-sm-7">
+            <div class="col-md-7 card-text">
                 <strong>Autor:</strong>
                 <div class="card-text justify-content-center">{{author}}</div>
             </div>
-            <div class="col-sm-5">
+            <div class="col-md-5 card-text">
                 <strong>Réu:</strong>
                 <div class="card-text justify-content-center">{{reu}}</div>
             </div>
         </div>
         <hr>
         <div class="row row-container row-height">
-            <div class="col-sm-7">
+            <div class="col-md-7 card-text">
                 <strong>Comarca:</strong>
                 <div class="card-text justify-content-center">{{ comarca }}</div>
             </div>
-            <div class="col-sm-5">
+            <div class="col-md-5 card-text">
                 <strong>Serventia:</strong>
                 <div class="card-text justify-content-center">{{ serventia }}</div>
             </div>
         </div>
         <hr>
         <div class="row row-container">
-            <div class="col-sm-8">
+            <div class="col-md-8 card-text">
                 <strong>Sentença:</strong>
                 <div class="card sentenca-box">
                     <p >
@@ -84,7 +88,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-md-4 card-text">
                 <strong>Número de Processos Similares: <em>{{ similar_processes|length }}</em></strong>
                 <div class="card text-justify sentenca-box">
                     {% for sp in similar_processes %}
@@ -97,28 +101,29 @@
                 </div>
             </div>
         </div>
-        <div class="row row-container">
-            <ul class="col pagination clearfix justify-content-center">
-            {%if has_previous%}
-                <li class="page-item">
-            {%else%}
-                <li class="page-item disabled">
-            {%endif%}
-                    <a class="page-link" href="{% url 'processo' cod previousindex %}">Anterior</a>
-                </li>
-                
-                <li class="page-item disabled"><span class="page-link">{{ index }} / {{ pages }}</span></li>
+    </div>
+    <div class="row row-container">
+        <ul class="col pagination clearfix justify-content-center">
+        {%if has_previous%}
+            <li class="page-item">
+        {%else%}
+            <li class="page-item disabled">
+        {%endif%}
+                <a class="page-link" href="{% url 'processo' cod previousindex %}">Anterior</a>
+            </li>
+            
+            <li class="page-item disabled"><span class="page-link">{{ index|add:1 }} / {{ pages|add:1 }}</span></li>
 
-            {%if has_next%}
-                <li class="page-item">
-            {%else%}
-                <li class="page-item disabled">
-            {%endif%}
-                    <a class="page-link" href="{% url 'processo' cod nextindex %}">Próximo</a>
-                </li>
-            </ul>
-             
-        </div>
+        {%if has_next%}
+            <li class="page-item">
+        {%else%}
+            <li class="page-item disabled">
+        {%endif%}
+                <a class="page-link" href="{% url 'processo' cod nextindex %}">Próximo</a>
+            </li>
+        </ul>
+            
+    </div>
     {%endif%}
     <div class="row row-container justify-content-center">
         <a href="{% url 'index' %}">Nova consulta</a>

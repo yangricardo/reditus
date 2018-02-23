@@ -6,10 +6,12 @@
         <div class="row justify-content-center">
             <a href="{% url 'index' %}"><img src="{% static 'img/logo-reditus.png'%}"/></a>
         </div>
+        <hr>
         <div class="row justify-content-center">
             <form method="POST" novalidate>
                 {% csrf_token %}
-                {{form.as_table}}
+                <label>Código do Processo: </label>
+                {{form.search_field}}
                 <button type="submit" class="btn btn-primary">Pesquisar</button>
             </form>
             {% if error %}

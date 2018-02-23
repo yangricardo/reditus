@@ -15,6 +15,14 @@ body{
   padding-right: 2%;
 }
 
+strong{
+  color: #2B0B5B;
+}
+
+.info{
+  margin-top: 1%;
+}
+
 .sentenca-error {
   position: absolute;
   top: 45%;
@@ -39,7 +47,7 @@ body{
   position: absolute;
   width: 450px;
   height: 100px;
-  top: 45%;
+  top: 35%;
   left: 35%;
   margin-left: -50px; /* margin is -0.5 * dimension */
   margin-top: -25px; 
