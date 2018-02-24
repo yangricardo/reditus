@@ -1,1 +1,1 @@
-web: gunicorn reditus.wsgi
+web: gunicorn reditus.wsgi --log-file -
