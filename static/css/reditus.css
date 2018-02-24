@@ -1,12 +1,19 @@
 body{
-  background-color: #FDFDFD;
-}
-.header{
-  height: 100 px;
-  border-color: cornflowerblue;
-  background-color: #FDFDFD;
+  background-color: #021135;
 }
 
+header{
+  height: 100 px;
+  background-color: #E9ECEF;
+}
+
+.novaconsulta{
+  margin-top:0.1%;
+}
+
+p.buscado{
+  color: #514ab3;
+}
 .sentenca-box {
   overflow-y: auto; 
   height:300px;
@@ -14,13 +21,19 @@ body{
   padding-left: 2%;
   padding-right: 2%;
 }
+.similares-box {
+  overflow-y: auto; 
+  height:300px;
+  border-style: outset;
+}
 
 strong{
-  color: #2B0B5B;
+  color: #021135;
 }
 
 .info{
   margin-top: 1%;
+  padding-top: 0.5%;
 }
 
 .sentenca-error {
@@ -31,8 +44,8 @@ strong{
   margin-top: -25px; 
 }
 
-.container {
-  margin-top: 0.2%; 
+.container{
+  background-color: #E9ECEF;
 }
 
 .row-container {
@@ -44,11 +57,7 @@ strong{
 }
 
 .center {
-  position: absolute;
-  width: 450px;
-  height: 100px;
-  top: 35%;
-  left: 35%;
-  margin-left: -50px; /* margin is -0.5 * dimension */
-  margin-top: -25px; 
+  height: 100%;
+  width: 100%;
+  margin-top: 15%;
 }​

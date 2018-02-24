@@ -1,24 +1,31 @@
 {% extends 'search/base.html' %}
 {% load static %}
 {% block content %}
-    <div class="container">
-    <div class="center">
-        <div class="row justify-content-center">
-            <a href="{% url 'index' %}"><img src="{% static 'img/logo-reditus.png'%}"/></a>
-        </div>
-        <hr>
-        <div class="row justify-content-center">
-            <form method="POST" novalidate>
-                {% csrf_token %}
-                <label>Código do Processo: </label>
-                {{form.search_field}}
-                <button type="submit" class="btn btn-primary">Pesquisar</button>
-            </form>
-            {% if error %}
-                <div class="alert alert-danger" role="alert">
-                    Código do Processo inválido ou não encontrado
-                </div>
-            {% endif %}
+    <div class="container rounded">
+        <div class="jumbotron center">
+            <div class="row justify-content-center">
+                <a href="{% url 'index' %}"><img src="{% static 'img/logo-buscador.png'%}"/></a>
+            </div>
+            <hr>
+            <div class="row justify-content-center">
+                <form method="POST" novalidate>
+                    {% csrf_token %}
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">Processo</span>
+                        </div>
+                        {{form.search_field}}
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-outline-primary" type="button">Pesquisar</button>
+                        </div>
+                    </div>
+                    {% if error %}
+                        <div class="row alert alert-danger justify-content-center" style="margin-top:1%;"role="alert">
+                            Código do Processo inválido ou não encontrado
+                        </div>
+                    {% endif %}
+                </form>
+            </div>
         </div>
     </div>
 {% endblock %}

@@ -1,33 +1,33 @@
 {% extends 'search/base.html' %}
 {% load form_tags widget_tweaks %}
 {% block content %}
-<div class="container">
+<div class="container rounded">
     {% if error %}
-    <div class="row sentenca-container justify-content-center">
+    <div class="info center row sentenca-container justify-content-center">
         <div class="alert alert-danger justify-content-center" role="alert">
             Código do Processo inválido ou não encontrado
         </div>
     </div>
     {%else%}
     <div class="info">
-        <div class="row row-container row-height border-1">
-            <div class="col-md-3">
+        <div class="row row-container row-height">
+            <div class="col-md-2">
                 <strong>Processo Buscado:</strong>
-                <div class="card-text justify-content-center">
-                    {{ cod }}
+                <div class="justify-content-center">
+                   <p class="badge badge-secondary"> {{ cod }}</p>
                 </div>
             </div>
-            <div class="col-md-5"></div>
+            <div class="col-md-6"></div>
             <div class="col-md-4 d-inline-block">
                 <div class="row">
-                    <div class="col-md-5 card-text">
-                        <a href="{{process_contestacao_url}}" target="_blank">Contestação</a>
-                    </div>
                     <div class="col-md-3 card-text">
-                        <a href="#" target="_blank">Inicial</a>
+                        <a href="#" target="_blank" class="badge badge-primary">Inicial</a>
                     </div>
                     <div class="col-md-4 card-text">
-                        <a href="{{process_movimento_url}}" target="_blank">Movimentos</a>
+                        <a href="{{process_contestacao_url}}" target="_blank" class="badge badge-danger">Contestação</a>
+                    </div>
+                    <div class="col-md-5 card-text">
+                        <a href="{{process_movimento_url}}" target="_blank" class="badge badge-info">Movimentos</a>
                     </div>
                 </div>
             </div>
@@ -36,23 +36,25 @@
         <div class="row row-container row-height">
             <div class="col-md-3 card-text">
                 <strong>Processo Similar <small>(Código Antigo)</small>:</strong>
-                <div class="card-text justify-content-center">
+                <div class="card-text justify-content-center badge badge-success">
                     {{ similar }}
                 </div>
             </div>
             <div class="col-md-2 ">
                 <strong>Similaridade</small>: </strong>
-                <div class="card-text justify-content-center">{{ similaridade | percentage}}</div>
+                <div class="card-text justify-content-center">
+                    <span class="badge badge-warning">{{ similaridade | percentage}}</span>
+                </div>
             </div>
             <div class="col-md-3 ">
                 <strong>Processo Similar <small>(Código Atual)</small>: </strong>
-                <div class="card-text justify-content-center">{{ similar_atual }}</div>
+                <div class="card-text justify-content-center badge badge-success">{{ similar_atual }}</div>
             </div>
             <div class="col-md-4 d-inline-block">
                 <div class="row">
-                    <div class="col-md-5 card-text"><a href="{{similar_contestacao_url}}" target="_blank">Contestação</a></div>
-                    <div class="col-md-3 card-text"><a href="#" target="_blank">Inicial</a></div>
-                    <div class="col-md-4 card-text"><a href="{{similar_movimento_url}}" target="_blank">Movimentos</a></div>
+                    <div class="col-md-3 card-text"><a href="#" target="_blank" class="badge badge-primary">Inicial</a></div>
+                    <div class="col-md-4 card-text"><a href="{{similar_contestacao_url}}" target="_blank" class="badge badge-danger">Contestação</a></div>
+                    <div class="col-md-5 card-text"><a href="{{similar_movimento_url}}" target="_blank" class="badge badge-info">Movimentos</a></div>
                 </div>
             </div>
         </div>
@@ -90,14 +92,14 @@
             </div>
             <div class="col-md-4 card-text">
                 <strong>Número de Processos Similares: <em>{{ similar_processes|length }}</em></strong>
-                <div class="card text-justify sentenca-box">
-                    {% for sp in similar_processes %}
-                        <a href="{{sp.1.1}}" target="_blank">
-                            {% ifequal sp.1.0 similar %}<strong>{% endifequal %}
-                                {{sp.1.0}}&emsp;&emsp;&emsp;{{sp.1.2 | percentage}}
-                            {% ifequal sp.1.0 similar %}</strong>{% endifequal %}
-                        </a></br>
-                    {% endfor%}
+                <div class="card text-justify similares-box">
+                    <div class="list-group list-group-flush">
+                        {% for sp in similar_processes %}
+                                <a href="{{sp.1.1}}" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center {% ifequal sp.1.0 similar %}list-group-item-primary {% endifequal %} ">
+                                {{sp.1.0}}<span class="badge">{{sp.1.2 | percentage}}</span>
+                                </a>
+                        {% endfor%}
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,7 +111,7 @@
         {%else%}
             <li class="page-item disabled">
         {%endif%}
-                <a class="page-link" href="{% url 'processo' cod previousindex %}">Anterior</a>
+                <a class="page-link" href="{% url 'processo' cod previousindex %}"> &larr; Anterior</a>
             </li>
             
             <li class="page-item disabled"><span class="page-link">{{ index|add:1 }} / {{ pages|add:1 }}</span></li>
@@ -119,16 +121,16 @@
         {%else%}
             <li class="page-item disabled">
         {%endif%}
-                <a class="page-link" href="{% url 'processo' cod nextindex %}">Próximo</a>
+                <a class="page-link" href="{% url 'processo' cod nextindex %}">Próximo &rarr;</a>
             </li>
         </ul>
             
     </div>
     {%endif%}
-    <div class="row row-container justify-content-center">
+    <div class="row justify-content-center">
         <a href="{% url 'index' %}">Nova consulta</a>
     </div>
-    
+</div>
     
 {%endblock%}
 {% include 'includes/pagination.html' %}

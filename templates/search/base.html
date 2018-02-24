@@ -10,21 +10,20 @@
 
 </head>
 <body>
-    <div class="header border border-top-0 border-left-0 border-right-0">
+    <header class="border rounded-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-auto">
                     <a href="http://www.tjrj.jus.br/"><img src="{% static 'img/logo-tjrj.png'%}"/></a>
-                    <a href="{% url 'index' %}"><img src="{% static 'img/logo-reditus.png'%}"/></a>
+                    <a href="{% url 'index' %}"><img src="{% static 'img/logo-buscador.png'%}"/></a>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     {% block body %}
         {% block content %}
         {% endblock %}
     {% endblock body %}
-
     <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
     <script src="{% static 'js/popper.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>

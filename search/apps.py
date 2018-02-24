@@ -33,7 +33,7 @@ class SearchConfig(AppConfig):
         for f in onlyfiles:
             data = pd.read_csv(path[0] + f, sep=";" ,encoding = 'latin1')
             
-            data = data[~data['sentenca'].str.contains('Homologo|HOMOLOGO|homologo|homologa-se|Projeto em Revisão')]
+            data = data[~data['sentenca'].str.contains('Homologo|HOMOLOGO|homologo|homologa-se|Homologa-se|Projeto em Revisão')]
             data = data[data['similar_processo'] != data['processo']]
             
             data = data.reset_index(drop=True)

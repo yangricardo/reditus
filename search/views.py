@@ -45,7 +45,7 @@ def process_view(request,cod, index):
             similar = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",df['similar_processo'][int(index)]).group(0)
             author = re.search(r"(autor|Autor|AUTOR|Parte Autora)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor|AUTOR|Parte Autora)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
             similar_atual = re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}",sentence).group(0) if re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}",sentence) else ""
-            reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU|Parte RÉ|Parte Ré)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU|Parte RÉ|Parte Ré)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
+            reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
             similar_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid="+df['similar_file'][int(index)]
             process_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso="+process+"&acessoIP=internet&tipoUsuario="
             similar_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso="+similar+"&acessoIP=internet&tipoUsuario="
