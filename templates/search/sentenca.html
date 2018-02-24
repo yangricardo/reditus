@@ -11,23 +11,23 @@
     {%else%}
     <div class="info">
         <div class="row row-container row-height">
-            <div class="col-md-2">
+            <div class="col-md-2 col-xs-2">
                 <strong>Processo Buscado:</strong>
                 <div class="justify-content-center">
-                   <p class="badge badge-secondary"> {{ cod }}</p>
+                   <p class="badge badge-light"> {{ cod }}</p>
                 </div>
             </div>
             <div class="col-md-6"></div>
-            <div class="col-md-4 d-inline-block">
+            <div class="col-md-4 col-xs-10">
                 <div class="row">
                     <div class="col-md-3 card-text">
-                        <a href="#" target="_blank" class="badge badge-primary">Inicial</a>
+                        <a href="#" target="_blank" class="btn btn-link">Inicial</a>
                     </div>
                     <div class="col-md-4 card-text">
-                        <a href="{{process_contestacao_url}}" target="_blank" class="badge badge-danger">Contestação</a>
+                        <a href="{{process_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a>
                     </div>
                     <div class="col-md-5 card-text">
-                        <a href="{{process_movimento_url}}" target="_blank" class="badge badge-info">Movimentos</a>
+                        <a href="{{process_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a>
                     </div>
                 </div>
             </div>
@@ -36,25 +36,25 @@
         <div class="row row-container row-height">
             <div class="col-md-3 card-text">
                 <strong>Processo Similar <small>(Código Antigo)</small>:</strong>
-                <div class="card-text justify-content-center badge badge-success">
+                <div class="card-text justify-content-center badge badge-secondary">
                     {{ similar }}
                 </div>
             </div>
             <div class="col-md-2 ">
                 <strong>Similaridade</small>: </strong>
                 <div class="card-text justify-content-center">
-                    <span class="badge badge-warning">{{ similaridade | percentage}}</span>
+                    <span class="badge badge-success">{{ similaridade | percentage}}</span>
                 </div>
             </div>
             <div class="col-md-3 ">
                 <strong>Processo Similar <small>(Código Atual)</small>: </strong>
-                <div class="card-text justify-content-center badge badge-success">{{ similar_atual }}</div>
+                <div class="card-text justify-content-center badge badge-secondary">{{ similar_atual }}</div>
             </div>
             <div class="col-md-4 d-inline-block">
                 <div class="row">
-                    <div class="col-md-3 card-text"><a href="#" target="_blank" class="badge badge-primary">Inicial</a></div>
-                    <div class="col-md-4 card-text"><a href="{{similar_contestacao_url}}" target="_blank" class="badge badge-danger">Contestação</a></div>
-                    <div class="col-md-5 card-text"><a href="{{similar_movimento_url}}" target="_blank" class="badge badge-info">Movimentos</a></div>
+                    <div class="col-md-3 card-text"><a href="#" target="_blank" class="btn btn-link">Inicial</a></div>
+                    <div class="col-md-4 card-text"><a href="{{similar_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a></div>
+                    <div class="col-md-5 card-text"><a href="{{similar_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a></div>
                 </div>
             </div>
         </div>
@@ -62,32 +62,30 @@
         <div class="row row-container row-height">
             <div class="col-md-7 card-text">
                 <strong>Autor:</strong>
-                <div class="card-text justify-content-center">{{author}}</div>
+                <div class="card-text justify-content-center text-dark">{{author}}</div>
             </div>
             <div class="col-md-5 card-text">
                 <strong>Réu:</strong>
-                <div class="card-text justify-content-center">{{reu}}</div>
+                <div class="card-text justify-content-center text-dark">{{reu}}</div>
             </div>
         </div>
         <hr>
         <div class="row row-container row-height">
             <div class="col-md-7 card-text">
                 <strong>Comarca:</strong>
-                <div class="card-text justify-content-center">{{ comarca }}</div>
+                <div class="card-text justify-content-center text-dark">{{ comarca }}</div>
             </div>
             <div class="col-md-5 card-text">
                 <strong>Serventia:</strong>
-                <div class="card-text justify-content-center">{{ serventia }}</div>
+                <div class="card-text justify-content-center text-dark">{{ serventia }}</div>
             </div>
         </div>
         <hr>
         <div class="row row-container">
             <div class="col-md-8 card-text">
                 <strong>Sentença:</strong>
-                <div class="card sentenca-box">
-                    <p >
+                <div class="card sentenca-box text-dark">
                     {{ sentence | linebreaks }}
-                    </p>
                 </div>
             </div>
             <div class="col-md-4 card-text">

@@ -20,6 +20,7 @@ p.buscado{
   border-style: outset;
   padding-left: 2%;
   padding-right: 2%;
+  padding-top: 2%;
 }
 .similares-box {
   overflow-y: auto; 
