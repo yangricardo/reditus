@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '$_n0#ujg=p0&b9%g7t(hmo310$ls!9
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','0.0.0.0','reditus.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','0.0.0.0','https://reditus.herokuapp.com/']
 
 
 # Application definition
