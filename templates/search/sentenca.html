@@ -17,18 +17,13 @@
                    <p class="badge badge-light"> {{ cod }}</p>
                 </div>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+            </div>
             <div class="col-md-4 col-xs-10">
-                <div class="row">
-                    <div class="col-md-3 card-text">
-                        <a href="#" target="_blank" class="btn btn-link">Inicial</a>
-                    </div>
-                    <div class="col-md-4 card-text">
-                        <a href="{{process_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a>
-                    </div>
-                    <div class="col-md-5 card-text">
-                        <a href="{{process_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a>
-                    </div>
+                <div class="btn-group" role="group">
+                    <a href="#" target="_blank" class="btn btn-link">Inicial</a>
+                    <a href="{{process_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a>
+                    <a href="{{process_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a>
                 </div>
             </div>
         </div>
@@ -51,10 +46,10 @@
                 <div class="card-text justify-content-center badge badge-secondary">{{ similar_atual }}</div>
             </div>
             <div class="col-md-4 d-inline-block">
-                <div class="row">
-                    <div class="col-md-3 card-text"><a href="#" target="_blank" class="btn btn-link">Inicial</a></div>
-                    <div class="col-md-4 card-text"><a href="{{similar_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a></div>
-                    <div class="col-md-5 card-text"><a href="{{similar_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a></div>
+                <div class="btn-group" role="group">
+                    <a href="#" target="_blank" class="btn btn-link">Inicial</a>
+                    <a href="{{similar_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a>
+                    <a href="{{similar_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a>
                 </div>
             </div>
         </div>
@@ -126,7 +121,7 @@
     </div>
     {%endif%}
     <div class="row justify-content-center">
-        <a href="{% url 'index' %}">Nova consulta</a>
+        <a class="novaconsulta" href="{% url 'index' %}">Nova consulta</a>
     </div>
 </div>
     
