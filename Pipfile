@@ -19,8 +19,22 @@ pylint = "==1.8.2"
 python-dateutil = "==2.6.1"
 pytz = "==2017.3"
 wrapt = "==1.10.11"
-gunicorn = "*"
+gunicorn = "==19.7.1"
 django-heroku = "*"
+certifi = "==2018.1.18"
+chardet = "==3.0.4"
+dj-database-url = "==0.4.2"
+idna = "==2.6"
+pew = "==1.1.2"
+pipenv = "==10.1.0"
+"psycopg2" = "==2.7.4"
+python-decouple = "==3.1"
+requests = "==2.18.4"
+"urllib3" = "==1.22"
+virtualenv = "==15.1.0"
+virtualenv-clone = "==0.2.6"
+whitenoise = "==3.3.1"
+
 
 [dev-packages]
 
