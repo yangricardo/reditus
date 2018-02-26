@@ -1,1 +1,1 @@
-web: gunicorn reditus.wsgi --log-file -
+web: gunicorn reditus.wsgi --workers=3 --log-file -
