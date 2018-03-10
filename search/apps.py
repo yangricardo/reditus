@@ -91,7 +91,7 @@ class SearchConfig(AppConfig):
                         }
                     )
 
-        print(self.process_dict)
+        #print(self.process_dict)
     #end of build_process_dict    
 
     def ready(self):

@@ -14,7 +14,7 @@
             <div class="col-sm-2">
                 <strong>Processo Buscado:</strong>
                 <div class="justify-content-center">
-                   <p class="badge badge-light"> {{ cod }}</p>
+                   <a href="{% url 'processo' cod 0 %}" class="badge badge-light"> {{ cod }}</a>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -31,19 +31,21 @@
         <div class="row row-container row-height">
             <div class="col-sm-3 card-text">
                 <strong>Processo Similar <small>(Código Antigo)</small>:</strong>
-                <div class="card-text justify-content-center badge badge-secondary">
-                    {{ similar }}
+                <div class="card-text justify-content-center">
+                    <a href="{% url 'processo' similar_cod 0 %}" class="badge badge-secondary"> {{ similar_cod }}</a>
                 </div>
             </div>
             <div class="col-sm-2 ">
                 <strong>Similaridade</small>: </strong>
                 <div class="card-text justify-content-center">
-                    <span class="badge badge-success">{{ similaridade | percentage}}</span>
+                    <span class="badge badge-success">{{ similar_percentage | percentage}}</span>
                 </div>
             </div>
             <div class="col-sm-3 ">
                 <strong>Processo Similar <small>(Código Atual)</small>: </strong>
-                <div class="card-text justify-content-center badge badge-secondary">{{ similar_atual }}</div>
+                <div class="card-text justify-content-center">
+                    <a href="{% url 'processo' similar_cod 0 %}" class="badge badge-secondary">{{ similar_atual_cod }}</a>
+                </div>
             </div>
             <div class="col-sm-4 d-inline-block">
                 <div class="btn-group" role="group">
@@ -57,22 +59,22 @@
         <div class="row row-container row-height">
             <div class="col-sm-7 card-text">
                 <strong>Autor:</strong>
-                <div class="card-text justify-content-center text-dark">{{author}}</div>
+                <div class="card-text justify-content-center text-dark">{{similar_author}}</div>
             </div>
             <div class="col-sm-5 card-text">
                 <strong>Réu:</strong>
-                <div class="card-text justify-content-center text-dark">{{reu}}</div>
+                <div class="card-text justify-content-center text-dark">{{similar_reu}}</div>
             </div>
         </div>
         <hr>
         <div class="row row-container row-height">
             <div class="col-sm-7 card-text">
                 <strong>Comarca:</strong>
-                <div class="card-text justify-content-center text-dark">{{ comarca }}</div>
+                <div class="card-text justify-content-center text-dark">{{ similar_comarca }}</div>
             </div>
             <div class="col-sm-5 card-text">
                 <strong>Serventia:</strong>
-                <div class="card-text justify-content-center text-dark">{{ serventia }}</div>
+                <div class="card-text justify-content-center text-dark">{{ similar_serventia }}</div>
             </div>
         </div>
         <hr>
@@ -80,16 +82,16 @@
             <div class="col-sm-8 card-text">
                 <strong>Sentença:</strong>
                 <div class="card sentenca-box text-dark">
-                    {{ sentence | linebreaks }}
+                    {{ similar_sentence | linebreaks }}
                 </div>
             </div>
             <div class="col-sm-4 card-text">
-                <strong>Número de Processos Similares: <em>{{ similar_processes|length }}</em></strong>
+                <strong>Número de Processos Similares: <em>{{ similars_processes|length }}</em></strong>
                 <div class="card text-justify similares-box">
                     <div class="list-group list-group-flush">
-                        {% for sp in similar_processes %}
-                                <a href="{{sp.1.1}}" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center {% ifequal sp.1.0 similar %}list-group-item-primary {% endifequal %} ">
-                                {{sp.1.0}}<span class="badge">{{sp.1.2 | percentage}}</span>
+                        {% for sp in similars_processes %}
+                                <a href="{{sp.1}}" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center {% ifequal sp.0 similar_cod %}list-group-item-primary {% endifequal %} ">
+                                {{sp.0}}<span class="badge">{{sp.2 | percentage}}</span>
                                 </a>
                         {% endfor%}
                     </div>
