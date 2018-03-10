@@ -1,0 +1,16 @@
+{% extends 'search/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container rounded">
+    <div class="jumbotron center">
+        <div class="info center row sentenca-container justify-content-center">
+            <div class="alert alert-danger justify-content-center" role="alert">
+                Página Não Encontrada
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <a class="novaconsulta" href="{% url 'index' %}">Nova consulta</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
