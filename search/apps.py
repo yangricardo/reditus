@@ -66,8 +66,6 @@ class SearchConfig(AppConfig):
                             'comarca': comarca,
                         }
                     )
-
-        #print(self.process_dict)
     #end of build_process_dict    
 
     def ready(self):
