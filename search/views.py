@@ -5,6 +5,7 @@ from .apps import SearchConfig as sc
 import pandas as pd
 import numpy as np
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
+from operator import itemgetter
 import os
 from reditus import settings
 from os.path import isfile, join
@@ -35,9 +36,9 @@ def index_view(request):
 
 
 def process_view(request,cod, index):
-    #try:
-    process_data = search_process_metadata(cod)
-    if bool(process_data):
+    try:
+        process_data = search_process_metadata(cod)
+        
         similars_data = get_similar_data(process_data.get('hash_processes'))
         #dados do processo
         process_serventia = process_data.get('serventia')
@@ -62,9 +63,6 @@ def process_view(request,cod, index):
         similar_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso={}&acessoIP=internet&tipoUsuario=".format(similar_cod)
         similar_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['similar_file'][int(index)])
 
-        print(similar_movimento_url)
-        print(similar_contestacao_url)
-
         similar_percentage = similars_data['similaridade'][int(index)]
         
         similars_processes = []
@@ -78,6 +76,8 @@ def process_view(request,cod, index):
                     )
                 ) 
 
+        similars_processes = sorted(list(set(similars_processes)),key=itemgetter(2), reverse=True)
+
         #paginação
         pages = similars_data['processo'].count()-1
 
@@ -89,9 +89,9 @@ def process_view(request,cod, index):
         return render(request, 'search/sentenca.html', {
             'cod':cod,'process_serventia':process_serventia,'process_comarca':process_comarca,'process_movimento_url':process_movimento_url,'process_contestacao_url':process_contestacao_url,'similar_cod':similar_cod,'similar_atual_cod':similar_atual_cod,'similar_serventia':similar_serventia, 'similar_comarca':similar_comarca,'similar_sentence':similar_sentence,'similar_author':similar_author,'similar_reu':similar_reu,'similar_movimento_url':similar_movimento_url,'similar_contestacao_url':similar_contestacao_url,'similar_percentage':similar_percentage,'similars_processes':similars_processes,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next, 'index':index
             })
-    # except:
-    #     error = True
-    #     return render(request, 'search/sentenca.html',{'error':error } )
+    except:
+        error = True
+        return render(request, 'search/sentenca.html',{'error':error } )
 
 
 def get_similar_data(hash_processes):
@@ -111,23 +111,3 @@ def get_similar_data(hash_processes):
     process_data = process_data.sort_values(by=['similaridade'],ascending=False)
     process_data = process_data.reset_index(drop=True)
     return process_data
-
-class Process(object):
-    cod = ""
-    similar = ""
-    similar_atual = ""
-    sentence = ""
-    author = ""
-    reu = ""
-    data = ""
-    url = ""
-
-    def __init__(self, cod, data):
-        self.cod = cod
-        self.similar = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",data['similar_processo']).group(0)
-        self.cod = data['processo']
-        self.sentence = data['sentenca']
-        self.similar = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",data['similar_processo']).group(0)
-        self.author = re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(autor|Autor)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
-        self.similar_atual = re.search(r"\d{7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}",sentence).group(0) if re.search(r"\d{6}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{4}",sentence) else ""
-        self.reu = re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+",sentence).group(3) if re.search(r"(reu|Reu|Réu|réu)(\s*:\s*)(\w.+)+[^\n]",sentence) else ""
