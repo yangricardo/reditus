@@ -62,6 +62,7 @@ def process_view(request,cod, index):
 
         similar_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso={}&acessoIP=internet&tipoUsuario=".format(similar_cod)
         similar_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['similar_file'][int(index)])
+        similar_inicial_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['similar_init'][int(index)])
 
         similar_percentage = similars_data['similaridade'][int(index)]
         
@@ -87,7 +88,7 @@ def process_view(request,cod, index):
         nextIndex = int(index)+1 if int(index) < pages else pages
 
         return render(request, 'search/sentenca.html', {
-            'cod':cod,'process_serventia':process_serventia,'process_comarca':process_comarca,'process_movimento_url':process_movimento_url,'process_contestacao_url':process_contestacao_url,'similar_cod':similar_cod,'similar_atual_cod':similar_atual_cod,'similar_serventia':similar_serventia, 'similar_comarca':similar_comarca,'similar_sentence':similar_sentence,'similar_author':similar_author,'similar_reu':similar_reu,'similar_movimento_url':similar_movimento_url,'similar_contestacao_url':similar_contestacao_url,'similar_percentage':similar_percentage,'similars_processes':similars_processes,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next, 'index':index
+            'cod':cod,'process_serventia':process_serventia,'process_comarca':process_comarca,'process_movimento_url':process_movimento_url,'process_contestacao_url':process_contestacao_url,'similar_cod':similar_cod,'similar_atual_cod':similar_atual_cod,'similar_serventia':similar_serventia, 'similar_comarca':similar_comarca,'similar_sentence':similar_sentence,'similar_author':similar_author,'similar_reu':similar_reu,'similar_movimento_url':similar_movimento_url,'similar_inicial_url':similar_inicial_url,'similar_contestacao_url':similar_contestacao_url,'similar_percentage':similar_percentage,'similars_processes':similars_processes,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next, 'index':index
             })
     except:
         error = True

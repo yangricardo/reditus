@@ -20,10 +20,12 @@
             <div class="col-sm-6">
             </div>
             <div class="col-sm-4">
-                <div class="btn-group" role="group">
-                    <a href="#" target="_blank" class="btn btn-link">Inicial</a>
-                    <a href="{{process_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a>
-                    <a href="{{process_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a>
+                <div class="float-right">
+                    <div class="btn-group" role="group">
+                        <!-- <a href="#" target="_blank" class="btn btn-link">Inicial</a> -->
+                        <a href="{{process_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a>
+                        <a href="{{process_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,11 +49,13 @@
                     <a href="{% url 'processo' similar_cod 0 %}" class="badge badge-secondary">{{ similar_atual_cod }}</a>
                 </div>
             </div>
-            <div class="col-sm-4 d-inline-block">
-                <div class="btn-group" role="group">
-                    <a href="#" target="_blank" class="btn btn-link">Inicial</a>
-                    <a href="{{similar_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a>
-                    <a href="{{similar_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a>
+            <div class="col-sm-4">
+                <div class="float-right">
+                    <div class="btn-group" role="group">
+                        <a href="{{similar_inicial_url}}" target="_blank" class="btn btn-link">Inicial</a>
+                        <a href="{{similar_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a>
+                        <a href="{{similar_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a>
+                    </div>
                 </div>
             </div>
         </div>
