@@ -1,5 +1,6 @@
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render, get_object_or_404, get_list_or_404, redirect
 from .forms import SearchForm
+from .models import Process, ProcessFile
 from django.views.generic.edit import FormView
 from .apps import SearchConfig as sc
 import pandas as pd
@@ -12,20 +13,13 @@ from os.path import isfile, join
 import re
 
 
-def search_process_metadata(cod_process):
-    return sc.process_dict.get(cod_process) if cod_process in sc.process_dict else {}
-
 def index_view(request):
     try:
         if request.method == 'POST':
             form = SearchForm(request.POST)
             if form.is_valid():
-                process_data = search_process_metadata(form.cleaned_data['search_field'])
-
-                if bool(process_data):
-                    return redirect('processo' ,form.cleaned_data['search_field'],0)
-                else:
-                    raise Exception()
+                process = get_list_or_404(ProcessFile,cod=form.cleaned_data['search_field'])
+                return redirect('processo' ,form.cleaned_data['search_field'],0)
             else: 
                 raise Exception()
         form = SearchForm()
@@ -37,22 +31,24 @@ def index_view(request):
 
 def process_view(request,cod, index):
     try:
-        process_data = search_process_metadata(cod)
+        process = get_object_or_404(Process,cod=cod)
+        similars_files = get_list_or_404(ProcessFile,cod=cod)
+        similars_data = get_similar_data(similars_files)
         
-        similars_data = get_similar_data(process_data.get('hash_processes'))
         #dados do processo
-        process_serventia = process_data.get('serventia')
-        process_comarca = process_data.get('comarca')
+        process_serventia = process.serventia
+        process_comarca = process.comarca
 
-        process_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso={}&acessoIP=internet&tipoUsuario=".format(cod)
+        print(process.cod)
+        process_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso={}&acessoIP=internet&tipoUsuario=".format(process)
         process_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['contestacao_processo'][int(index)])
 
         #dados do similar
         similar_cod = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",similars_data['similar_processo'][int(index)]).group(0)
 
-        similar_metadata = search_process_metadata(similar_cod)
-        similar_serventia = similar_metadata.get('serventia')
-        similar_comarca = similar_metadata.get('comarca')
+        similar_metadata = get_object_or_404(Process,cod=similar_cod)
+        similar_serventia = similar_metadata.serventia
+        similar_comarca = similar_metadata.comarca
 
         similar_sentence = similars_data['sentenca'][int(index)]
         
@@ -92,7 +88,8 @@ def process_view(request,cod, index):
             })
     except:
         error = True
-        return render(request, 'search/sentenca.html',{'error':error } )
+        return render(request, 'search/sentenca.html', {'error':error})
+        
 
 
 def get_similar_data(hash_processes):
@@ -108,7 +105,7 @@ def get_similar_data(hash_processes):
         data = data[data['similar_processo'] != data['processo']]
         data['contestacao_processo'] = hash_process
         process_data = data if process_data.empty else process_data.append(data)
-
+    
     process_data = process_data.sort_values(by=['similaridade'],ascending=False)
     process_data = process_data.reset_index(drop=True)
     return process_data

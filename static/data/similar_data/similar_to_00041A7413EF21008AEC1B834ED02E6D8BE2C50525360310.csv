@@ -1,19 +1,574 @@
-;processo;sentenca;similar_file;similar_processo;similaridade
-0;2016.001.143686-8;"	Vistos, etc. Dispensado o relatório, na forma do art. 38 da Lei 9.099/95, passo a decidir.
-	Trata-se de ação onde a parte autora, devidamente intimada, não compareceu à audiência de conciliação, nem tampouco justificou sua ausência, impondo-se, pois, a sua extinção, consoante o disposto no inciso I do art. 51 da Lei nº 9.099/95.
-	Isto posto, JULGO EXTINTO O PROCESSO, sem resolução do mérito, com fundamento no artigo 51, I da Lei nº 9.099/95.
-	Custas pelo autor. Após o trânsito em julgado, dê-se baixa e arquivem-se os autos.
+;processo;sentenca;similar_file;similar_init;similar_processo;similaridade
+0;2016.001.143686-8;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
 
-	";00043F0B6F6941F16D507FC2402145441393C505334D175E;2016.001.222108-2;0.8754526376724243
-1;2016.001.143686-8;Sentença Substitutiva;000497FDDC1F52D7665C6E6D46F6767DC996C50529442006;2016.001.127096-6;0.8654217720031738
-2;2016.001.143686-8;Face à ausência da parte autora à sessão de conciliação, não obstante sua ciência, julgo EXTINTO O PROCESSO sem resolução de mérito, com fundamento no artigo 51, inciso I, da lei 9099/95. Isento de custas. Defiro desde já o desentranhamento de documentos por quem os juntou. Após o trânsito em julgado, dê-se baixa e arquivem-se os autos.;000497FDDC1F52D7665C6E6D46F6767DC996C50529442006;2016.001.127096-6;0.8654217720031738
-3;2016.001.143686-8;"     Tendo em   vista que  houve  acordo entre  as  partes , JULGO  EXTINTO COM  RESOLUÇÃO DO MÉRITO, na forma do artigo  487, III,  alínea  b ,  do CPC.
+Se for o caso, comprovado o depósito, expeça-se mandado de pagamento em favor da parte autora, independentemente de nova conclusão.   Após, nada mais sendo requerido, dê-se baixa e arquivem-se. 
 
 
- Sem custas. Após as formalidades legais, dê-se baixa e arquive-se. P.R.I.";0004FCE7D26423E05C25B100559080D53175C505163E112A;2016.021.012434-2;0.8651625514030457
-4;2016.001.143686-8;Projeto em Revisão;00047DA763968EBFC1B9039F9FD769B84118EEC50534644F;2016.204.020945-5;0.8528343439102173
-5;2016.001.143686-8;Projeto em Revisão;00047DA763968EBFC1B9039F9FD769B84118EEC50534644F;2016.204.020945-5;0.8528343439102173
-6;2016.001.143686-8;"PODER JUDICIÁRIO DO ESTADO DO RIO DE JANEIRO
+Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";0004AEE49C4653745FD252474ABEAF94915EC5052221410B;0004F11B1EB564794C63AC46C240F07A432AC50507525945;2016.001.163462-9;0.9038727283477783
+1;2016.001.143686-8;"Dispensado o relatório nos termos do art. 38, da lei 9.099/95.
+Homologo, para que produza seus jurídicos e legais efeitos, o acordo estabelecido pelas partes às fls. 75. Por conseguinte, JULGO EXTINTO o presente processo, com julgamento do mérito, na forma do art. 487, III, ""b"" do NCPC sem custas ou honorários. Aguarde-se a manifestação das partes para o cumprimento do acordo. 
+Após, permanecendo inertes, e cumpridas todas as formalidades legais, inclusive certificado o trânsito em julgado, dê-se baixa e arquivem-se. P.R.I.";0004E2D4BDFB8433841A496C1C875E9363BDC50528460F19;0004AD41EF77B925EAB85F3440BD5D634998C50507496128;2016.063.006087-7;0.8992836475372314
+2;2016.001.143686-8;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. 
+
+Sem custas. 
+
+REGISTRE-SE. 
+
+Após, dê-se baixa e arquive-se.";0004B7CF672228CFA3520F7BE2B45E8DFF89C50509310A48;00041E05F34AF3AABFC154581EBFB47E8264C5045631103A;2016.001.069993-8;0.8942130208015442
+3;2016.001.143686-8;"PODER JUDICIÁRIO DO ESTADO DO RIO DE JANEIRO
+I JUIZADO ESPECIAL CÍVEL ¿ DUQUE DE CAXIAS 
+
+PROCESSO Nº: 0062912-09.2016.8.19.0021
+AUTOR: WAGNER DA SILVA DE SANTANA
+RÉU: ITAU UNIBANCO S/A
+RÉU: BANCO ITAUCARD S/A
+
+PROJETO DE SENTENÇA
+
+Vistos, etc.
+Dispensado relatório nos termos do art. 38, da Lei nº 9.099/95. 
+Trata-se de ação judicial ajuizada pela parte autora em face da ré, pleiteando antecipação dos efeitos da tutela para que a ré exclua seu nome dos cadastros de inadimplentes, sob pena de multa diária a ser arbitrada em caso de descumprimento. Requereu a confirmação do provimento antecipado, a restituição do valor de R$ 328,65, bem como seja declarada a inexigibilidade dos débitos vinculados ao cartão de crédito Visa nº. 4440.xxxx.xxxx.4434. Requer, por fim, compensação por danos morais.
+A parte autora aduz em síntese que é titular de conta-corrente nº 49198-2, adquirida junto a 1ª ré, agência: 1282 e titular de cartão de crédito Visa nº. 4440.xxxx.xxxx.4434, administrado pela 2ª ré. Menciona que em novembro de 2013 a validade de seu cartão de crédito expirou a validade, não tendo recebido outro em substituição. Afirmou que, como haviam débitos parcelados em seu cartão, efetuava os pagamentos regularmente desses valores, através das faturas que recebia da ré. Alega que não obstante a ré não ter enviado o nova cartão de crédito, a partir da fatura com vencimento em 08/09/2014, passou a descontar o valor de R$ 67,00, referente à anuidade. Que por engano, efetuou o pagamento em duplicidade do parcelamento incluído na fatura com vencimento em dezembro de 2014. Assevera que realizou reclamações administrativas, inclusive via e-mail (fl. 53/58), informando o ocorrido e requerendo o cancelamento do plástico, passando a efetuar o pagamento da fatura apenas com o valor do parcelamento que reconhecia o débito. Destacou que em outubro/2016, tomou conhecimento de que a ré havia incluído o seu nome nos cadastros restritivos de crédito por débitos referente a fatura vencida em 08/09/2016 (fl. 14), embora jamais tenha recebido o cartão, desbloqueado ou utilizado. Esclareceu, ainda, que ao comparecer em sua agência, tomou conhecimento que os valores referentes ao mínimo de seu cartão de crédito foram descontados mensalmente em sua conta corrente até agosto de 2015 (fls. 31/31 e 40/52), quando deixou de ter saldo para o desconto. Que os débitos foram acumulando, gerando posterior gravame de seu nome.
+O pedido de antecipação dos efeitos da tutela foi negado, conforme se depreende da decisão de fl. 64.
+Em audiência de instrução e julgamento, pela parte autora foram reiterados os termos da inicial, acrescentando que a ré em sua peça de bloqueio reconhece que ele não recebeu o plástico, portanto indevidas as cobranças e posterior negativação de seu nome nos cadastros restritivos de crédito.
+Resposta oferecida pelas rés, em peça única, por sua vez, requer a RETIFICAÇÃO DE POLO PASSIVO para que conste apenas a ré: BANCO ITAUCARD S/A, empresa responsável pela administração do produto objeto da lide. No mérito, sustenta que inexiste direito a ser amparado à parte autora. Sustenta que não houve ato ilícito e que não há dano moral. Que a parte autora não buscou as vias administrativas para a solução da lide, havendo ausência de pretensão resistida da ré. Requer a improcedência do pedido. 
+Preliminarmente, quanto a alegação da ré de a parte autora não buscou as vias administrativas para a solução da questão, os e-mail enviados (fls. 53/58) demonstram o esforço do autor na solução da lide.
+A relação estabelecida entre as partes é de consumo, porquanto presentes os requisitos subjetivos (arts. 2º, caput, e 3º, caput, da Lei nº 8.078/90) e objetivo (art. 3º, § 2º, da Lei n.º 8.078/90) que a caracterizam. Aplicável, portanto, o regime jurídico especial da Lei n.º 8.078/90, a qual abriga a responsabilidade do tipo objetiva, em que é necessária, apenas, a prova do dano e do nexo causal, sendo despicienda a culpa da ré, e ainda assegura ao consumidor, como medida protetiva, a inversão do ônus da prova (artigo 6º, VIII, do CDC), haja vista a verossimilhança dos fatos narrados na petição inicial, bem como sua condição de hipossuficiente e vulnerável na relação de consumo. 
+Diante das provas dos autos, verifica-se que a parte autora comprova de forma robusta os fatos aduzidos em sua peça exordial. Contexto fático probatório que permite concluir que há verossimilhança nas alegações da autora.
+A Ré, por sua vez, defende-se arguindo que a parte autora não apresentou prova mínima dos fatos alegados, ferindo o art. 373, I do CDC.
+Não trouxe aos autos qualquer comprovação de que o cartão objeto da lide tenha sido entregue a autora, ou que possuía autorização para descontar os valores referentes aos débitos do cartão de crédito, diretamente de sua conta-corrente, eis que nenhum contrato foi apresentado.
+E, muito embora tenha aduzido em sua peça de bloqueio que: ¿Assim, tomou o Réu todas as providências necessárias para evitar ou minimizar os danos e prejuízos sofridos pelo autor, bem como para recompô-los, o que demonstra que não resistiu à pretensão da parte autora.¿, fato é que também não comprovou nenhuma providência, sequer havendo nos autos a comprovação de que providenciou a baixa de gravame em nome do autor.
+Desta forma, desnecessária a comprovação da culpa, uma vez que a responsabilidade da parte ré é objetiva, não conseguindo a parte ré comprovar nenhuma excludente de nexo causalidade. Trata-se do risco do empreendimento, onde a ré lucra com o bônus, mas também deve arcar com o ônus.
+Na verdade, era dever da parte ré fazer prova dos fatos modificativos, extintivos ou impeditivos do direito autoral, na forma do art. 373, II do Novo CPC, no sentido de demonstrar a ocorrência de uma das excludentes de responsabilidade civil no CDC, já que a responsabilidade objetiva do fornecedor de bens e serviços, através art. 14 daquele diploma legal, somente pode ser afastada se comprovada a culpa exclusiva do consumidor ou de terceiro para a ocorrência do evento danoso, nos termos que lhe impõe o art. 14, § 3º, incisos I e II da Lei nº 8.078/90 e art. 373, II do CPC, o que não foi feito. 
+Diante do apresentado, deve ser acolhido o pleito autoral, devendo a ré proceder a baixa do gravame vinculado ao CPF da parte autora referente ao débito vinculado ao cartão objeto da lide. Deve, ainda, ser declarada a inexigibilidade de todo e qualquer débito em nome da parte autora, referente ao cartão de crédito objeto da lide.
+Ante a ausência de prova do cumprimento da obrigação contratual de entrega do cartão de crédito, se reputam ilegítimas as cobranças enviadas ao autor durante todo o período que este não foi prestado, devendo ser canceladas as que não tiverem sido pagas, bem como restituídas as que tiverem sido comprovadamente quitadas.
+No entanto, tal restituição deverá ocorrer na forma simples, eis que conforme decidido na Reclamação 4892/PR pelo Superior Tribunal de Justiça, é imprescindível a prova da má-fé na cobrança para a aplicação da devolução em dobro, nos termos do art. 42 do CDC. 
+Diante do exposto, deverá a ré restituir ao autor o valor total requerido de R$ 328,65 (trezentos e vinte e oito reais e sessenta e cinco centavos), conforme comprovantes nos autos. 
+Quanto ao pedido de indenização extrapatrimonial, formulado pela autora, deve o mesmo ser acolhido ante a configuração do dano moral indenizável, evidenciado pelo próprio fato. Conforme lição do Desembargador SÉRGIO CAVALIERI FILHO ""o dano moral existe in re ipsa"", ou seja, ""está ínsito na própria ofensa, decorre da gravidade do ilícito em si"" (Programa de Responsabilidade Civil, 2ª ed., Malheiros, p. 80).
+No que tange ao quantum debeatur, deve o mesmo ser fixado de forma proporcional, moderada e razoável, compatível com a reprovabilidade da conduta ilícita, a intensidade e duração do sofrimento experimentado, a capacidade econômica do causador do dano e as condições sociais da vítima, dentre outras circunstâncias relevantes.
+Com base em tais critérios, e o decurso de tempo sem qualquer solução por parte do réu, entende esse Juízo que o valor de R$ 10.000,00 (dez mil reais) mostra-se razoável e proporcional.
+Quanto ao pedido de RETIFICAÇÃO DE POLO PASSIVO, indefiro, eis que a parte autora reclama, além das cobranças referentes a anuidade em seu cartão de crédito, cuja administração é feita pelo réu: BANCO ITAUCARD S/A, pelos descontos efetuados diretamente em sua conta-corrente sem sua prévia autorização. Desta forma, deve o réu: ITAU UNIBANCO S/A, permanecer no polo passivo da demanda. Solidariedade entre os Réus que se impõe.
+Ante o exposto, JULGO PROCEDENTE EM PARTE os pedidos autorais, extinguindo o feito com resolução do mérito, nos termos do artigo 487, I do Novo CPC, para: 
+a) declarar a rescisão do contrato vinculado ao cartão de crédito Visa nº. 4440.xxxx.xxxx.4434, bem como declarar a inexigibilidade de todo e qualquer débito a ele vinculado, devendo a ré abstendo-se de fazer novas cobranças, sob pena de multa equivalente a R$ 200,00 (duzentos reais) por cada cobrança indevida; 
+b) condenar a ré a restituir a parte autora a quantia de R$ 328,65 (trezentos e vinte e oito reais e sessenta e cinco centavos), na forma simples, corrigidos monetariamente desde a data do pagamento e juros de mora de 1% ao mês a partir da citação; 
+c) condenar a ré a pagar a parte autora a quantia de R$ 10.000,00 (dez mil reais), a título de compensação por danos morais, acrescido de correção monetária a contar da presente sentença (Súm. 362/STJ), e juros de mora de 1% ao mês, estes a incidir da data da citação;  
+d) condenar a ré a proceder a exclusão do nome da parte autora dos cadastros de proteção ao crédito da anotação de fl. 14, no prazo de 10 dias sob pena de multa diária de R$ 50,00 (cinquenta reais), inicialmente limitada em R$ 5.000,00 (cinco mil reais);
+
+
+
+
+
+	A parte ré fica ciente de que deverá depositar as quantias acima fixadas, referentes ás condenações de pagar quantia certa, no prazo de 15 (quinze) dias após o trânsito em julgado sob pena de multa de 10%, conforme prevista no artigo 523, I do Novo CPC, e nos termos do Enunciado Jurídico 13.9.1 do Aviso 23/2008.
+Publicações, intimações e retificações conforme requerido pelas partes. No caso de retificação de nome, oficie-se ao Distribuidor e anote-se onde couber. 
+Sem ônus sucumbenciais em razão do art. 55 da Lei n. 9.099/95.
+Remeto à apreciação do MM. Juiz Togado, na forma do disposto no art. 40, da lei 9099/95.
+Duque de Caxias, 23 de março de 2017.
+		
+Adriana do Rosario Soneira
+Juíza Leiga";0004702483AC0902739D735F181565C0FBF6C50562343508;00041173801FCA0EEFCA2BDA252919F2EA18C5052D145B3B;2016.021.061956-2;0.8931504487991333
+4;2016.001.143686-8;Vistos etc. HOMOLOGO o PROJETO DE SENTENÇA proferido pelo DD. Juiz Leigo que me foi submetido, para que a mesma produza os seus jurídicos e legais efeitos, nos termos do artigo 4º, inciso III, da Resolução nº 08/2005, do Órgão Especial do TJ/RJ.  Sem custas judiciais, na forma da Lei nº 9.099/95. P.R.I. Certificado o trânsito em julgado, aguarde-se pronunciamento por 30 dias. Na inércia, dê-se baixa e arquive-se.;0004702483AC0902739D735F181565C0FBF6C50562343508;00041173801FCA0EEFCA2BDA252919F2EA18C5052D145B3B;2016.021.061956-2;0.8931504487991333
+5;2016.001.143686-8;"PODER JUDICIÁRIO DO ESTADO DO RIO DE JANEIRO
+I JUIZADO ESPECIAL CÍVEL - DUQUE DE CAXIAS 
+
+PROCESSO Nº: 0062912-09.2016.8.19.0021
+AUTOR: WAGNER DA SILVA DE SANTANA
+RÉU: ITAU UNIBANCO S/A
+RÉU: BANCO ITAUCARD S/A
+
+PROJETO DE SENTENÇA
+
+Vistos, etc.
+Dispensado relatório nos termos do art. 38, da Lei nº 9.099/95. 
+Trata-se de ação judicial ajuizada pela parte autora em face da ré, pleiteando antecipação dos efeitos da tutela para que a ré exclua seu nome dos cadastros de inadimplentes, sob pena de multa diária a ser arbitrada em caso de descumprimento. Requereu a confirmação do provimento antecipado, a restituição do valor de R$ 328,65, bem como seja declarada a inexigibilidade dos débitos vinculados ao cartão de crédito Visa nº. 4440.xxxx.xxxx.4434. Requer, por fim, compensação por danos morais.
+A parte autora aduz em síntese que é titular de conta-corrente nº 49198-2, adquirida junto a 1ª ré, agência: 1282 e titular de cartão de crédito Visa nº. 4440.xxxx.xxxx.4434, administrado pela 2ª ré. Menciona que em novembro de 2013 a validade de seu cartão de crédito expirou a validade, não tendo recebido outro em substituição. Afirmou que, como haviam débitos parcelados em seu cartão, efetuava os pagamentos regularmente desses valores, através das faturas que recebia da ré. Alega que não obstante a ré não ter enviado o nova cartão de crédito, a partir da fatura com vencimento em 08/09/2014, passou a descontar o valor de R$ 67,00, referente à anuidade. Que por engano, efetuou o pagamento em duplicidade do parcelamento incluído na fatura com vencimento em dezembro de 2014. Assevera que realizou reclamações administrativas, inclusive via e-mail (fl. 53/58), informando o ocorrido e requerendo o cancelamento do plástico, passando a efetuar o pagamento da fatura apenas com o valor do parcelamento que reconhecia o débito. Destacou que em outubro/2016, tomou conhecimento de que a ré havia incluído o seu nome nos cadastros restritivos de crédito por débitos referente a fatura vencida em 08/09/2016 (fl. 14), embora jamais tenha recebido o cartão, desbloqueado ou utilizado. Esclareceu, ainda, que ao comparecer em sua agência, tomou conhecimento que os valores referentes ao mínimo de seu cartão de crédito foram descontados mensalmente em sua conta corrente até agosto de 2015 (fls. 31/31 e 40/52), quando deixou de ter saldo para o desconto. Que os débitos foram acumulando, gerando posterior gravame de seu nome.
+O pedido de antecipação dos efeitos da tutela foi negado, conforme se depreende da decisão de fl. 64.
+Em audiência de instrução e julgamento, pela parte autora foram reiterados os termos da inicial, acrescentando que a ré em sua peça de bloqueio reconhece que ele não recebeu o plástico, portanto indevidas as cobranças e posterior negativação de seu nome nos cadastros restritivos de crédito.
+Resposta oferecida pelas rés, em peça única, por sua vez, requer a RETIFICAÇÃO DE POLO PASSIVO para que conste apenas a ré: BANCO ITAUCARD S/A, empresa responsável pela administração do produto objeto da lide. No mérito, sustenta que inexiste direito a ser amparado à parte autora. Sustenta que não houve ato ilícito e que não há dano moral. Que a parte autora não buscou as vias administrativas para a solução da lide, havendo ausência de pretensão resistida da ré. Requer a improcedência do pedido. 
+Preliminarmente, quanto a alegação da ré de a parte autora não buscou as vias administrativas para a solução da questão, os e-mail enviados (fls. 53/58) demonstram o esforço do autor na solução da lide.
+A relação estabelecida entre as partes é de consumo, porquanto presentes os requisitos subjetivos (arts. 2º, caput, e 3º, caput, da Lei nº 8.078/90) e objetivo (art. 3º, § 2º, da Lei n.º 8.078/90) que a caracterizam. Aplicável, portanto, o regime jurídico especial da Lei n.º 8.078/90, a qual abriga a responsabilidade do tipo objetiva, em que é necessária, apenas, a prova do dano e do nexo causal, sendo despicienda a culpa da ré, e ainda assegura ao consumidor, como medida protetiva, a inversão do ônus da prova (artigo 6º, VIII, do CDC), haja vista a verossimilhança dos fatos narrados na petição inicial, bem como sua condição de hipossuficiente e vulnerável na relação de consumo. 
+Diante das provas dos autos, verifica-se que a parte autora comprova de forma robusta os fatos aduzidos em sua peça exordial. Contexto fático probatório que permite concluir que há verossimilhança nas alegações da autora.
+A Ré, por sua vez, defende-se arguindo que a parte autora não apresentou prova mínima dos fatos alegados, ferindo o art. 373, I do CDC.
+Não trouxe aos autos qualquer comprovação de que o cartão objeto da lide tenha sido entregue a autora, ou que possuía autorização para descontar os valores referentes aos débitos do cartão de crédito, diretamente de sua conta-corrente, eis que nenhum contrato foi apresentado.
+E, muito embora tenha aduzido em sua peça de bloqueio que: ""Assim, tomou o Réu todas as providências necessárias para evitar ou minimizar os danos e prejuízos sofridos pelo autor, bem como para recompô-los, o que demonstra que não resistiu à pretensão da parte autora."", fato é que também não comprovou nenhuma providência, sequer havendo nos autos a comprovação de que providenciou a baixa de gravame em nome do autor.
+Desta forma, desnecessária a comprovação da culpa, uma vez que a responsabilidade da parte ré é objetiva, não conseguindo a parte ré comprovar nenhuma excludente de nexo causalidade. Trata-se do risco do empreendimento, onde a ré lucra com o bônus, mas também deve arcar com o ônus.
+Na verdade, era dever da parte ré fazer prova dos fatos modificativos, extintivos ou impeditivos do direito autoral, na forma do art. 373, II do Novo CPC, no sentido de demonstrar a ocorrência de uma das excludentes de responsabilidade civil no CDC, já que a responsabilidade objetiva do fornecedor de bens e serviços, através art. 14 daquele diploma legal, somente pode ser afastada se comprovada a culpa exclusiva do consumidor ou de terceiro para a ocorrência do evento danoso, nos termos que lhe impõe o art. 14, § 3º, incisos I e II da Lei nº 8.078/90 e art. 373, II do CPC, o que não foi feito. 
+Diante do apresentado, deve ser acolhido o pleito autoral, devendo a ré proceder a baixa do gravame vinculado ao CPF da parte autora referente ao débito vinculado ao cartão objeto da lide. Deve, ainda, ser declarada a inexigibilidade de todo e qualquer débito em nome da parte autora, referente ao cartão de crédito objeto da lide.
+Ante a ausência de prova do cumprimento da obrigação contratual de entrega do cartão de crédito, se reputam ilegítimas as cobranças enviadas ao autor durante todo o período que este não foi prestado, devendo ser canceladas as que não tiverem sido pagas, bem como restituídas as que tiverem sido comprovadamente quitadas.
+No entanto, tal restituição deverá ocorrer na forma simples, eis que conforme decidido na Reclamação 4892/PR pelo Superior Tribunal de Justiça, é imprescindível a prova da má-fé na cobrança para a aplicação da devolução em dobro, nos termos do art. 42 do CDC. 
+Diante do exposto, deverá a ré restituir ao autor o valor total requerido de R$ 328,65 (trezentos e vinte e oito reais e sessenta e cinco centavos), conforme comprovantes nos autos. 
+Quanto ao pedido de indenização extrapatrimonial, formulado pela autora, deve o mesmo ser acolhido ante a configuração do dano moral indenizável, evidenciado pelo próprio fato. Conforme lição do Desembargador SÉRGIO CAVALIERI FILHO ""o dano moral existe in re ipsa"", ou seja, ""está ínsito na própria ofensa, decorre da gravidade do ilícito em si"" (Programa de Responsabilidade Civil, 2ª ed., Malheiros, p. 80).
+No que tange ao quantum debeatur, deve o mesmo ser fixado de forma proporcional, moderada e razoável, compatível com a reprovabilidade da conduta ilícita, a intensidade e duração do sofrimento experimentado, a capacidade econômica do causador do dano e as condições sociais da vítima, dentre outras circunstâncias relevantes.
+Com base em tais critérios, e o decurso de tempo sem qualquer solução por parte do réu, entende esse Juízo que o valor de R$ 10.000,00 (dez mil reais) mostra-se razoável e proporcional.
+Quanto ao pedido de RETIFICAÇÃO DE POLO PASSIVO, indefiro, eis que a parte autora reclama, além das cobranças referentes a anuidade em seu cartão de crédito, cuja administração é feita pelo réu: BANCO ITAUCARD S/A, pelos descontos efetuados diretamente em sua conta-corrente sem sua prévia autorização. Desta forma, deve o réu: ITAU UNIBANCO S/A, permanecer no polo passivo da demanda. Solidariedade entre os Réus que se impõe.
+Ante o exposto, JULGO PROCEDENTE EM PARTE os pedidos autorais, extinguindo o feito com resolução do mérito, nos termos do artigo 487, I do Novo CPC, para: 
+a) declarar a rescisão do contrato vinculado ao cartão de crédito Visa nº. 4440.xxxx.xxxx.4434, bem como declarar a inexigibilidade de todo e qualquer débito a ele vinculado, devendo a ré: BANCO ITAUCARD S/A, abster-se de fazer novas cobranças, sob pena de multa equivalente a R$ 200,00 (duzentos reais) por cada cobrança indevida; 
+b) condenar as rés, solidariamente, a restituírem à parte autora a quantia de R$ 328,65 (trezentos e vinte e oito reais e sessenta e cinco centavos), na forma simples, corrigidos monetariamente desde a data do pagamento e juros de mora de 1% ao mês a partir da citação; 
+c) condenar as rés, solidariamente, a pagarem, à parte autora a quantia de R$ 10.000,00 (dez mil reais), a título de compensação por danos morais, acrescido de correção monetária a contar da presente sentença (Súm. 362/STJ), e juros de mora de 1% ao mês, estes a incidir da data da citação;  
+d) condenar a ré: BANCO ITAUCARD S/A, a proceder a exclusão do nome da parte autora dos cadastros de proteção ao crédito da anotação de fl. 14, no prazo de 10 dias sob pena de multa diária de R$ 50,00 (cinquenta reais), inicialmente limitada em R$ 5.000,00 (cinco mil reais);
+
+
+
+
+
+	A parte ré fica ciente de que deverá depositar as quantias acima fixadas, referentes ás condenações de pagar quantia certa, no prazo de 15 (quinze) dias após o trânsito em julgado sob pena de multa de 10%, conforme prevista no artigo 523, I do Novo CPC, e nos termos do Enunciado Jurídico 13.9.1 do Aviso 23/2008.
+Publicações, intimações e retificações conforme requerido pelas partes. No caso de retificação de nome, oficie-se ao Distribuidor e anote-se onde couber. 
+Sem ônus sucumbenciais em razão do art. 55 da Lei n. 9.099/95.
+Remeto à apreciação do MM. Juiz Togado, na forma do disposto no art. 40, da lei 9099/95.
+Duque de Caxias, 23 de março de 2017.
+		
+Adriana do Rosario Soneira
+Juíza Leiga";0004702483AC0902739D735F181565C0FBF6C50562343508;00041173801FCA0EEFCA2BDA252919F2EA18C5052D145B3B;2016.021.061956-2;0.8931504487991333
+6;2016.001.143686-8;"     Tendo em   vista que  houve  acordo entre  as  partes , JULGO  EXTINTO COM  RESOLUÇÃO DO MÉRITO, na forma do artigo  487, III,  alínea  b ,  do CPC.
+
+
+ Sem custas. Após as formalidades legais, dê-se baixa e arquive-se. P.R.I.";0004702483AC0902739D735F181565C0FBF6C50562343508;00041173801FCA0EEFCA2BDA252919F2EA18C5052D145B3B;2016.021.061956-2;0.8931504487991333
+7;2016.001.143686-8;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+
+Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
+
+Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, sob pena de arquivamento dos autos. Após o trânsito em julgado, tratando-se de sentença de improcedência ou de extinção do feito sem resolução do mérito, dê-se baixa e arquivem-se imediatamente. 
+
+Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
+
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004B0602759BB8DAA8C56B2C26E116FE101C5050D333649;00040067FEC9B68E8FA4A8707506E8B2ADF9C5050A1F3030;2016.001.039066-6;0.8910115957260132
+8;2016.001.143686-8;"PROJETO DE SENTENÇA
+
+Ainda que dispensado o relatório, na forma do artigo 38 da lei 9.009/95, faço um breve relatório, após o qual passo a decidir
+Trata-se de ação de obrigação de fazer c/c reparação por danos materiais c/c compensação por danos morais proposta por EDISON VANDER PIEDADE em face de BANCO ITAU S.A., em que alega haver cobrança por seguro não contratado.
+A ré, em sua contestação, alega a ausência de danos à parte autora.
+		Presentes os pressupostos processuais e as condições ao regular exercício do direito de ação, passa-se ao mérito.
+É inegável tratar-se de relação de consumo, na medida em que estão presentes as figuras do consumidor, do fornecedor e do serviço, na forma dos arts. 2º e 3º do CDC e súmula 297 do STJ, estando presentes os elementos subjetivos e objetivo.
+Conclui-se, compulsando os autos, pela ocorrência de um fato do serviço, previsto no art. 14 do CDC, na medida em que a ré procedeu à cobrança de seguro não contratado pela parte autora.
+Assim sendo, na forma do art. 14, §3º do CDC, a inversão do ônus da prova se opera ope legis, na medida em que o fornecedor somente não será responsabilizado quando provar fato exclusivo da vítima ou de terceiro, ou que o defeito inexiste.
+Porém, quanto aos fatos constitutivos de seu direito, não há como se entender que haja tal inversão, notadamente quanto aos prejuízos ocasionados pela conduta da ré, devendo tais fatos serem comprovados pela autora, na forma do art. 373, I do CPC/2015 (art. 333, I do CPC/1973), logrando êxito em fls. 26-32, em que traz os comprovantes do seguro não desejado (¿ITAU SEG VIDA PF¿), com os descontos em sua conta corrente (fls. 18-25), bem como em fls. 40 com a reclamação administrativa e o consequente cancelamento em fls. 41.
+Em sua contestação, a ré afirma não ocorrer qualquer dano à parte autora, porém não traz aos autos qualquer documento em que seja possível verificar a anuência do autor em relação ao referido desconto.
+Em relação ao dano patrimonial, tendo a autora trazido a prova do efetivo pagamento dos valores cobrados indevidamente, se faz necessária a restituição dos mesmos, que não deverá se dar da forma simples, na medida em que a aplicação do art. 42, p. único apenas prevê a restituição em dobro quando houver má-fé por parte do fornecedor na cobrança, o que ocorre no caso em tela, posto que não houve contratação. 
+Assim sendo, o valor a ser devolvido totaliza R$ 3.474,12 (três mil quatrocentos e setenta e quatro reais e doze centavos), conforme fls. 18-25.
+Quanto aos danos morais alegadamente sofridos, como houve violação dos deveres anexos do contrato, não tendo o fornecedor agido com lealdade e nos ditames da boa-fé objetiva que deve regular as relações de consumo, e, tendo em o valor total descontado indevidamente, além da reiteração da conduta por , é possível concluir pela ocorrência de abalos psíquicos capazes de afetar os direitos da personalidade, tornando os danos morais presumidos (in ré ipsa), não se podendo aplicar a súmula 75 do TJRJ de forma a não se considerar o ocorrido como mero aborrecimento diário que tem reflexos exclusivamente patrimoniais, até mesmo em aplicação á função punitivo-pedagógica da compensação por danos morais.
+No tocante ao quantum da indenização fixado, em que pese não haver parâmetros objetivos para o seu estabelecimento, observo que o valor não deve levar ao enriquecimento do credor e tampouco à ruína do devedor.
+Nesse sentido, deve mais do que possuir cunho punitivo, ter caráter educativo àquele que agiu indevidamente ao ferir a honra e a imagem de outrem, compensando de forma pecuniária a pessoa lesada no seu íntimo, na forma dos arts. 5º, X da CRFB e 6º, VI do CDC.
+Assim, observando-se os parâmetros acima mencionados e considerando-se as informações constantes dos autos, entendo que a indenização por danos morais no valor de R$ 2.000,00 (dois mil reais) é justa, adequada e atende os princípios da proporcionalidade e razoabilidade. 
+Pelo exposto, julgo PROCEDENTE EM PARTE, na forma do art. 487, I do CPC/2015 (art. 269, I, do CPC/1973), o pedido para: 1) CONDENAR a ré ao pagamento da quantia de R$ 3.474,12 (três mil quatrocentos e setenta e quatro reais e doze centavos), a título de reparação por danos materiais, devendo o valor ser corrigido monetariamente a partir do desembolso, e com juros de 1% ao mês a contar da citação; 3) CONDENAR a ré ao pagamento da quantia de R$ 2.000,00 (dois mil reais), a título de compensação pelos danos morais, devendo o valor ser corrigido monetariamente a partir do arbitramento e com juros de 1% ao mês a partir da citação.
+Isento dos ônus sucumbências, na forma do art. 55 da lei 9.099/95. Submeto este Projeto de Sentença ao Juiz Togado, na forma do que dispõe o art. 40 da lei 9.099/95.
+
+Rio de Janeiro, 31 de maio de 2016.
+
+Janayme Vieira de Moraes
+Juíza Leiga";0004B0602759BB8DAA8C56B2C26E116FE101C5050D333649;00040067FEC9B68E8FA4A8707506E8B2ADF9C5050A1F3030;2016.001.039066-6;0.8910115957260132
+9;2016.001.143686-8;" Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). Se for o caso, comprovado o depósito, expeça-se mandado de pagamento em favor da parte autora, independentemente de nova conclusão.   Após, nada mais sendo requerido, dê-se baixa e arquivem-se. 
+Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";0004B0602759BB8DAA8C56B2C26E116FE101C5050D333649;00040067FEC9B68E8FA4A8707506E8B2ADF9C5050A1F3030;2016.001.039066-6;0.8910115957260132
+10;2016.001.143686-8;"Dispensado o relatório, na forma do artigo 38 da Lei 9099/95, passo a decidir.
+
+Alega a parte autora ter sido surpreendida com a cobrança, na sua conta corrente, de seguro familiar, o qual não contratou. Relata que a cobrança de R$ 20,00 foi retirada do montante que deveria ser destinado ao título de capitalização que contratou, no valor de R$ 70,00. Requer manutenção o título de capitalização com descontos de R$ 70,00 e indenização pelos danos materiais e morais sofridos.
+
+	Em sua contestação, alega o réu que inexiste dano moral.
+
+Por ser relação de consumo toda relação jurídico-obrigacional que liga um consumidor a um fornecedor, tendo como objeto o fornecimento de um produto ou da prestação de um serviço, conclui-se que a relação existente entre as partes é de consumo, portanto a referida demanda será analisada sob a ótica do Código de Defesa do Consumidor.
+
+   A hipótese constante dos autos, como salientado, é de fato do serviço, cuja previsão se encontra no art. 14 da Lei 8078 /90, e este se caracteriza quando gera um acidente de consumo. O acidente de consumo se dá quando o defeito do serviço se exterioriza, atingindo o consumidor em sua incolumidade física, econômica ou psíquica. 
+
+	Deste modo, caberia ao réu comprovar que não houve falha na prestação do serviço, o que não ocorreu. 
+
+Ressalte-se que o réu não trouxe qualquer documento visando à contratação do seguro; os documentos de fls. 16/18 nada mencionam acerca do seguro descontado em fls. 19/21. Não demonstrou, ainda, o ressarcimento.
+
+Ressalta-se que é lícita somente a cobrança de produto ou serviço que interesse ao consumidor. Merece acolhida, portanto, o pedido de restituição do valor pago, em dobro, diante do que dispõe o art. 42, p. único, do CDC.
+Por outro lado, os fatos narrados pela autora não demonstram repercussão de ordem imaterial.
+Isso posto, JULGO PROCEDENTE EM PARTE O PEDIDO para 1) condenar o réu a realizar os descontos referentes ao título de capitalização da parte autora, no valor de R$ 70,00, sob pena de multa de R$ 100,00 por cobrança em desacordo; para 2) condenar o réu a cancelar o seguro objeto dos autos, em nome da parte autora, no prazo de quinze dias, sob pena de multa de R$ 100,00 por cada cobrança indevida; e para 3) condenar o réu a restituir à parte autora o valor de R$ 240, com correção monetária a partir do desembolso e juros de mora a partir da citação. Deixo de condenar em despesas processuais e honorários advocatícios com base no art. 55 da Lei n° 9.099/95. 
+Anote-se onde couber o nome do patrono indicado na peça de defesa da parte ré para as futuras publicações.
+   
+Projeto de sentença que se submete à homologação, nos termos do art.40, Lei nº 9.099/95.
+
+Rio de Janeiro, 12 de dezembro de 2016.";0004963A89C157F6B65929774A47755BAED9C50556062861;00044FA2E4D7B8E37852321244DFC084F9CEC5052D4E272D;2016.204.030800-7;0.8892722129821777
+11;2016.001.143686-8;Dispensado o relatório na forma do art. 38 da Lei 9099/95. HOMOLOGO o projeto de sentença proferido pelo Juiz Leigo, para que produza seus jurídicos e legais efeitos, na forma do art. 40 da Lei 9.099/95.  FICAM AS PARTES CIENTES DE QUE, NOS TERMOS DO AVISO 02/2016 DA COJES (D.O. 31/03/2016) OS PRAZOS PROCESSUAIS EM SEDE DE JEC CONTINUARÃO A SER CONTADOS EM DIAS CORRIDOS, INAPLICÁVEL O ARTIGO 219 DO NCPC.Fica a parte ré ciente de que caso não pague a quantia certa a que foi condenada em 15 dias, contados do trânsito em julgado da sentença, o valor da condenação será acrescido de multa de 10%, por aplicação do artigo 523,§1º do CPC, sendo certo, ainda, que a comprovação do depósito deverá vir aos autos no prazo de 5 dias, após a efetivação. Comprovado o depósito nos autos,  expeça-se mandado de pagamento. Após, dê-se baixa e arquive-se. Caso negativo, após o decurso do prazo de trinta dias do trânsito em julgado, dê-se baixa e arquive-se.;0004963A89C157F6B65929774A47755BAED9C50556062861;00044FA2E4D7B8E37852321244DFC084F9CEC5052D4E272D;2016.204.030800-7;0.8892722129821777
+12;2016.001.143686-8;"     Tendo em   vista que  houve  acordo entre  as  partes , JULGO  EXTINTO COM  RESOLUÇÃO DO MÉRITO, na forma do artigo  487, III,  alínea  b ,  do CPC.
+
+
+ Sem custas. Após as formalidades legais, dê-se baixa e arquive-se. P.R.I.";0004FCE7D26423E05C25B100559080D53175C505163E112A;0004FC887D5BA9166ADD69460F88A714B65DC5044647152B;2016.021.012434-2;0.8891558647155762
+13;2016.001.143686-8;"PODER JUDICIÁRIO DO ESTADO DO RIO DE JANEIRO
+I JUIZADO ESPECIAL CÍVEL ¿ DUQUE DE CAXIAS
+Processo n°: 0028975-08.2016.8.19.0021 
+1º Autor: LUIZ CARLOS DOS SANTOS
+2º Autor: JAQUELINE LUZIA SILVA DOS SANTOS
+Réu: ITAU UNIBANCO S/A
+
+PROJETO DE SENTENÇA
+
+Vistos, etc.
+
+Dispensado relatório nos termos do art. 38, da Lei nº 9.099/95, passo a decidir. 
+
+Narra a inicial que o 1º autor é cliente da ré há mais de 5 anos, sendo titular do cartão de crédito nº 5304.5202.5640.9938 e um adicional que fez para a 2ª autora sob o nº 53045202.4504.0851, sempre honrando com suas obrigações contratuais. Que em 02/03/2016 foi fazer compras e no momento de passar o cartão foi informada que o mesmo estava bloqueado. Aduz que ficou completamente constrangida, já que o fato ocorreu na presença de outros consumidores. Menciona que ligou para o réu, não recebendo uma explicação plausível para a não autorização das compras, não sendo dito o motivo pelo qual o cartão se encontrava bloqueado. Que somente não passou vexame maior, porque estava com dinheiro e teve que pagar as compras à vista. Alega que em 03/03/2016 a 2ª Autora ligou para a ré, sendo  informada que o cartão sob o nº 53045202.4504.0851, havia sido bloqueado devido a uma suposta fraude. Relata que em 05/03/ 2016 a 2º autora ligou novamente para o réu. Que em 10/03/2016 a 2ª autora foi ao mercado com o cartão do 1º Autor e ao passar as mercadorias foi constatado que também estava bloqueado, apesar de não existir nenhuma justificativa. Pleiteia indenização por danos morais; a restituição da senha dos cartões sob nº 5304.5202.5640.9938 e um adicional que fez para a sua filha sob o nº 53045202.4504.0851.
+
+A ré, em contestação, pugna pela improcedência do pedido autoral.
+
+Preenchidas, portanto, as condições da ação e estando presentes os pressupostos processuais, passo à apreciação do mérito.
+
+É inquestionável que se trata de relação jurídica de consumo, com aplicação das normas contidas na Lei nº 8.078/1990, fazendo prevalecer os princípios e as regras cogentes nela inseridas e que têm por escopo basilar favorecer o elo mais fraco nesse vínculo e, assim, reequilibrar as forças entre os envolvidos na disputa, em regra, desproporcional e injusta.
+
+É cediço que o art. 6º, inciso VIII do Código de Defesa do Consumidor permite que a defesa dos direitos do consumidor em juízo seja facilitada pelo mecanismo da inversão do ônus da prova, atenuando, assim, a regra do art. 373 do CPC, onde se encontra estabelecido o princípio de caber ao autor a prova do fato constitutivo do seu direito, e ao réu a do fato impeditivo ou extintivo do direito do autor. 
+
+Contudo, a inversão do ônus da prova, não pode ser considerada norma geral automaticamente observável em todo e qualquer processo pertinente a relação de consumo. 
+
+Assim sendo, em regra, o consumidor é a parte mais fraca no mercado de consumo, a lei inclui entre as medidas protetivas que lhe são proporcionadas a da possibilidade de inversão do ônus da prova. 
+
+Todavia, não se pode olvidar que o inciso VIII, do art. 6º do CDC, autoriza essa providência apenas quando o juiz venha a constatar a verossimilhança da alegação do consumidor, ou sua hipossuficiência, ""segundo as regras ordinárias de experiência.""
+
+Portanto, não se trata de inversão compulsória, sendo simples faculdade judicial que pode, ou não, ser concedida, dependendo da verossimilhança das afirmações feitas pelo consumidor ou na sua hipossuficiência, a faculdade judicial não pode ser manejada em favor do consumidor, sob pena de configurar-se ato abusivo, com violação do princípio do devido processo legal. 
+
+No caso vertente, a parte autora alega que sofreu constrangimentos ao tentar realizar compras e sacar o valor disponível do seu limite, haja vista que seu cartão de crédito foi cancelado sem aviso prévio.
+
+A ré, por sua vez, sustenta que a parte autora não faz prova de suas alegações.
+
+Compulsando os autos se verifica que não obstante a parte autora alegar que sofreu constrangimentos, a mesma não se desincumbiu de comprovar a exposição frente a terceiros por supostas compras não autorizadas pela ré, pois bastava trazer uma testemunha que supostamente tenha presenciado os fatos narrados na exordial, se tratando de prova de fácil produção.
+
+Ademais observa-se que não há qualquer indicação de protocolo de atendimento a fim de tornar verossímeis as alegações autorais.
+
+Frise-se que a própria parte autora menciona que conseguiu  realizar o pagamento das compras por outros meios.
+
+Assim, os documentos acostados pela parte autora não são suficientes a demonstrar a alegado constrangimento mediante a recusa na utilização do cartão de crédito.
+
+Nesse contexto, incumbia a parte autora a comprovação dos fatos constitutivos de seu direito, na forma do artigo 373, inc. I, do CPC, importando a ausência de prova na improcedência da pretensão veiculada.
+
+Sendo assim, não há como se acolher o pedido de restabelecimento do cartão de crédito, bem como de sua respectiva senha, haja vista que não restou comprovada a alegada ausência de autorização para realização de compras. 
+
+Além disso, os fatos narrados na inicial não ultrapassam a esfera do mero dissabor enfrentados no cotidiano, que não enseja indenização por danos morais, sendo forçosa a aplicação da Sumula nº 75 do TJERJ.
+
+Nesse sentido:
+
+
+SESSÃO: 30/06/2015 PROCESSO Nº: 0000675-80.2014.8.19.0029 RELATORA: DRA. MARCIA CORREIA HOLLANDA RECORRENTE: CLEITON CARVALHO AFFONSO DO NASCIMENTO RECORRIDOS: MERCADO MURANO LTDA. E HSBC BANK BRASIL S/A-BANCO MÚLTIPLO VOTO Trata-se de recursos inominados interpostos pelo autor e pelo segundo réu, HSBC BANK BRASIL, contra sentença que julgou parcialmente procedente o pedido em relação ao segundo réu, HSBC BANK BRASIL, condenando-o ao pagamento da quantia de R$ 1.000,00 a título de danos morais e julgou improcedente o pedido de restituição do valor indevidamente descontado no cartão de crédito do autor. Julgou, ainda, improcedentes os pedidos formulados em face do primeiro réu, MERCADO MURADO LTDA. Pretende o autor a majoração da verba indenizatória, ao passo que o segundo réu pretende a reforma integral da sentença e, subsidiariamente, a redução do quantum indenizatório. A controvérsia restringe-se em saber se os fatos vivenciados pelo autor são geradores de danos morais causados pela parte ré. Na presente hipótese, a recusa de autorização para pagamento de compra com cartão de crédito é um fato que pode ocorrer com qualquer usuário, em razão de diversos motivos. Tal fato não extrapola os limites do mero aborrecimento, tratando-se de singelo inadimplemento contratual, incidindo o verbete nº 75, da Súmula deste E. Tribunal. Neste sentido, o Superior Tribunal de Justiça, decidiu: Agravo regimental. Recurso especial não admitido. Compra não autorizada. Cartão de crédito. Dano moral. Dissídio não configurado. Pedido de indenização por dano moral em razão de ter sido negada ao autor, pela administradora de cartão de crédito, autorização para efetuar compra em estabelecimento comercial credenciado. Afirmou o Tribunal que ""mero aborrecimento decorrente da não aceitação do cartão de crédito em estabelecimento credenciado, não se pode considerar como dissabor suficiente a configurar dano moral"". Acatar a tese recursal de que houve indevida inscrição do cartão do recorrente em lista de crédito suspenso constitui questão de fato, inviável de apreço em sede de recurso especial. Incidência da Súmula nº 07/STJ. Mantido o entendimento de que ""o mero dissabor não pode ser alçado ao patamar do dano moral, mas somente aquela agressão que exacerba a naturalidade dos fatos da vida, causando fundadas aflições ou angústias no espírito de quem ela se dirige"" (REsp nº 403.919/MG, Quarta Turma, Relator o Senhor Ministro Cesar Asfor Rocha, DJ de 04/8/03). 2. Dissídio jurisprudencial não configurado ante à ausência de identidade fática entre os julgados. 3. Agravo regimental desprovido."" (AgRg no Ag 537867/RJ. Relator Ministro CARLOS ALBERTO MENEZES DIREITO. Órgão Julgador T3 - TERCEIRA TURMA, data do Julgamento 16/03/2004. Data da Publicação/Fonte DJ 03/05/2004 p. 154). Sobre o tema, cita-se entendimento desta Corte Estadual de Justiça: ""APELAÇÃO CÍVEL. AÇÃO INDENIZATÓRIA. RITO ORDINÁRIO. Danos morais. Impossibilidade de utilização do cartão de crédito no mercado. Alegação de falha no serviço e humilhação. Sentença improcedente. Apelo do autor. Sentença bem lançada. Mero aborrecimento. O autor imputa à ré a responsabilidade civil pela alegada falha no serviço e bloqueio indevido do cartão de crédito. Todavia, o mesmo sequer trouxe aos autos a declaração do estabelecimento com o fim de comprovar as suas assertivas, no sentido de que houve recusa do réu em aprovar a compra. Descumprimento do art. 333, I, do CPC. No mais, eventual impossibilidade de utilização do cartão em comento nas circunstâncias dos autos não fera o dano moral pretendido. Descumprimento do dever contratual que não importa, por si só, no dever de indenizar. Inteligência contida na Súmula 75 deste E. TJR. Razões recursais manifestamente improcedentes a atrair a regra do art. 557, caput, do diploma processual civil. NEGADO SEGUIMENTO AO APELO."" (Apelação nº 0387587-96.2011.8.19.0001, Rel. Des. Ferdinaldo do Nascimento, julg. em 10/01/2013, 19ª Câm. Cível.) Pelo exposto, VOTO no sentido de DAR PROVIMENTO ao recurso interposto pelo segundo réu para reformar a sentença e julgar IMPROCEDENTE o pedido de dano moral, mantidos os demais termos. Negado provimento ao recurso da parte autora, que fica condenada nas custas processuais e honorários advocatícios de 10% sobre o valor da causa, observando-se a gratuidade de Justiça ora deferida. É como voto. Rio de Janeiro, 30 de junho de 2015. MARCIA CORREIA HOLLANDA Juíza Relatora PODER JUDICIÁRIO DO ESTADO DO RIO DE JANEIRO CONSELHO RECURSAL IV TURMA RECURSAL CÍVEL. (Grifamos)
+
+Portanto, aplica-se ao caso em tela o Enunciado 14.4.3 dos Juizados Especiais Cíveis que prevê que ""o inadimplemento contratual por si só, não enseja dano moral, salvo se da infração advém circunstância que atenta contra a dignidade da parte"".
+
+Ante o exposto, JULGO IMPROCEDENTES os pedidos elencados na exordial, extinguindo o feito com resolução do mérito, na forma do artigo 487, I CPC.
+
+Sem custas, nem honorários advocatícios, nos termos do artigo 55 da Lei 9099/1995.
+
+Publique-se. Registre-se. Intimem-se.
+
+Rio de Janeiro, 02 de agosto de 2016.
+________________________________________
+Ana Elisabeth de Paula Santos
+Juíza Leiga
+
+Remeto os autos ao MM. Juiz Togado, para posterior homologação.";0004F1D7F96763E55204B6595856146D0BCFC5051D452228;00045339B8C2A1FF3FC5A209EA4C4E4B4C91C505015E2A08;2016.021.028400-0;0.8875863552093506
+14;2016.001.143686-8;Vistos etc. HOMOLOGO o PROJETO DE SENTENÇA proferido pelo DD. Juiz Leigo que me foi submetido, para que a mesma produza os seus jurídicos e legais efeitos, nos termos do artigo 4º, inciso III, da Resolução nº 08/2005, do Órgão Especial do TJ/RJ.  Sem custas judiciais, na forma da Lei nº 9.099/95. P.R.I. Certificado o trânsito em julgado, aguarde-se pronunciamento por 30 dias. Na inércia, dê-se baixa e arquive-se.;0004F1D7F96763E55204B6595856146D0BCFC5051D452228;00045339B8C2A1FF3FC5A209EA4C4E4B4C91C505015E2A08;2016.021.028400-0;0.8875863552093506
+15;2016.001.143686-8;"
+ESTADO DO RIO DE JANEIRO
+PODER JUDICIÁRIO
+V JUIZADO ESPECIAL CÍVEL DA COMARCA DA CAPITAL 
+
+
+Processo n°:  0169552-96.2016.8.19.0001
+
+Autor: PEDRO MOREIRA ALVES DE BRITO
+
+Réu: ITAUCARD S/A e REDE BRASIL - GESTÃO DE ATIVOS LTDA
+
+PROJETO DE SENTENÇA
+
+Dispensado o relatório na forma do art. 38 da Lei 9.099/95.
+
+Trata-se de ação em que o autor alega terem as reclamadas negativado seu nome no cadastro restritivo de crédito, com base em uma suposta dívida, referente a um suposto contrato nunca contratado, acarretando lhe relevantes transtornos.  Narra o demandante ainda que, além das cobranças via correios, recebe e-mails e telefonemas cobrando a dívida.
+
+Pelo que, objetiva: a retirada do nome da parte autora dos cadastros restritivos de crédito, bem como, do 6° ofício de registro civil de títulos e documentos e pessoas jurídicas do Distrito Federal; se abstenham de efetuar qualquer tipo de cobrança referente aos valores objeto da lide; a declaração de inexistência de relação obrigacional entre o autor e as partes; bem como, a compensação por danos morais, em valor arbitrado pelo juízo.
+
+As partes rés foram citadas e ofereceram defesas sob a forma escrita, onde suscitaram a preliminar de ilegitimidade passiva, além de pugnar pela improcedência dos pedidos, ao argumento de que não ocorreu falha na prestação do serviço.
+
+Rejeito a preliminar de ilegitimidade passiva suscitada pela 2° ré, porquanto as condições para o regular exercício do direito de ação são aferidas à luz das alegações da parte autora constantes na petição inicial. Na espécie, a parte autora alega haver sofrido danos para o qual concorreu o réu, em face do qual propôs esta ação de responsabilidade civil. Nesses termos, a demanda foi corretamente proposta. Se o réu suscitante da preliminar foi ou não responsável pelos danos alegados na petição inicial, isso é matéria a ser examinada no mérito.
+Assim, presentes as condições para o regular exercício do direito de ação, bem como, os demais pressupostos da ação, passo a enfrentar o mérito.
+
+Decreto a revelia da segunda reclamada (REDE BRASIL - GESTÃO DE ATIVOS LTDA, diante de sua ausência à época da Audiência de Instrução e Julgamento, nos termos do artigo 9º da Lei 9.099/95. 
+
+Nesse passo, em que pese não se operar automaticamente o efeito material da revelia, previsto no art. 344 do CPC, consoante entendem a doutrina e jurisprudência majoritárias, os fatos narrados pela autora na exordial devem ser reputados como verdadeiros, uma vez que dotados de verossimilhança. 
+
+Tratando-se de relação de consumo, frente à verossimilhança das alegações e a hipossuficiência do reclamante, pessoa física, é cabível a inversão do ônus da prova, a teor do art. 6º, VIII, do CDC, não tendo as rés, se desincumbido de provar fatos extintivos, modificativos ou impeditivos do direito do autor.
+
+Cabe notar que, as rés não lograram êxito em demonstrar a inexistência de falha na prestação do serviço, uma vez que, não juntaram qualquer documento capaz de elidir as alegações do consumidor hipossuficiente, ou excluir sua responsabilidade objetiva, por evidente defeito na prestação de serviço, em conformidade com o disposto no § 3º do art. 14, da Lei 8.078/90, ou mesmo, na forma do art. 373, II, do CPC, à sua peça de defesa, ônus que lhe competia.
+
+As reclamadas não comprovaram ter prestado o serviço de maneira efetiva e adequada, não tendo demonstrado a contratação do suposto serviço objeto da lide, tampouco, justificativa plausível para a validade da cobrança efetuada.
+
+Assim, merece acolhimento os pedidos para que as rés se abstenham de efetuar qualquer tipo de cobrança referente aos valores objeto da lide; bem como, de declaração de inexistência de relação obrigacional entre o autor e as partes.
+
+O dano moral decorre in re ipsa da conduta sofrida, pois a conduta do réu frustrou às legítimas expectativas do consumidor.
+Na mensuração do dano moral, deve o magistrado se orientar pelos critérios de razoabilidade e proporcionalidade, não se olvidando de observar que o fato versa sobre apontamento indevido, motivo por que, fixo o dano imaterial no valor de R$ 3.000,00 (três mil reais).
+
+Com relação ao pedido de retirada do nome da parte autora dos cadastros restritivos de crédito, bem como, do 6° ofício de registro civil de títulos e documentos e pessoas jurídicas do Distrito Federal, este merece improcedência, uma vez que, não há nos autos prova de que o nome do requerente tenha sido negativado, o que impede a procedência do presente desiderato.
+
+Pelo exposto, JULGO PARCIALMENTE PROCEDENTES OS PEDIDOS, para CONDENAR as rés, SOLIDARIAMENTE: 1) a se absterem de efetuar qualquer tipo de cobrança referente aos valores objeto da lide, a partir da publicação da sentença, sob pena de multa equivalente ao dobro de cada valor cobrado; 2) a declarar a inexistência de relação obrigacional entre o autor e as partes; 3) a pagar à parte autora a quantia de R$ 3.000,00 (três mil reais) pelos danos morais causados, com juros de 1% (um por cento) ao mês, contados da citação, e correção monetária, contados a partir da data da leitura de sentença; 4) a confirmar a decisão que antecipou os efeitos da tutela concedida de fls. 64, tornando-a definitiva. Dou pela extinção do processo com resolução do mérito, na forma do artigo 487, I, do Código de Processo Civil. 
+
+Deverão as rés efetuar o pagamento do montante da condenação no prazo de 15 dias, após o trânsito em julgado, sob pena de multa de 10% (dez por cento) sobre o valor, independentemente de intimação, nos moldes do art. 523, §1ª, do CPC.
+
+Sem ônus de sucumbência em razão do disposto no artigo 55 da Lei nº 9.099/95.
+
+Projeto de sentença sujeito à homologação pela MM. Juíza de Direito, com base no art. 40 da Lei nº 9099/95.
+
+
+Rio de Janeiro, 13 de setembro de 2016.
+
+
+ANDRÉA LUCIA DUARTE DOS SANTOS
+JUIZA LEIGA";00049897E2A425AF18E3EDBEA26360331E1FC5052A610859;0004A45597738D36B0BFD79DBF64D32A5B24C5045D1C284B;2016.001.146414-1;0.8867937922477722
+16;2016.001.143686-8;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+
+Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
+
+Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, sob pena de arquivamento dos autos. Após o trânsito em julgado, tratando-se de sentença de improcedência ou de extinção do feito sem resolução do mérito, dê-se baixa e arquivem-se imediatamente. 
+
+Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
+
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";00049897E2A425AF18E3EDBEA26360331E1FC5052A610859;0004A45597738D36B0BFD79DBF64D32A5B24C5045D1C284B;2016.001.146414-1;0.8867937922477722
+17;2016.001.143686-8;"Dispensado o relatório nos termos do art. 38, da Lei 9.099/95.
+HOMOLOGO, para que produza seus jurídicos e legais efeitos, o acordo estabelecido pelas partes. Por conseguinte JULGO EXTINTO o presente processo, com julgamento do mérito, na forma do art. 487, III, ""b"" do NCPC.
+Sem custas ou honorários. 
+Após o trânsito em julgado, cumpridas todas as formalidades legais, dê-se baixa e arquivem-se. 
+P.I.";000429F639DC77474ED95E20AD447B847339C50604443D06;0004D7F4712C5C6994D11C9C278DEAF791A7C5050D4B3A35;2016.063.013543-9;0.8850016593933105
+18;2016.001.143686-8;"Vistos, etc.
+Dispensado relatório nos termos do artigo 38, da Lei nº 9.099/95. 
+Trata-se de ação indenizatória ajuizada por LEANDRO DE LIMA GUARABU, em face de BANCO ITAUCARD S.A., por meio do qual o autor impugna as cobranças lançadas pelo réu em seu cartão de crédito, bem como formula pedido de cancelamento do acordo firmado, com a devolução das parcelas pagas. 
+Em contestação, o réu pugna pela improcedência, em sua totalidade, dos pedidos autorais.
+Trata-se, indiscutivelmente, de relação jurídica de consumo, com aplicação das normas contidas na Lei 8078/1990, sendo cabível, ante a configuração da hipossuficiência da autora, a inversão do ônus da prova, conforme estabelece o artigo 6º, VIII CDC.
+Todavia, não há como se adentrar ao mérito na presente demanda, ante a evidente incompetência desse d. Juízo.
+A presente demanda tem por cerne cobranças que foram lançadas no cartão de crédito do autor, na fatura do cartão de crédito, bem como valores que foram debitados da conta-corrente, os quais o autor aduz serem indevidas, formulando pedido de devolução em dobro.
+Contudo, conforme reconhecido pelo próprio autor e comprovado nos Autos, houve um crédito no valor total das parcelas da compra cancelada, com posterior cobrança de parcelas, aduzindo o autor que, em verdade, fora cobrado por parcelas indevidas.
+Assim sendo, se verifica que, para um regular julgamento da presente demanda, mister se faz uma prova pericial contábil mais complexa, a fim de comprovar se, efetivamente, houve cobrança de encargos contratuais acima do que seria efetivamente devido pela autora.  
+Contudo, não sendo a mesma compatível com o rito dos Juizados Especiais, haja vista não se configurar a hipótese prevista artigo 35 da Lei 9099/1995, motivo pelo qual mostra-se incompetente esse Juízo para o julgamento da presente demanda.
+	
+Ante o exposto, JULGO EXTINTO O FEITO, SEM RESOLUÇÃO DO MÉRITO, nos termos do artigo 51, II DA Lei 9099/1995. 
+Sem custas, nem honorários advocatícios, nos termos do artigo 55 da Lei 9099/1995.
+Publique-se. Registre-se. Intimem-se.
+
+
+Duque de Caxias, 06 de Março de 2017.
+
+________________________________________
+Claudia Regina Bento de Freitas
+Juiza Leiga
+
+Remeto os autos ao MM. Juiz Togado, para posterior homologação.
+
+
+Homologo por sentença, para que produza seus efeitos legais e jurídicos, o projeto
+de sentença acima apresentado, na forma do art. 40 da Lei nº 9.099/95.
+
+Duque de Caxias, 08/03/2017.
+
+__________________________________________________________
+Juiz de Direito";000464E47593DCA91B0EA2595D20FECB4C41C506032C4E0B;00041C1B4A88FAA15EA6935AB70A00B74596C5052E331B08;2016.021.070684-7;0.8841356039047241
+19;2016.001.143686-8;Vistos etc. HOMOLOGO o PROJETO DE SENTENÇA proferido pelo DD. Juiz Leigo que me foi submetido, para que a mesma produza os seus jurídicos e legais efeitos, nos termos do artigo 4º, inciso III, da Resolução nº 08/2005, do Órgão Especial do TJ/RJ.  Sem custas judiciais, na forma da Lei nº 9.099/95. P.R.I. Certificado o trânsito em julgado, aguarde-se pronunciamento por 30 dias. Na inércia, dê-se baixa e arquive-se.;000464E47593DCA91B0EA2595D20FECB4C41C506032C4E0B;00041C1B4A88FAA15EA6935AB70A00B74596C5052E331B08;2016.021.070684-7;0.8841356039047241
+20;2016.001.143686-8;Vistos etc. HOMOLOGO o PROJETO DE SENTENÇA proferido pelo DD. Juiz Leigo que me foi submetido, para que a mesma produza os seus jurídicos e legais efeitos, nos termos do artigo 4º, inciso III, da Resolução nº 08/2005, do Órgão Especial do TJ/RJ.  Sem custas judiciais, na forma da Lei nº 9.099/95. P.R.I. Certificado o trânsito em julgado, aguarde-se pronunciamento por 30 dias. Na inércia, dê-se baixa e arquive-se.;0004EE8887C433F61C0759849B13792A7CEAC5052A1E6461;0004DDD7410B20D93D6137F2509F2323499FC505053F251A;2016.021.022193-1;0.8836711049079895
+21;2016.001.143686-8;"PODER JUDICIÁRIO DO ESTADO DO RIO DE JANEIRO
+I JUIZADO ESPECIAL CÍVEL ¿ DUQUE DE CAXIAS 
+
+PROCESSO Nº: 0022599-06.2016.8.19.0021
+AUTOR: JOÃO ASCENDINO DE SANTANA
+RÉU: ITAU UNIBANCO S/A
+
+PROJETO DE SENTENÇA
+
+Vistos, etc.
+Dispensado relatório nos termos do art. 38, da Lei nº 9.099/95. 
+Trata-se de ação ajuizada por JOÃO ASCENDINO DE SANTANA em face de ITAU UNIBANCO S/A objetivando a declaração de inexistência do contrato 0048875897020150727, em seu nome, a devolução em dobro de valores pagos no importe de R$ 1.880,00 e compensação por danos morais. Sustenta que vem sendo descontado acerca de um contrato de empréstimo consignado que não contratou. 
+Decisão indeferindo a antecipação dos efeitos da tutela, à fl. 28.
+A parte ré foi citada e ofereceu contestação escrita e, no mérito, sustenta que inexiste direito a ser amparado à parte autora. Requereu a improcedência do pedido. 
+É o breve relatório. 
+A relação estabelecida entre as partes é de consumo, porquanto presentes os requisitos subjetivos (arts. 2º, caput, e 3º, caput, da Lei nº 8.078/90) e objetivo (art. 3º, § 2º, da Lei n.º 8.078/90) que a caracterizam. Aplicável, portanto, o regime jurídico especial da Lei n.º 8.078/90, a qual abriga a responsabilidade do tipo objetiva, em que é necessária, apenas, a prova do dano e do nexo causal, sendo despicienda a culpa da ré, e ainda assegura ao consumidor, como medida protetiva, a inversão do ônus da prova (artigo 6º, VIII, do CDC), haja vista a verossimilhança dos fatos narrados na petição inicial, bem como sua condição de hipossuficiente e vulnerável na relação de consumo. 
+Fato integrativo do direito alegado e que, todavia, não foi impugnado especificamente pela ré, conquanto ônus que lhe competia por força do que estatui o art. 341 do NCPC, presumindo-se verdadeira a afirmação.
+Conforme se depreende dos autos a parte autora vem recebendo cobranças que não reconhece. Alega que tal débito refere-se a contrato de empréstimo que não aderiu, relatando que jamais recebeu algum crédito por parte do banco réu. 
+A ré por seu turno afirma que não foi verificada qualquer irregularidade na cobrança. 
+No caso presente, a parte ré não demonstrou a legalidade da contratação e regular cobrança. 
+Na verdade, era dever da parte ré fazer prova dos fatos modificativos, extintivos ou impeditivos do direito autoral, na forma do art. 373, II do NCPC, bem como não demonstrou a ocorrência de uma das excludentes de responsabilidade civil no CDC, já que a responsabilidade objetiva do fornecedor de bens e serviços, através art. 14 daquele diploma legal, somente pode ser afastada se comprovada a culpa exclusiva do consumidor ou de terceiro para a ocorrência do evento danoso, nos termos que lhe impõe o art. 14, § 3º, incisos I e II da Lei nº 8.078/90, o que não foi feito, limitando-se a parte ré a apresentar impressos de tela de computador, sem qualquer valor probatório, eis que produzido unilateralmente.
+Ante a ausência de prova da legitimidade do débito imputado ao autor, se reputam ilegítimas as cobranças a ele enviadas. Em decorrência lógica, acolho o pedido de declaração de inexistência de débito e do contrato.
+Assim sendo, e mais, considerando as alegações veiculadas pela parte autora em sua petição inicial e na audiência realizada perante este juízo, tenho como parcialmente procedentes as razões autorais invocadas ao embasamento de sua pretensão. 
+É nítida a falha na prestação do serviço que não se mostrou seguro ou eficiente, a qual deve ser absorvida pela ré a título de risco do empreendimento, pois não fez prova de qualquer excludente de responsabilidade, devendo, portanto, responder pelos danos causados ao consumidor.
+Dessa forma, reconheço a violação às legítimas expectativas do consumidor, sendo certo que a atitude do fornecedor de serviço não se afigura compatível com a boa-fé objetiva contratual, o dever de informar e a transparência máxima esperada na relação de consumo, o que sem dúvida alguma se afigura como prática abusiva e desrespeitosa nas relações contratuais, especialmente nas de consumo. 
+Assim, faz jus à restituição do valor de R$ 1.880,00, mas na forma simples e não em dobro, pois não caracterizada a hipótese do art. 42, parágrafo único do CDC e não demonstrada a má-fé da fornecedora. 
+Quanto ao pedido de indenização extrapatrimonial, formulado pela autora, deve o mesmo ser acolhido ante a configuração do dano moral indenizável, evidenciado pelo próprio fato. Conforme lição do Desembargador SÉRGIO CAVALIERI FILHO ""o dano moral existe in re ipsa"", ou seja, ""está ínsito na própria ofensa, decorre da gravidade do ilícito em si"" (Programa de Responsabilidade Civil, 2ª ed., Malheiros, p. 80).
+No que tange ao quantum debeatur, deve o mesmo ser fixado de forma proporcional, moderada e razoável, compatível com a reprovabilidade da conduta ilícita, a intensidade e duração do sofrimento experimentado, a capacidade econômica do causador do dano e as condições sociais da vítima, dentre outras circunstâncias relevantes.
+Com base em tais critérios, e o decurso de tempo sem qualquer solução por parte do réu, entende esse Juízo que o valor de R$ 8.000,00 (oito mil reais) mostra-se razoável e proporcional.
+
+Ante o exposto, JULGO PROCEDENTES EM PARTE os pedidos autorais, extinguindo o feito com resolução do mérito, nos termos do artigo 487, I do Novo CPC, para: a) declarar a inexistência do contrato 0048875897020150727, em nome da parte autora e débitos vinculados objeto da lide; c) condenar a ré a indenizar a parte autora pelos danos materiais no valor total de R$ 1.880,00 (hum mil oitocentos e oitenta reais), corrigidos monetariamente desde a data do pagamento e juros de mora de 1% ao mês a partir da citação; c) condenar a ré a pagar a autora a quantia de R$ 8.000,00 (oito mil reais), a título de compensação por danos morais, acrescido de correção monetária a contar da presente sentença, e juros de mora de 1% ao mês, estes a incidir da data da citação. 
+
+A parte ré fica ciente de que deverá depositar as quantias acima fixadas, referentes ás condenações de pagar quantia certa, no prazo de 15 (quinze) dias após o trânsito em julgado sob pena de multa de 10%, conforme prevista no artigo 523, I do Novo CPC, e nos termos do Enunciado Jurídico 13.9.1 do Aviso 23/2008.
+Publicações, intimações e retificações conforme requerido pelas partes. No caso de retificação de nome, oficie-se ao Distribuidor e anote-se onde couber. 
+Sem ônus sucumbenciais em razão do art. 55 da Lei n. 9.099/95.
+Remeto à apreciação do MM. Juiz Togado, na forma do disposto no art. 40, da lei 9099/95.
+Duque de Caxias, 25 de outubro de 2016.
+
+Adriana do Rosario Soneira
+Juíza Leiga";0004EE8887C433F61C0759849B13792A7CEAC5052A1E6461;0004DDD7410B20D93D6137F2509F2323499FC505053F251A;2016.021.022193-1;0.8836711049079895
+22;2016.001.143686-8;Considerando que o presente Acordo versa sobre direitos patrimoniais de caráter privado, HOMOLOLO o mesmo com fundamento no Art. 487, III,  alínea  b do NCPC,  para que possa produzir seus efeitos legais, sem que isso implique em afronta aos artigos 494 e 505 do Código de Processo Civil.;0004EE8887C433F61C0759849B13792A7CEAC5052A1E6461;0004DDD7410B20D93D6137F2509F2323499FC505053F251A;2016.021.022193-1;0.8836711049079895
+23;2016.001.143686-8;"Homologo o acordo celebrado entre as partes para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
+Se for o caso, comprovado o depósito, expeça-se mandado de pagamento em favor da parte autora, independentemente de nova conclusão.  
+Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se. 
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";000472A0AEDD9E4692CB4AAFAB4B7F1B9364C5050639280B;000444530E78A52B0EA0940C0B2B807B72DBC50460301B36;2016.001.080448-5;0.8815971612930298
+24;2016.001.143686-8;Vistos etc. HOMOLOGO o PROJETO DE SENTENÇA proferido pelo DD. Juiz Leigo que me foi submetido, para que a mesma produza os seus jurídicos e legais efeitos, nos termos do artigo 4º, inciso III, da Resolução nº 08/2005, do Órgão Especial do TJ/RJ.  Sem custas judiciais, na forma da Lei nº 9.099/95. P.R.I. Certificado o trânsito em julgado, aguarde-se pronunciamento por 30 dias. Na inércia, dê-se baixa e arquive-se.;0004E50638D83FF589A4BE39629E1796B324C505312D573A;0004D388AEDF78BC2FECF52890327B847EF8C504631F5807;2016.021.031425-8;0.8812191486358643
+25;2016.001.143686-8;"Dispensado o relatório, na forma do Art. 38, caput, da Lei 9.099/95.
+
+Trata-se de ação em que pretende a autora a declaração de inexistência de contrato vinculado à ré, bem como a suspensão de descontos realizados sobre a sua conta corrente, além da condenação da demandada ao pagamento de quantia a título de compensação por danos morais e repetição em dobro de indébito. 
+
+Como fundamento de sua pretensão, afirma que é titular de conta corrente administrada pela instituição financeira ré, e que percebeu que esta realizou dois descontos no valor de R$ 860,00 (oitocentos e sessenta reais) cada uma, a título de parcela de um empréstimo consignado. Todavia, alega que os descontos foram indevidos, pois jamais celebrou qualquer contrato de empréstimo com a demandada.
+
+A ré apresentou contestação em que sustenta a inexistência do dever de indenizar. Assim, requer a improcedência do pedido.
+
+FUNDAMENTOS: 
+
+A relação existente entre as partes é de consumo, uma vez que a parte autora se enquadra no conceito de consumidor final (CDC, artigo 2º) e a ré no de fornecedora de serviço (CDC, artigo 3º), sendo objetiva a responsabilidade desta última (CDC, artigo 14).
+
+A responsabilidade civil em análise funda-se na teoria do risco do empreendimento, segundo a qual aquele que exerce alguma atividade relacionada ao fornecimento de bens e serviços tem o dever de responder por eventuais vícios decorrentes de sua atividade, independentemente de culpa.
+
+Assim, ante a responsabilidade civil objetiva do prestador de serviço, o dever de indenizar somente será afastado caso se comprove a ocorrência de uma das excludentes da responsabilidade, quais sejam, que o defeito inexiste ou que decorreu de culpa exclusiva do consumidor ou de terceiro (CDC, artigo 14, § 3º).
+
+Nesta perspectiva, cabia a ré demonstrar a efetiva contratação do empréstimo por parte da autora, a fim de legitimar os descontos realizados sobre a conta corrente.
+
+Em que pese tenha vindo aos autos o contrato de empréstimo contendo assinatura em nome da autora, percebe-se claramente que houve falsificação do documento de identidade da demandante e da assinatura constante do contrato de fls.57.
+
+Nesta perspectiva, diante da ausência de prova da efetiva contratação, deve ser declarada a nulidade do contrato e a ré condenada a restituir à autora o valor que esta pagou indevidamente, e em dobro, haja vista a ausência de engano justificável, nos termos do que dispõe o Art. 42, parágrafo Único, do CDC.
+
+De outro turno, o pedido de danos morais também deve ser acolhido.
+
+A cobrança por empréstimos não contratados pelo cliente é conduta que viola os deveres de lealdade e confiança, que são caríssimos ao princípio da boa-fé objetiva.
+
+Neste sentido:
+
+¿Apelação Cível. Direito do Consumidor. Alegação de empréstimo não contratado. Sentença de procedência. Irresignação do réu. 1. Falha na prestação do serviço do banco comprovada, diante da ausência de provas de que o empréstimo foi regularmente contratado pela recorrida. Teoria do risco do empreendimento. 2. A conduta do apelante em imputar indevidamente à apelada a realização de empréstimo e realizar descontos indevidos, privando-a da sua renda, configura dano moral. Precedente do TJRJ. Quantum indenizatório arbitrado na sentença em observância aos princípios da razoabilidade e da proporcionalidade. Aplicação do Enunciado 116 do Aviso TJ 55/2012. 3. Devolução em dobro das quantias descontadas indevidamente para pagamento do empréstimo não contratado. Incidência do art.42, parágrafo único, do CDC. Precedente do TJRJ. 4. Sentença que se mantém. 5. NEGA-SE SEGUIMENTO AO RECURSO.¿ (grifamos)
+(0014516-57.2013.8.19.0004 ¿ APELAÇÃO - SERGIO SEABRA VARELLA - VIGÉSIMA QUARTA CÂMARA CÍVEL CONSUMIDOR - Data de julgamento: 28/09/2015)
+
+A fixação da verba indenizatória por danos morais deve considerar o caráter reparador, punitivo e pedagógico da responsabilidade civil, a gravidade e extensão do dano, a culpabilidade do agente, bem como a condição financeira das partes envolvidas, o valor do negócio e as peculiaridades do caso concreto, sem perder de vista os princípios da razoabilidade e proporcionalidade.
+
+A indenização em tais casos, além de servir como compensação pela angústia e frustração sofridas pelo consumidor, em razão da falha na prestação dos serviços pela ré, deve também ter caráter pedagógico-punitivo de modo a desestimular condutas semelhantes.
+
+Deve, pois, representar compensação razoável pelo sofrimento experimentado, cuja intensidade deve ser considerada para fixação do valor, aliada a outras circunstâncias peculiares de cada conflito de interesses, sem jamais constituir-se em fonte de enriquecimento sem causa para o ofendido, nem, tampouco, em valor ínfimo que o faça perder o caráter pedagógico-punitivo ao ofensor.
+
+Considerando-se as peculiaridades do caso, afigura-se adequado fixar-se o valor indenizatório no patamar de R$ 3.000,00 (três mil reais) pelos danos extrapatrimoniais, quantia que se encontra em consonância com os critérios norteadores que balizam o arbitramento do instituto, como a repercussão do dano e a possibilidade econômica do ofensor e da vítima, sem olvidar da vedação de constituir-se em fonte de lucro.
+
+  DISPOSITIVO:
+
+Pelo exposto, JULGO PROCEDENTES os pedidos para: a) declarar a nulidade do contrato de empréstimo objeto desta ação, determinando que a ré se abstenha de realizar novos descontos sobre a conta corrente da autora, sob pena de multa equivalente ao dobro do que for descontado indevidamente; b) condenar a ré a restituir à autora o valor de R$ 3.440,00 (três mil quatrocentos e quarenta reais), já em dobro, corrigidos monetariamente a partir da data do pagamento indevido, acrescido de juros de mora de 1% ao mês a contar da citação; c) condenar a ré a pagar ao autor a quantia de R$ 3.000,00 (três mil reais) a título de reparação de danos morais, corrigidos monetariamente desde a sentença e com juros de mora de 1% ao mês a contar da citação. Sem custas, nem honorários advocatícios, nos termos do artigo 55, da Lei 9099/95.
+
+Fica a 2ª ré ciente de que, não sendo o pagamento realizado no prazo de 15 (quinze) dias, contados da data do trânsito em julgado da sentença ou do acórdão, independentemente de nova intimação, o valor da condenação será acrescido de 10 % (dez por cento), na forma do Art. 523, §1º, do CPC, conforme estabelecido no item 13.9.1, do Aviso TJ nº 23/2008, alterado pelo Aviso Conjunto TJ/COJES nº 15/2016.
+
+ Publique-se. Registre-se. Intimem-se.
+
+Remeto os autos ao M.M. Juiz de Direito para homologação deste projeto de sentença, na forma do Artigo 40, da Lei 9.099/95. 
+
+
+Duque de Caxias, 16 de setembro de 2016.";0004E50638D83FF589A4BE39629E1796B324C505312D573A;0004D388AEDF78BC2FECF52890327B847EF8C504631F5807;2016.021.031425-8;0.8812191486358643
+26;2016.001.143686-8;"     Tendo em   vista que  houve  acordo entre  as  partes , JULGO  EXTINTO COM  RESOLUÇÃO DO MÉRITO, na forma do artigo  487, III,  alínea  b ,  do CPC.
+
+
+ Sem custas. Após as formalidades legais, dê-se baixa e arquive-se. P.R.I.";0004E50638D83FF589A4BE39629E1796B324C505312D573A;0004D388AEDF78BC2FECF52890327B847EF8C504631F5807;2016.021.031425-8;0.8812191486358643
+27;2016.001.143686-8;"HOMOLOGO, por sentença, para que produza seus efeitos legais, o ACORDO ajustado pelas partes (fls. 66/67) e ratificado em ACIJ (fls. 88) e, em consequência, JULGO EXTINTO O PROCESSO com resolução do mérito, nos termos do art. 487, inciso III, alínea b, do Código de Processo Civil. Sem Custas. Registre-se. Dê-se baixa e arquivem-se os autos.
+Defiro desde já, se for o caso, independente de nova conclusão e havendo quitação da parte Autora, a expedição de mandado de pagamento. 
+Cientes as partes de que, decorridos 90 dias da data do arquivamento definitivo, os autos processuais (físicos) serão eliminados, nos termos do artigo 1°, do Ato Normativo Conjunto n° 01/2005. PRI.";0004F88A843A9FB58F96FC00828E1F60F572C50524361760;00045F43797D739603869C5B043BCF8CF436C5045219512F;2016.208.011651-8;0.8807986974716187
+28;2016.001.143686-8;"Processo nº: 		004657-79.2016.8.19.0208
+Parte Autora: 	ANDRÉ RIBEIRO GUERRA
+Parte Ré: 		BANCO ITAUCARD S/A
+
+Projeto de Sentença
+
+Trata-se de ação em que a parte Autora pleiteia a exclusão do seu nome dos cadastros restritivos ao crédito, bem como indenização a título de danos morais. Alega que seu cartão de crédito com a ré expiou a validade e ao receber o novo cartão, não desbloqueou o mesmo e não fez nenhuma compra, porém esta negativou o seu nome. 
+
+A parte Ré impugna os pedidos autorais e requer a improcedência dos pedidos. 
+
+É o breve relatório, conforme possibilita o artigo 38 da Lei n. 9099/95. Decido.
+
+Inexiste  preliminar a dirimir, razão pela qual, reconhecendo a existência dos pressupostos processuais e das condições de regular desenvolvimento acionário, passo ao exame do mérito.
+
+Cabe destacar que a relação jurídica entre as partes é de consumo, já que estão presentes os requisitos subjetivos (consumidor e fornecedor ¿ artigos 2o e 3o da Lei 8078/90) e objetivos (produto e serviço ¿ §§ 1o e 2o do artigo 3º da citada lei) de tal relação. 
+
+De acordo com o artigo 14 do CDC, os fornecedores de serviços respondem, de forma objetiva, pela reparação dos danos causados ao consumidor por defeitos na prestação dos serviços, bem como por informações insuficientes e inadequadas sobre sua fruição e riscos. 
+
+No caso vertente, a parte Autora afirma que não possui mais relação comercial com a empresa Ré, porém esta incluiu o seu nome nos cadastros restritivos ao crédito (fls.19) Afirma que tomou conhecimento da negativação, ao tentar fazer o financiamento de um carro e não pôde concretizar tendo em vista a negativação feita pela parte Ré.
+
+Com efeito, diante das alegações da parte Autora de que houve falha na prestação do serviço, caberia a Ré a apresentação de provas de que não houve tal falha. 
+
+Portanto, não há como se acolher as alegações da Ré, pois desacompanhada de qualquer prova que pudesse indicar o que meramente se alegou na contestação. 
+
+Incumbe a parte Ré o ônus de provar o fato modificativo ou extintivo do direito da parte Autora, na forma do art. 333 do Código de Processo Civil e do art. 14 §3º do Código do Consumidor, o que não ocorreu, tendo em vista que a parte Ré, tão-somente, afirma, sem, no entanto, comprovar, a ausência dos danos narrados pela parte Autora.
+
+Observo que a Ré, em momento algum, demonstra a existência de causa que, à luz do contrato firmado ou da lei, legitimasse sua conduta neste caso. 
+
+A parte Ré não juntou contrato   com a assinatura da parte Autora, nem fatura com a descrição das comprars efetuadas,  tornando legítimas, desta forma, as cobranças realizadas.
+
+É cediço que a Ré responde objetivamente, independente da existência ou não de culpa, fundado na teoria do risco do empreendimento.  Como fornecedor, correm por sua conta os riscos do seu empreendimento, cabendo-lhe arcar com os prejuízos decorrentes de seu erro, ou descaso.  
+
+Neste diapasão, atribuo verossimilhança aos fatos, com base nas provas carreadas aos autos, prevalecendo, assim, a narrativa da parte Autora, em sua petição inicial e na Audiência realizada perante este Juízo, diante de sua situação de vulnerabilidade e presunção de boa fé (artigo 4º, I e III, da Lei nº 8.078/90). 
+
+Em assim sendo, tenho como procedentes as razões invocadas ao embasamento da pretensão autoral, devendo a Ré excluir o nome da parte Autora dos cadastros restritivos ao crédito e  cancelar o débito existente.
+
+O pedido de devolução em dobro dos valores cobrados deve ser julgado improcedente, uma vez que não existe nos autos comprovante de seu pagamento.
+
+Por fim, entendo que a situação ora sob exame caracteriza o dano moral que merece reparação. Tal dano fica evidenciado pela circunstância de que o banco Réu incluiu o nome da parte Autora nos cadastros restritivos ao crédito, em razão de uma pendência financeira, que o Autor desconhece (fls. 19). 
+
+O dano moral nas relações de consumo não se configura apenas como lesão de sentimento, mas como forma de ressarcir a falta de cuidado com o consumidor, e prevenir situações semelhantes no futuro. Ressalto que a reparação desse tipo de dano tem tríplice caráter: punitivo, indenizatório e educativo, como forma de desestimular a reiteração do ato danoso.
+
+Portanto, entendo que, diante de tais conclusões, a quantificação do dano a ser indenizado deve ser dotada de razoabilidade e proporcionalidade. A razoabilidade está contemplada, ante as conseqüências do fato e a duração do evento.
+
+
+A conta do acima exposto, JULGO PROCEDENTE OS PEDIDOS para:
+
+1) Determinar que o Cartório expeça os Ofícios necessários para exclusão do nome da parte Autora dos cadastros restritivos ao credito (SPC e Cartório de Protesto de Títulos e documentos), referente à anotação realizada pela parte Ré. 
+
+2) Condenar a parte Ré a pagar a parte Autora a quantia de R$6.000,00 (seis mil reais), a título de indenização por danos morais, corrigida monetariamente com base nos índices oficiais da CGJ e acrescida de juros na taxa de 1% (um por cento) ao mês, a partir da leitura da presente.
+
+03) Declarar inexiste a dívida existente em nome da parte Autora, no prazo de 15 dias a contar da leitura de sentença, sob pena de multa diária de R$ 50,00 (cinquenta reais), limitada ao montante de R$ 2.000,00 (dois mil reais).
+
+Por fim, julgo improcedente o pedido de devolução em dobro do valor cobrado.
+
+Sem custas e honorários vez que em sede de Juizado Especial Cível, conforme disposto no artigo 55 da lei 9.099/95.
+
+Cientes as partes do disposto no artigo 52, IV, da Lei n° 9.099/95, quanto à necessidade de cumprimento voluntário da sentença, sob pena de penhora, dispensada nova citação. 
+
+Ficam, ainda, as partes intimadas de que em se tratando de sentença condenatória ao pagamento de quantia certa, o prazo previsto no art. 523 do NCPC, para incidência da multa ali prevista (10%), contar-se-á da data do trânsito em julgado. 
+ 
+Certificado o trânsito em julgado e não havendo novas manifestações no prazo de 15 (quinze) dias, dê-se baixa e arquivem-se. Cientes as partes de que decorridos 90 dias da data do arquivamento definitivo os autos processuais serão eliminados, nos termos do artigo 1º do Ato Normativo Conjunto 01/2005, publicado no DORJ de 07/01/05.
+
+Projeto de sentença sujeito à homologação, assim, remeto os autos a MM. Juíza Togada, nos termos do artigo 40 da Lei nº 9.099/95.
+
+Rio de Janeiro, 12 de maio de 2016.
+
+NOELMA RAMOS FARIA
+Juíza Leiga";0004F0B0FA9DB1CFD1EB1FF19BB253A71EEAC504621D0F48;000403F7403D740F1A1820DF4A9AB7867934C50459402F0A;2016.208.004604-8;0.8807739615440369
+29;2016.001.143686-8;Homologo por sentença na forma do artigo 40 da Lei nº 9.099/95 o Projeto de Sentença elaborado pelo Juiz Leigo. PRI. Certifique-se o trânsito em julgado. Defiro desde já, se for o caso, independente de nova conclusão e havendo quitação da parte Autora, a expedição de mandado de pagamento. Após, dê-se baixa e arquivem-se.;0004F0B0FA9DB1CFD1EB1FF19BB253A71EEAC504621D0F48;000403F7403D740F1A1820DF4A9AB7867934C50459402F0A;2016.208.004604-8;0.8807739615440369
+30;2016.001.143686-8;"PROJETO DE SENTENÇA
+
+Ainda que seja dispensado o relatório, na forma do artigo 38 da lei 9.009/95, faz-se um breve resumo. Após, passo a decidir.
+Trata-se de ação de obrigação de fazer c/c compensação por danos morais proposta por TANIA REGINA PINHO DE ARAUJO ABREU E PATRICK GIL DOS SANTOS em face de ITAU UNIBANCO S.A., em que alega o o encerramento de sua conta corrente sem aviso prévio.
+A ré, em sua contestação, aduz não haver comprovação do alegado.
+Presentes os pressupostos processuais e as condições ao regular exercício do direito de ação, passa-se ao mérito.
+É inegável tratar-se de relação de consumo, na medida em que estão presentes as figuras do consumidor, do fornecedor e do serviço, na forma dos arts. 2º e 3º do CDC, estando presentes os elementos subjetivos e objetivo da relação de consumo.
+Conclui-se, compulsando os autos, pela ocorrência de um fato do serviço, na medida em que há, por parte da ré, o encerramento da conta corrente de sua titularidade, sem justificativa plausível.
+A responsabilidade civil dos fornecedores, pelo fato do serviço, serviço é objetiva e baseada na teoria do risco da atividade. Assim, caberá apenas a configuração de conduta, dano e nexo causal.
+Assim sendo, na forma do art. 14, §3º do CDC, a inversão do ônus da prova se opera ope legis, na medida em que o fornecedor somente não será responsabilizado quando provar fato exclusivo da vítima ou de terceiro, ou que o defeito inexiste. 
+Porém, quanto aos fatos constitutivos de seu direito, não há como se entender que haja tal inversão, notadamente quanto aos prejuízos ocasionados pela conduta da ré, devendo tais fatos serem comprovados pela autora, na forma do art. 373, I do CPC/2015 (art. 333, I do CPC/1973), logrando êxito, posto que traz aos autos os extratos de fls. 27-45, e-mails de fls. 64-67, bem como ofício de fls. 69.
+Há caracterização da conduta ilícita, na medida em que a parte ré não traz aos autos qualquer comprovaça da legalidade do encerramento da referida conta corrente, além de não haver qualquer aviso prévio, tendo sido os autores surpreendidos com a atitude unilateral da ré, que cancelou conta corrente e seus cartões de crédito.
+De acordo com o posicionamento doutrinário e jurisprudencial amplamente dominante, apenas se terá como lícito o bloqueio de cartão realizado após prévia comunicação ao cliente, e por motivo justificado (tais como suspeita de clonagem ou inadimplemento, por exemplo), ou em hipóteses em que não há saldo, por ter o consumidor ultrapassado seu limite, seguindo-se o princípio da boa-fé, notadamente, na vedação aos comportamentos contraditórios.
+Não tendo o réu comprovado o envio de aviso prévio aos autor, o que se tem é falha na prestação de serviços, notadamente em relação ao dever de informação (art. 6º, III do CDC).
+Assim sendo, para o inicio da restituição ao status quo ante, deverá a ré restabelecer a conta corrente nº 01565-3 (agência 3820), com os cartões de crédito, tal qual anteriormente ao cancelamento, na medida em que este se deu de forma unilateral e arbitrária, quando ainda era de interesse a manutenção do contrato.
+Quanto aos danos morais alegadamente sofridos pelo pelos, como houve violação dos deveres anexos do contrato, não tendo o fornecedor agido com lealdade e nos ditames da boa-fé objetiva que deve regular as relações de consumo, e tendo em vista ter tido sua compra negada por mais de uma vez em estabelecimentos comerciais, além de a primeira autora ficar impossibilitada de receber seu pagamento, é possível concluir pela ocorrência de abalos psíquicos capazes de afetar os direitos da personalidade, tornando os danos morais presumidos (in ré ipsa), não se podendo aplicar a súmula 75 do TJRJ de forma a não se considerar o ocorrido como mero aborrecimento diário que tem reflexos exclusivamente patrimoniais, até mesmo em aplicação á função punitivo-pedagógica da compensação por danos morais.
+No tocante ao quantum da indenização fixado, em que pese não haver parâmetros objetivos para o seu estabelecimento, observo que o valor não deve levar ao enriquecimento do credor e tampouco à ruína do devedor.
+Nesse sentido, deve mais do que possuir cunho punitivo, ter caráter educativo àquele que agiu indevidamente ao ferir a honra e a imagem de outrem, compensando de forma pecuniária a pessoa lesada no seu íntimo, na forma dos arts. 5º, X da CRFB e 6º, VI do CDC.
+Assim, observando-se os parâmetros acima mencionados e considerando-se as informações constantes dos autos, entendo que a indenização por danos morais no valor de R$ 4.000,00 (quatro mil reais) PARA A PRIMEIRA AUTORA e R$ 2.000,00 (dois mil reais) PARA O SEGUNDO AUTOR, é justa, adequada e atende os princípios da proporcionalidade e razoabilidade.
+Posto isso, julgo PROCEDENTE EM PARTE A PRETENSÃO, na forma do art. 487, I do CPC/2015 (art. 269, I, do CPC/1973), para: 1) DETERMINAR que a ré restabelecer a conta corrente nº 01565-3 (agência 3820), com os cartões de crédito, no prazo de 30 (trinta) dias corridos, a contar da data da leitura da sentença, sob pena de multa a ser arbitrada em sede de execução; 2) CONDENAR a ré ao pagamento da quantia de R$ 4.000,00 (quatro mil reais) PARA A PRIMEIRA AUTORA e R$ 2.000,00 (dois mil reais) PARA O SEGUNDO AUTOR, a título de compensação pelos danos morais, devendo o valor ser corrigido monetariamente a partir do arbitramento e com juros de 1% ao mês a partir da citação.
+Isento dos ônus sucumbências, na forma do art. 55 da lei 9.099/95. Submeto este Projeto de Sentença ao Juiz Togado, na forma do que dispõe o art. 40 da lei 9.099/95.
+
+Rio de Janeiro, 31 de julho de 2016.
+
+Janayme Vieira de Moraes
+Juíza Leiga";0004D2A128089A44A4A281519E251022A817C5051660603B;00040AF8E25874059B1810E339A1737D7179C5045A1A1E24;2016.001.131632-2;0.8807357549667358
+31;2016.001.143686-8;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95. 
+
+Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão. 
+
+Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, sob pena de arquivamento dos autos. Após o trânsito em julgado, tratando-se de sentença de improcedência ou de extinção do feito sem resolução do mérito, dê-se baixa e arquivem-se imediatamente. 
+
+Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento. 
+
+FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016 C/C A PRIMEIRA PARTE DO ENUNCIADO 86 TAMBÉM DO FONAJE, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.";0004D2A128089A44A4A281519E251022A817C5051660603B;00040AF8E25874059B1810E339A1737D7179C5045A1A1E24;2016.001.131632-2;0.8807357549667358
+32;2016.001.143686-8;Projeto em Revisão;00047DA763968EBFC1B9039F9FD769B84118EEC50534644F;0004CC3EF4FF4953B14C0DC68D6FF1D376EFC5044C4F0F1C;2016.204.020945-5;0.8801872730255127
+33;2016.001.143686-8;Projeto em Revisão;00047DA763968EBFC1B9039F9FD769B84118EEC50534644F;0004CC3EF4FF4953B14C0DC68D6FF1D376EFC5044C4F0F1C;2016.204.020945-5;0.8801872730255127
+34;2016.001.143686-8;"PODER JUDICIÁRIO DO ESTADO DO RIO DE JANEIRO
 XVII JUIZADO ESPECIAL CÍVEL
 
 PROCESSO: 21076-89.2016.8.19.0204
@@ -43,129 +598,15 @@ Ante o exposto, JULGO PROCEDENTE EM PARTE os pedidos, forma do art. 487 NCPC, pa
 Rio de Janeiro, 30 de Setembro de 2016.
 
 ANA QUÉZIA PEREIRA DE FREITAS
-JUIZA LEIGA";00047DA763968EBFC1B9039F9FD769B84118EEC50534644F;2016.204.020945-5;0.8528343439102173
-7;2016.001.143686-8;Dispensado o relatório na forma do art. 38 da Lei 9099/95. HOMOLOGO o projeto de sentença proferido pelo Juiz Leigo, para que produza seus jurídicos e legais efeitos, na forma do art. 40 da Lei 9.099/95.  FICAM AS PARTES CIENTES DE QUE, NOS TERMOS DO AVISO 02/2016 DA COJES (D.O. 31/03/2016) OS PRAZOS PROCESSUAIS EM SEDE DE JEC CONTINUARÃO A SER CONTADOS EM DIAS CORRIDOS, INAPLICÁVEL O ARTIGO 219 DO NCPC.Fica a parte ré ciente de que caso não pague a quantia certa a que foi condenada em 15 dias, contados do trânsito em julgado da sentença, o valor da condenação será acrescido de multa de 10%, por aplicação do artigo 523,§1º do CPC, sendo certo, ainda, que a comprovação do depósito deverá vir aos autos no prazo de 5 dias, após a efetivação. Comprovado o depósito nos autos, e a quitação por parte do credor, expeça-se mandado de pagamento. Após, dê-se baixa e arquive-se. Caso negativo, após o decurso do prazo de trinta dias do trânsito em julgado, dê-se baixa e arquive-se.;00047DA763968EBFC1B9039F9FD769B84118EEC50534644F;2016.204.020945-5;0.8528343439102173
-8;2016.001.143686-8;"     Tendo em   vista que  houve  acordo entre  as  partes , JULGO  EXTINTO COM  RESOLUÇÃO DO MÉRITO, na forma do artigo  487, III,  alínea  b ,  do CPC.
+JUIZA LEIGA";00047DA763968EBFC1B9039F9FD769B84118EEC50534644F;0004CC3EF4FF4953B14C0DC68D6FF1D376EFC5044C4F0F1C;2016.204.020945-5;0.8801872730255127
+35;2016.001.143686-8;Dispensado o relatório na forma do art. 38 da Lei 9099/95. HOMOLOGO o projeto de sentença proferido pelo Juiz Leigo, para que produza seus jurídicos e legais efeitos, na forma do art. 40 da Lei 9.099/95.  FICAM AS PARTES CIENTES DE QUE, NOS TERMOS DO AVISO 02/2016 DA COJES (D.O. 31/03/2016) OS PRAZOS PROCESSUAIS EM SEDE DE JEC CONTINUARÃO A SER CONTADOS EM DIAS CORRIDOS, INAPLICÁVEL O ARTIGO 219 DO NCPC.Fica a parte ré ciente de que caso não pague a quantia certa a que foi condenada em 15 dias, contados do trânsito em julgado da sentença, o valor da condenação será acrescido de multa de 10%, por aplicação do artigo 523,§1º do CPC, sendo certo, ainda, que a comprovação do depósito deverá vir aos autos no prazo de 5 dias, após a efetivação. Comprovado o depósito nos autos, e a quitação por parte do credor, expeça-se mandado de pagamento. Após, dê-se baixa e arquive-se. Caso negativo, após o decurso do prazo de trinta dias do trânsito em julgado, dê-se baixa e arquive-se.;00047DA763968EBFC1B9039F9FD769B84118EEC50534644F;0004CC3EF4FF4953B14C0DC68D6FF1D376EFC5044C4F0F1C;2016.204.020945-5;0.8801872730255127
+36;2016.001.143686-8;"Homologo o acordo celebrado entre as partes e a desistência em relação ao segundo réu para que surta seus jurídicos e legais efeitos, e julgo o feito extinto, com resolução do mérito, nos termos do art. 487, inc. III, b, do novo Código de Processo Civil ( Lei nº 13.105/ 2015). 
+
+Se for o caso, comprovado o depósito, expeça-se mandado de pagamento em favor da parte autora, independentemente de nova conclusão.   Após, nada mais sendo requerido, dê-se baixa e arquivem-se. 
 
 
- Sem custas. Após as formalidades legais, dê-se baixa e arquive-se. P.R.I.";0004A3E553EB7F5607D327CEE126A3A08C92C505355A5A05;2016.021.035414-1;0.8525167107582092
-9;2016.001.143686-8;"PODER JUDICIÁRIO
-COMARCA DA CAPITAL DO ESTADO DO RIO DE JANEIRO
-XVII JUIZADO ESPECIAL CÍVEL
-Processo n.0018211-93.2016.8.19.0204 
-Autor : ANTONIO PEDRO DOS SANTOS
-Réu : BANCO ITAÚ S/A
-
-Projeto de sentença
-
-	Dispensado o relatório, consoante o artigo 38 da Lei nº. 9.099/95, passo a decidir.
-
-	Alega a parte autora que realizou o pagamento da fatura de cartão de crédito administrado pelo réu, porém, ainda assim, houve desconto do valor integral da fatura diretamente de sua conta corrente, o que a deixou com saldo negativo. Relata que o valor somente foi estornado no mês seguinte. Requer indenização por danos morais.
-
-O réu alega que inexistem danos morais.
-
-	Cabe destacar, de início, que a relação jurídica entre as partes é de consumo, já que estão presentes os seus requisitos subjetivos (consumidor e fornecedor ¿ artigos 2o e 3o da Lei 8078/90) e objetivos (produto e serviço ¿ §§ 1o e 2o do artigo 3º da mesma lei). Aplicam-se, portanto, as regras do microssistema jurídico do Código de Proteção e Defesa do Consumidor.
-
-	De acordo com o artigo 14 do CDC, o fornecedor de serviços responde, de forma objetiva, pela reparação dos danos causados ao consumidor por defeitos na prestação dos serviços, bem como por informações insuficientes e inadequadas sobre sua fruição e riscos. 
-
-	Pela análise dos autos, verifica-se que o réu sequer comprovou ter a parte autora efetivamente concordado com os descontos da conta corrente. Ademais, não trouxe explicação para o desconto da conta do autor, apesar do pagamento (fls. 09/11).
-
-O réu não logrou êxito em provar a existência de qualquer fato que excluísse sua responsabilidade frente ao autor-consumidor, sendo sua conduta indevida; sabe-se que, uma vez ocorrida a fraude, pela teoria do risco do empreendimento, cabe aos fornecedores suportar os prejuízos de sua atividade, não sendo lícito transferi-los ao consumidor.  
-
-	Ademais, no caso em tela, mostra-se evidente todo o transtorno sofrido pela autora, uma vez que foi cobrado por dívida de que não deu causa.
-
-Assim, fixo a indenização no montante de R$ 2.000,00.
-
-	Posto isso, julgo procedente em parte o pedido para condenar o réu a indenizar a parte autora pelos danos morais experimentados, no valor de R$ 2.000,00 (dois mil reais), com juros de 1% ao mês, a partir da citação, e correção a partir da leitura de sentença. Sem ônus sucumbenciais, consoante o artigo 55 da Lei 9.099/95.
-
-	Anote-se o nome dos advogados da ré para fins de publicação, conforme requerimento formulado em contestação.
-
-Projeto de sentença que se submete à homologação.
-
-Rio de Janeiro, 23 de agosto de 2016.
+Decorrido o prazo do cumprimento o acordo, aguarde-se por cinco dias a manifestação das partes; não havendo manifestação,  dê-se baixa e arquive-se.";0004FCDF81C21B817DE7E79047B5CD030E52C5052E630832;000434918B580F7284771A00DF150C603B70C50458535A31;2016.001.194641-0;0.8792871236801147
+37;2016.001.143686-8;"     Tendo em   vista que  houve  acordo entre  as  partes , JULGO  EXTINTO COM  RESOLUÇÃO DO MÉRITO, na forma do artigo  487, III,  alínea  b ,  do CPC.
 
 
-Paloma Bispo dos Santos
-Juíza Leiga";00046AC8CDDAB8246E4746E7F6D8AEF9ADC2C505275C1A2C;2016.204.018140-8;0.8496711254119873
-10;2016.001.143686-8;Dispensado o relatório na forma do art. 38 da Lei 9099/95. HOMOLOGO o projeto de sentença proferido pelo Juiz Leigo, para que produza seus jurídicos e legais efeitos, na forma do art. 40 da Lei 9.099/95.  FICAM AS PARTES CIENTES DE QUE, NOS TERMOS DO AVISO 02/2016 DA COJES (D.O. 31/03/2016) OS PRAZOS PROCESSUAIS EM SEDE DE JEC CONTINUARÃO A SER CONTADOS EM DIAS CORRIDOS, INAPLICÁVEL O ARTIGO 219 DO NCPC.Fica a parte ré ciente de que caso não pague a quantia certa a que foi condenada em 15 dias, contados do trânsito em julgado da sentença, o valor da condenação será acrescido de multa de 10%, por aplicação do artigo 523,§1º do CPC, sendo certo, ainda, que a comprovação do depósito deverá vir aos autos no prazo de 5 dias, após a efetivação. Comprovado o depósito nos autos, e a quitação por parte do credor, expeça-se mandado de pagamento. Após, dê-se baixa e arquive-se. Caso negativo, após o decurso do prazo de trinta dias do trânsito em julgado, dê-se baixa e arquive-se.;00046AC8CDDAB8246E4746E7F6D8AEF9ADC2C505275C1A2C;2016.204.018140-8;0.8496711254119873
-11;2016.001.143686-8;"Dispensado o relatório na forma do artigo 38 da Lei 9.099/95, decido.
-	Trata-se de ação indenizatória, pelo rito sumaríssimo, por meio da qual a parte autora requer a condenação da ré à compensação por danos morais experimentados por falha na prestação do serviço, já que foi cobrada de forma indevida, pois não tem nenhum débito com o réu.
-Em contestação, a afirma que a cobrança se tratou de um erro, mas sem qualquer repercussão, motivo pelo qual não há que se falar em danos morais, pelo que requer a improcedência do pedido.
-Estando presentes as condições da ação e os pressupostos de constituição e desenvolvimento regular do processo, passo a decidir o mérito. 
-A relação de direito material havida entre as partes é de consumo, já que presentes os requisitos objetivos (art. 3º, §1º e 2º, da Lei 8.078/90) e subjetivos (arts. 2º e 3º, da Lei 8.078/90) de tal relação. Por essa razão, impõe-se a inteira aplicação do Código de Defesa do Consumidor, o qual positiva um núcleo de regras e princípios protetores dos direitos dos consumidores enquanto tais, prevendo inclusive a possibilidade de inversão do ônus da prova, o que ora se faz, na forma do artigo 6º, VIII, da Lei 8.078/90. 
-Nessa esteira de raciocínio, a lei estabelece também que todo aquele que exerce atividade no campo de fornecimento de produtos e serviços tem o dever de responder objetivamente pelos vícios e fatos decorrentes dessa prestação.
-Segundo Sérgio Cavalieri Filho, o serviço é considerado defeituoso quando não fornece a segurança que o consumidor dele pode esperar, levando-se em conta as circunstâncias relevantes, tais como o modo de seu fornecimento, o resultado e os riscos que razoavelmente se espera. Como se nota, os defeitos podem ser de concepção, de prestação ou de comercialização, o que inclui a prestação de informações insuficientes ou inadequadas.
-No caso em tela verifica-se que o serviço foi prestado de maneira defeituosa, pois o próprio réu afirma que se tratou de um erro. 
- Seguindo-se a isso, tem-se que a lei somente afasta essa responsabilidade nos casos de fato exclusivo da vítima, fato de terceiro e caso fortuito ou força maior. No caso em tela, não verifico a existência de qualquer causa capaz de afastar o nexo de causalidade, impondo-se a responsabilidade pelos danos causados por sua conduta. 
-Trata-se de responsabilidade objetiva pelo fato do serviço, fundada na teoria do risco do empreendimento, segundo a qual todo aquele que se dispõe a exercer alguma atividade no campo do fornecimento de bens e serviços tem o dever de responder pelos fatos e vícios resultantes do empreendimento independentemente de culpa. Esta obrigação é imanente ao dever de obediência às normas técnicas e de segurança, decorrendo a responsabilidade do simples fato de dispor-se alguém a realizar atividade de executar determinados serviços. Em suma, os riscos do empreendimento correm por conta do fornecedor de serviços e não do consumidor. 
-No que tange ao pedido de compensação dos danos morais, entendo que este não procede. Isso porque os fatos narrados nestes autos configuram mero aborrecimento,  já que não houve qualquer fato que denote que foi extrapolado o limite do aceitável, não sendo, portanto, capazes de dar azo a nenhuma violação dos direitos da personalidade. Aplica-se ao caso, assim, o disposto na súmula 75 do TJRJ. 
-Corroborando esse entendimento, o julgado a seguir reflete o posicionamento majoritário do TJRJ acerca do tema do recebimento de missivas, in verbis:
-
-TJ-RJ - APELACAO APL 1280632620098190001 RJ 0128063-26.2009.8.19.0001 (TJ-RJ)
-Data de publicação: 26/11/2009
-Ementa: SERVIÇO DE TELEFONIA. Cobrança referente a linha telefônica bloqueada. Dano moral. Ausência de repercussão expressiva ou inscrição do nome da recorrente junto aos cadastros restritivos de crédito. Débito sequer adimplido. Inexistência de prejuízo patrimonial. Simples encaminhamento de missivas. Mero aborrecimento. Incidência do verbete nº 75, da Súmula de Jurisprudência Predominante deste Tribunal e do enunciado nº 47, do Aviso TJ nº 69/09. Sucumbência mínima. Condenação da demandada em custas e honorários. Recurso parcialmente provido.
-
-Em face do exposto, torno definitiva a decisão de fls. 14 e JULGO: I) IMPROCEDENTE O PEDIDO de indenização por danos morais; II) PROCEDENTE O PEDIDO de obrigação de fazer para determinar que o réu cancele o débito objeto da lide, vinculado ao CPF da autora, no prazo de 10 (dez) dias, sob pena de multa de R$200,00 (duzentos reais) por cobrança indevida.
-Sem custas e honorários, na forma do art. 55 da Lei nº. 9.099/95.
-Submeto o presente projeto à homologação pela MM. Juíza de Direito.";0004F2AA5B0FB4A253E708755B0CA64CC1D915C50530021C;2016.063.007463-3;0.8456608057022095
-12;2016.001.143686-8;"Dispensado o relatório, na forma do art. 38, da Lei 9.099/95. Decido. 
-HOMOLOGO o projeto de sentença elaborado pelo Juiz Leigo, que passa a valer como fundamentação deste, com fulcro, na Lei Estadual nº 4578/05 e na Resolução nº 08/05 do E. Órgão Especial do TJRJ, e RESOLVE-SE o mérito, com base no art. 487, I, do NCPC. 
-Publique-se. Aguarde-se a data designada para a leitura de sentença.
-Após, certificado o trânsito em julgado e comprovado o depósito, no prazo devido, expeça-se mandado de pagamento, independente de nova conclusão. 
-Nada mais havendo, dê-se baixa e arquive-se.";0004F2AA5B0FB4A253E708755B0CA64CC1D915C50530021C;2016.063.007463-3;0.8456608057022095
-13;2016.001.143686-8;"Cuida-se de ação sob o rito sumaríssimo, por meio do qual busca a parte demandante a condenação da ré ao pagamento de indenização por danos materiais e morais.
- Como causa de pedir, alega o demandante, em resumo, que o pagamento da fatura do seu cartão de 12/2015 não foi computado pelo réu,que manteve o débito em aberto embora estivesse pago. Que embora tenha informado ao réu na tentativa de solucionar o problema apresentando o comprovante do pagamento efetuado, se viu obrigado a efetuar o pagamento em duplicidade para evitar negativação. 
- 		O réu, em contestação, afirma que assim que tomou conhecimento desta ação, tentou firmar acordo com a parte autora, porém a proposta foi declinada. Que não houve inscrição do nome da parte autora no SPC/SERASA. Os fatos e provas trazidos pela parte autora não configuram dano moral, pois caracterizam mero aborrecimento. 
-Embora dispensado pela norma do artigo 38 da Lei 9.099/95, é o breve relatório, DECIDO.
- Inicialmente, convém frisar que a relação estabelecida entre as partes é de consumo, porquanto presentes os requisitos subjetivos (arts. 2º, caput, e 3º, caput, da Lei nº 8.078/90) e objetivo (art. 3º, § 2º, da Lei n.º 8.078/90) que a caracterizam.
-Defiro, assim, a inversão do ônus da prova. Contudo, a inversão não libera o autor de produzir prova míbima do seu direito.
-Os documentos acostados à inicial não constituem prova do pagamento em duplicidade decorrente do não reconhecimento do pagamento da fatura de 12/2015. Isso porque os documentos de fls. 11 a 17 estão todos em branco, não sendo possível concluir pela verossimilhança das alegaçoes do autor com relação aos danos sofridos. Não há qualquer evidencia que a ré falhou na prestação do serviço, nem mesmo prova do valor reclamado. 
-Longe de se presumir, aqui, a má-fé do autor, é necessário observar que a instrução da causa não aponta, de forma conclusiva, para uma falha na prestação do serviço capaz, eventualmente, de produzir no autor os danos descritos na inicial, e, assim, reconhecer o dever da ré de indenizá-lo.
-		Assim, diante da deficiência instrutória, não há como se concluir pela existência de nexo entre os danos descritos no feito e uma conduta da ré, razão pela qual, a despeito da inversão do ônus da prova, reconheço a improcedência dos pedidos formulados.
-Pelo exposto, JULGO IMPROCEDENTES OS PEDIDOS veiculados na inicial.
-		Sem custas e honorários, por força do disposto no artigo 55 da Lei Especial.
- 		
-Rio de Janeiro, 06 de junho de 2016
-
-JULIANA CORREIA GOMES
-JUÍZA LEIGA
-
-
-
- 		Submeto o projeto  de sentença à homologação do Dra. Juíza de Direito, na forma do art. 40 da Lei 9.099/95.";0004F7CE1DBDA0AF8CA488DBAF65A11FEA1FC504612E4D57;2016.001.032870-5;0.8431549668312073
-14;2016.001.143686-8;"Homologo, por sentença, para que surta seus efeitos legais, o projeto de sentença elaborado pelo juiz leigo, na forma do artigo 40 da Lei nº 9.099/95.  
-
-Em caso de depósito judicial referente à condenação, expeça-se mandado de pagamento, independentemente de nova conclusão.  
-
-Caso haja valor remanescente a ser recebido, manifeste-se o credor em 7 dias, sob pena de arquivamento dos autos. Após o trânsito em julgado, tratando-se de sentença de improcedência ou de extinção do feito sem resolução do mérito, dê-se baixa e arquivem-se imediatamente.  
-
-Tratando-se de sentença de procedência, após o trânsito em julgado e o decurso do prazo de 15 dias para pagamento espontâneo do valor da condenação previsto no art. 523 do NCPC c/c o entendimento consolidado no enunciado nº 13.9.1 do Aviso nº 23/2008 do TJERJ, aguarde-se por mais 7 dias a manifestação das partes e, em seguida, caso permaneçam em silêncio, proceda-se a baixa e ao arquivamento.  
-
-FICAM AS PARTES CIENTES DE QUE A NOVA SISTEMÁTICA DE CONTAGEM DE PRAZO ESTABELECIDO NO ART. 219 DO NCPC/2015 NÃO SE APLICA AOS JUIZADOS ESPECIAIS CÍVEIS, CONSOANTE NOTA TÉCNICA 01/2016 DO FONAJE DE 04/03/2016, COMPUTANDO-SE OS PRAZOS EM DIAS CORRIDOS, ASSIM PROCEDENDO COM A FINALIDADE PRECÍPUA DE SE ALCANÇAR A BOA GESTÃO CARTORÁRIA COM FUNDAMENTO NO PRINCÍPIO DA CELERIDADE QUE REGE A LEI 9.099/95.   
-
-Cumpridas as formalidades legais, dê-se baixa e arquivem-se os autos.";0004F7CE1DBDA0AF8CA488DBAF65A11FEA1FC504612E4D57;2016.001.032870-5;0.8431549668312073
-15;2016.001.143686-8;"De fato, houve contradição na sentença, uma vez que a improcedência dos pedidos teve como fundamento o fato de os documentos de fls. 11 a 17 estarem em branco, sendo que os documentos foram ali acostadas de forma correta, devendo ter havido um erro no sistema quando da sua visualização.
-
-No entanto, os documentos acima referidos não são suficientes para comprovar as alegações autorais, de modo que o restante da fundamentação constante no projeto de sentença de fl. 54 deve ser mantido, como se verá a seguir.
-
-De fato, o documento de fls. 15/16 indica que pagamento da fatura anterior estava em análise, sendo concedido um crédito momentâneo ao autor, enquanto pendente o processo administrativo. No entanto, o autor não comprovou que voltou a ser cobrado pelo pagamento já realizado, uma vez que a fatura do mês seguinte não foi apresentada de forma integral, tendo o autor juntado apenas a 1ª página, que não indica o estorno do crédito concedido anteriormente (fl. 17), cabendo ressaltar que tal prova poderia ter sido produzida facilmente pelo autor.
-
-Portanto, como o autor não demonstrou que houve uma cobrança indevida e um pagamento em duplicidade, não merece acolhimento o pedido de restituição do valor pago.
-
-Da mesma forma, como o autor não comprovou que o réu continuou lhe cobrando após sua reclamação, não há dano moral a ser indenizado, até porque é pacífico o entendimento do STJ no sentido de que ""o envio de cobrança indevida não acarreta, por si só, dano moral objetivo, in re ipsa, na medida em que não ofende direito da personalidade"".
-
-Por fim, deve ser desprovido o pedido de condenação do réu nas penas da litigância de má-fé, uma vez que o réu não praticou nenhuma das condutas indicados no art. 80 do NCPC.
-
-Desta forma, conheço os embargos e lhes DOU PARCIAL PROVIMENTO, apenas para acrescentar à sentença a fundamentação acima exposta, mantendo a improcedência dos pedidos veiculados na inicial e na audiência de instrução e julgamento.
-
-No mais, mantenho a sentença tal qual lançada.
-
-P.R.I";0004F7CE1DBDA0AF8CA488DBAF65A11FEA1FC504612E4D57;2016.001.032870-5;0.8431549668312073
-16;2016.001.143686-8;Homologo para que produza os seus jurídicos e legais efeitos o acordo a que chegaram as partes e, em consequência, JULGO EXTINTO O PROCESSO COM RESOLUÇÃO DO MÉRITO, na forma do artigo 487, inciso III, bdo CPC.  Defiro, desde já expedição  de guia e de  mandado de pagamento, se for o caso, independente de nova conclusão.  Com o cumprimento ou decorrido o prazo sem manifestação da parte autora,  certifique-se o  trânsito em julgado, dê-se baixa e arquivem-se, ficando cientes as partes de que, após 90 dias da data do arquivamento definitivo, os autos serão eliminados, na forma do Ato Normativo Conjunto 01/2005, publicado no D.O. de 07/01/2005. P.R.I. Defiro o desentranhamento de documentos mediante cópia.;00046F8CBCBEC8E084BEDF1CE236F96CFDE5C5046246052B;2016.204.005571-3;0.8403112888336182
-17;2016.001.143686-8;"HOMOLOGO, por sentença, o acordo celebrado entre as partes, para que produza seus jurídicos e legais efeitos. Assim sendo, JULGO EXTINTO O PROCESSO, com resolução de mérito, com fundamento no artigo 487, inciso III, alínea b, do CPC. 
-
-Sem custas. 
-
-REGISTRE-SE. 
-
-Após, dê-se baixa e arquive-se.";0004B7CF672228CFA3520F7BE2B45E8DFF89C50509310A48;2016.001.069993-8;0.8395883440971375
+ Sem custas. Após as formalidades legais, dê-se baixa e arquive-se. P.R.I.";0004A3E553EB7F5607D327CEE126A3A08C92C505355A5A05;000491479DF20C4637EDE86F891ED2D1EB67C5051A42361F;2016.021.035414-1;0.8786372542381287

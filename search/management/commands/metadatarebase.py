@@ -12,7 +12,7 @@ import sys
 import pandas as pd
 
 class Command(BaseCommand):
-    help = 'Rebase the similar files references on database'
+    help = 'Rebase the metadata`s processes references on database'
 
     def cleardatabase(self):
         ProcessFile.objects.all().delete()
@@ -43,7 +43,8 @@ class Command(BaseCommand):
 
 
     def handle(self, *args, **options):
-        print("Apagando dados de processos armazenados...")
+        print("Apagando metadados de processos armazenados...")
         self.cleardatabase()
-        print("Dados antigos de processos apagados.")
+        print("Metadados antigos de processos apagados.")
         self.rebasedatabase()
+        print("Metadados de processos cadastrados")

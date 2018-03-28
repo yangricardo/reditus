@@ -12,43 +12,38 @@ import sys
 import pandas as pd
 
 class Command(BaseCommand):
-    help = 'Rebase the similar files references on database'
+    help = 'Rebase the similar files references of processes on database'
 
-    def cleardatabase(self):
+    def clearsimilars(self):
         ProcessFile.objects.all().delete()
-        Process.objects.all().delete()
     #end of cleardatabase
 
-    def rebasedatabase(self):
-        regex_file = re.compile(r"elasticinput_([0-9A-Z])+\.csv")
-        path = os.path.join(settings.BASE_DIR, 'static/data/elastic_data/'),
+    def similarrebase(self):
+        regex_file = re.compile(r"similar_to_([0-9A-Z]+)\.csv")
+        path = os.path.join(settings.BASE_DIR, 'static/data/similar_data/'),
         #cria a lista com o nome de todos os arquivos do diretorio que se adequam ao regex_file
-        onlyfiles = [ f for f in listdir(path[0]) if isfile(join(path[0], f)) and regex_file.match(f) ]       
-        print("Lendo metadados do diretorio: {}".format(path[0]))         
+        onlyfiles = [ f for f in listdir(path[0]) if isfile(join(path[0], f)) and regex_file.match(f) ]
+        print("Lendo arquivos de similares do diretorio: {}".format(path[0]))
+
         for f in onlyfiles:
-            #le os dados do arquivo csv
-            df = pd.read_csv(path[0] + f, sep=";" ,encoding = 'latin1') 
-            #armazena o numero do processo do arquivo csv
-            for index, row in df.iterrows():
-                cod_process = row['COD_PROC']
-                serventia = row['Serventia']
-                comarca = row['COMARCA']
-                
-                try:
-                    Process.objects.get(cod=cod_process)
-                except ObjectDoesNotExist:
-                    Process.objects.create(cod=cod_process,serventia=serventia,comarca=comarca)
-                    print('{} cadastrado'.format(cod_process))
-       
-
-
+            data = pd.read_csv(path[0] + f, sep=";" ,encoding = 'latin1')
+            cod_process = data['processo'][0]
+            id_file = regex_file.match(f).group(1)
+            del data
+            try:
+                process = Process.objects.get(cod=cod_process)
+                ProcessFile.objects.create(id=id_file,cod=process)
+                print('Arquivo Similar ao processo {} de id {} cadastrado'.format(process,id_file))
+            except ObjectDoesNotExist:
+                continue
     #end of rebasedabase
 
 
     def handle(self, *args, **options):
-        print("Apagando dados de processos armazenados...")
-        self.cleardatabase()
-        print("Dados antigos de processos apagados.")
-        self.rebasedatabase()
+        print("Apagando dados de processos similares armazenados...")
+        self.clearsimilars()
+        print("Dados antigos de processos processos similares apagados.")
+        self.similarrebase()
+        print("Cadastro de referencias de processos similares finalizado.")
         
         
