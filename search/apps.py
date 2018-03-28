@@ -69,8 +69,9 @@ class SearchConfig(AppConfig):
     #end of build_process_dict    
 
     def ready(self):
-        print("Carregando dados dos processos...")
-        self.build_process_dict()
-        print('Códigos de Processos Carregados:')
-        print(self.process_dict.keys())
-        print("{} bytes ocupados em memória".format(sys.getsizeof(self.process_dict)))
+        # print("Carregando dados dos processos...")
+        # self.build_process_dict()
+        # print('Códigos de Processos Carregados:')
+        # print(self.process_dict.keys())
+        # print("{} bytes ocupados em memória".format(sys.getsizeof(self.process_dict)))
+        pass
