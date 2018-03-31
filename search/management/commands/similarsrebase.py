@@ -32,8 +32,11 @@ class Command(BaseCommand):
             del data
             try:
                 process = Process.objects.get(cod=cod_process)
-                ProcessFile.objects.create(id=id_file,cod=process)
-                print('Arquivo Similar ao processo {} de id {} cadastrado'.format(process,id_file))
+                try:
+                    ProcessFile.objects.get(id=id_file,cod=process)
+                except ObjectDoesNotExist:
+                    ProcessFile.objects.create(id=id_file,cod=process)
+                    print('Arquivo Similar ao processo {} de id {} cadastrado'.format(process,id_file))
             except ObjectDoesNotExist:
                 continue
     #end of rebasedabase
