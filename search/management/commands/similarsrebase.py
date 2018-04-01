@@ -43,9 +43,9 @@ class Command(BaseCommand):
 
 
     def handle(self, *args, **options):
-        print("Apagando dados de processos similares armazenados...")
-        self.clearsimilars()
-        print("Dados antigos de processos processos similares apagados.")
+        # print("Apagando dados de processos similares armazenados...")
+        # self.clearsimilars()
+        # print("Dados antigos de processos processos similares apagados.")
         self.similarrebase()
         print("Cadastro de referencias de processos similares finalizado.")
         
