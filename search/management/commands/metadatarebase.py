@@ -45,8 +45,8 @@ class Command(BaseCommand):
 
 
     def handle(self, *args, **options):
-        # print("Apagando metadados de processos armazenados...")
-        # self.cleardatabase()
-        # print("Metadados antigos de processos apagados.")
+        print("Apagando metadados de processos armazenados...")
+        self.cleardatabase()
+        print("Metadados antigos de processos apagados.")
         self.rebasedatabase()
         print("Metadados de processos cadastrados")
