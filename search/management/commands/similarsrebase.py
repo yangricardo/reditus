@@ -1,4 +1,5 @@
 from django.core.management.base import BaseCommand, CommandError
+from django.shortcuts import get_list_or_404
 from search.models import Process, ProcessFile
 from search.apps import SearchConfig as sc
 from reditus import settings
@@ -20,9 +21,17 @@ class Command(BaseCommand):
 
     def similarrebase(self):
         regex_file = re.compile(r"similar_to_([0-9A-Z]+)\.csv")
-        path = os.path.join(settings.BASE_DIR, 'static/data/similar_data/similares_const/'),
+        path = os.path.join(settings.BASE_DIR, 'static/data/similar_data/'),
         #cria a lista com o nome de todos os arquivos do diretorio que se adequam ao regex_file
-        onlyfiles = [ f for f in listdir(path[0]) if isfile(join(path[0], f)) and regex_file.match(f) ]
+        try:
+            similarfiles = get_list_or_404(ProcessFile)
+            similarfiles = [ file.id for file in similarfiles ]
+            similarfiles = set(similarfiles)
+            onlyfiles = [ f for f in listdir(path[0]) if isfile(join(path[0], f)) and regex_file.match(f) ]
+            onlyfiles = [ f for f in onlyfiles if regex_file.match(f).group(1) not in similarfiles ]
+            print(onlyfiles)
+        except:
+            onlyfiles = [ f for f in listdir(path[0]) if isfile(join(path[0], f)) and regex_file.match(f) ]
         print("Lendo arquivos de similares do diretorio: {}".format(path[0]))
 
         for f in onlyfiles:

@@ -39,6 +39,8 @@ class Command(BaseCommand):
                 except ObjectDoesNotExist:
                     Process.objects.create(cod=cod_process,serventia=serventia,comarca=comarca)
                     print('{} cadastrado'.format(cod_process))
+            
+            del df
     #end of rebasedabase
 
 
