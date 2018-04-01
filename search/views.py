@@ -94,7 +94,7 @@ def process_view(request,cod, index):
 
 def get_similar_data(hash_processes):
     regex_file = re.compile(r"similar_to_([0-9A-Z]+)\.csv")
-    path = os.path.join(settings.BASE_DIR, 'static/data/similar_data/'),
+    path = os.path.join(settings.BASE_DIR, 'static/data/similar_data/similares_const/'),
 
     process_data = pd.DataFrame()
 
