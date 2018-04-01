@@ -1,7 +1,7 @@
 # reditus
 
 ## atualização de banco de dados
- - '''source env/bin/activate'''
+ - `source env/bin/activate`
  ### metadados dos processos
    - 'python manage.py metadatarebase'
     - comando que limpa os metadados com base nos arquivos em 'static/data/elastic_data/'
