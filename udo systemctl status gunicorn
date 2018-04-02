@@ -1,0 +1,18 @@
+[0;1;32m●[0m gunicorn.service - gunicorn daemon
+   Loaded: loaded (/etc/systemd/system/gunicorn.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Sáb 2018-03-17 14:15:12 -03; 34s ago
+ Main PID: 25759 (gunicorn)
+   CGroup: /system.slice/gunicorn.service
+           ├─25759 /home/yang/reditus/env/bin/python3 /home/yang/reditus/env/bin/gunicorn --access-logfile - --workers 1 --bind unix:/home/yang/reditus/reditus.sock reditus.wsgi:application
+           └─25810 /home/yang/reditus/env/bin/python3 /home/yang/reditus/env/bin/gunicorn --access-logfile - --workers 1 --bind unix:/home/yang/reditus/reditus.sock reditus.wsgi:application
+
+Mar 17 14:15:12 legalite-tjrj gunicorn[25759]: [2018-03-17 14:15:12 -0300] [25759] [INFO] Starting gunicorn 19.7.1
+Mar 17 14:15:12 legalite-tjrj gunicorn[25759]: [2018-03-17 14:15:12 -0300] [25759] [INFO] Listening at: unix:/home/yang/reditus/reditus.sock (25759)
+Mar 17 14:15:12 legalite-tjrj gunicorn[25759]: [2018-03-17 14:15:12 -0300] [25759] [INFO] Using worker: sync
+Mar 17 14:15:12 legalite-tjrj gunicorn[25759]: [2018-03-17 14:15:12 -0300] [25762] [INFO] Booting worker with pid: 25762
+Mar 17 14:15:42 legalite-tjrj gunicorn[25759]: [2018-03-17 14:15:42 -0300] [25759] [CRITICAL] WORKER TIMEOUT (pid:25762)
+Mar 17 14:15:42 legalite-tjrj gunicorn[25759]: [2018-03-17 14:15:42 -0300] [25762] [INFO] Worker exiting (pid: 25762)
+Mar 17 14:15:42 legalite-tjrj gunicorn[25759]: Carregando dados dos processos...
+Mar 17 14:15:42 legalite-tjrj gunicorn[25759]: Lendo arquivos de similares do diretorio: /home/yang/reditus/static/data/similar_data/
+Mar 17 14:15:42 legalite-tjrj gunicorn[25759]: Lendo metadados do diretorio: /home/yang/reditus/static/data/elastic_data/
+Mar 17 14:15:42 legalite-tjrj gunicorn[25759]: [2018-03-17 14:15:42 -0300] [25810] [INFO] Booting worker with pid: 25810
