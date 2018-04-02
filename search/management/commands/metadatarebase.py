@@ -20,7 +20,7 @@ class Command(BaseCommand):
     #end of cleardatabase
 
     def rebasedatabase(self):
-        regex_file = re.compile(r"elasticinput_([0-9A-Z])+\.csv")
+        regex_file = re.compile(r"year\d{4}_elasticinput_([0-9A-Z])+\.csv")
         path = os.path.join(settings.BASE_DIR, 'static/data/elastic_data/'),
         #cria a lista com o nome de todos os arquivos do diretorio que se adequam ao regex_file
         onlyfiles = [ f for f in listdir(path[0]) if isfile(join(path[0], f)) and regex_file.match(f) ]       
