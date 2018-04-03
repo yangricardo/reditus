@@ -22,7 +22,7 @@
             <div class="col-sm-4">
                 <div class="float-right">
                     <div class="btn-group" role="group">
-                        <!-- <a href="#" target="_blank" class="btn btn-link">Inicial</a> -->
+                        <a href="{{process_inicial_url}}" target="_blank" class="btn btn-link">Inicial</a>
                         <a href="{{process_contestacao_url}}" target="_blank" class="btn btn-link">Contestação</a>
                         <a href="{{process_movimento_url}}" target="_blank" class="btn btn-link">Movimentos</a>
                     </div>
@@ -94,7 +94,7 @@
                 <div class="card text-justify similares-box">
                     <div class="list-group list-group-flush">
                         {% for sp in similars_processes %}
-                                <a href="{% url 'processo' sp.0 0 %}" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center {% ifequal sp.0 similar_cod %}list-group-item-primary {% endifequal %} ">
+                                <a href="{% url 'processo' sp.0 0 %}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center {% ifequal sp.0 similar_cod %}list-group-item-primary {% endifequal %} ">
                                 {{sp.0}}<span class="badge">{{sp.2 | percentage}}</span>
                                 </a>
                         {% endfor%}
