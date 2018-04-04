@@ -54,8 +54,8 @@ def process_view(request,cod, index):
         similar_sentence = similars_data['sentenca'][int(index)]
         
         similar_atual_cod = re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{3,4}",similar_sentence).group(0) if re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{3,4}",similar_sentence) else ""
-        similar_author = re.search(r"(autor|Autor|AUTOR|Autora|autora|AUTORA)(\s*:\s*)(\w.+)+",similar_sentence).group(3) if re.search(r"(autor|Autor|AUTOR|Autora|autora|AUTORA)(\s*:\s*)(\w.+)+[^\n]",similar_sentence) else ""
-        similar_reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(\w.+)+",similar_sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(\w.+)+[^\n]",similar_sentence) else ""
+        similar_author = re.search(r"(autor|Autor|AUTOR|Autora|autora|AUTORA)(\s*:\s*)(\w.{0,40})+[^\n]",similar_sentence).group(3) if re.search(r"(autor|Autor|AUTOR|Autora|autora|AUTORA)(\s*:\s*)(\w.{0,40})+[^\n]",similar_sentence) else ""
+        similar_reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(\w.{0,40})+[^\n]",similar_sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(\w.{0,40})+[^\n]",similar_sentence) else ""
 
         similar_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso={}&acessoIP=internet&tipoUsuario=".format(similar_cod)
         similar_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['similar_file'][int(index)])
