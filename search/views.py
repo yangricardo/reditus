@@ -30,66 +30,66 @@ def index_view(request):
 
 
 def process_view(request,cod, index):
-    try:
-        process = get_object_or_404(Process,cod=cod)
-        similars_files = get_list_or_404(ProcessFile,cod=cod)
-        similars_data = get_similar_data(similars_files)
-        
-        #dados do processo
-        process_serventia = process.serventia
-        process_comarca = process.comarca
+# try:
+    process = get_object_or_404(Process,cod=cod)
+    similars_files = get_list_or_404(ProcessFile,cod=cod)
+    similars_data = get_similar_data(similars_files)
+    
+    #dados do processo
+    process_serventia = process.serventia
+    process_comarca = process.comarca
 
-        print(process.cod)
-        process_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso={}&acessoIP=internet&tipoUsuario=".format(process)
-        process_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['constestacao_buscado'][int(index)])
-        process_inicial_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['inicial_buscado'][int(index)])
+    process_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso={}&acessoIP=internet&tipoUsuario=".format(process)
+    process_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['constestacao_buscado'][int(index)])
+    process_inicial_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['inicial_buscado'][int(index)])
 
-        #dados do similar
-        similar_cod = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",similars_data['similar_processo'][int(index)]).group(0)
+    print(similars_data['similar_processo'][int(index)])
+    #dados do similar
+    similar_cod = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",similars_data['similar_processo'][int(index)]).group(0)
 
-        similar_metadata = get_object_or_404(Process,cod=similar_cod)
-        similar_serventia = similar_metadata.serventia
-        similar_comarca = similar_metadata.comarca
+    similar_metadata = get_object_or_404(Process,cod=similar_cod)
+    similar_serventia = similar_metadata.serventia
+    similar_comarca = similar_metadata.comarca
 
-        similar_sentence = similars_data['sentenca'][int(index)]
-        
-        similar_atual_cod = re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{3,4}",similar_sentence).group(0) if re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{3,4}",similar_sentence) else ""
-        similar_author = re.search(r"(autor|Autor|AUTOR|Autora|autora|AUTORA)(\s*:\s*)(.{0,60})[^\n]",similar_sentence).group(3) if re.search(r"(autor|Autor|AUTOR|Autora|autora|AUTORA)(\s*:\s*)(.{0,60})[^\n]",similar_sentence) else ""
-        similar_reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(.{0,60})[^\n]",similar_sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(.{0,60})[^\n]",similar_sentence) else ""
+    similar_sentence = similars_data['sentenca'][int(index)]
+    
+    similar_atual_cod = re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{3,4}",similar_sentence).group(0) if re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{3,4}",similar_sentence) else ""
+    similar_author = re.search(r"(autor|Autor|AUTOR|Autora|autora|AUTORA)(\s*:\s*)(.{0,60})[^\n]",similar_sentence).group(3) if re.search(r"(autor|Autor|AUTOR|Autora|autora|AUTORA)(\s*:\s*)(.{0,60})[^\n]",similar_sentence) else ""
+    similar_reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(.{0,60})[^\n]",similar_sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(.{0,60})[^\n]",similar_sentence) else ""
 
-        similar_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso={}&acessoIP=internet&tipoUsuario=".format(similar_cod)
-        similar_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['similar_file'][int(index)])
-        similar_inicial_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['similar_init'][int(index)])
+    similar_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso={}&acessoIP=internet&tipoUsuario=".format(similar_cod)
+    similar_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['similar_file'][int(index)])
+    similar_inicial_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['similar_init'][int(index)])
 
-        similar_percentage = similars_data['similaridade'][int(index)]
-        
-        similars_processes = []
-        for i, row in similars_data.iterrows():
-            if re.search(r"\d{4}\.\d{3}\.\d{6}-\d",row['similar_processo']).group(0) not in similars_processes: 
-                similars_processes.append(
-                    (
-                        re.search(r"\d{4}\.\d{3}\.\d{6}-\d",row['similar_processo']).group(0),
-                        "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(row['similar_file']),
-                        row['similaridade'],
-                    )
-                ) 
+    similar_percentage = similars_data['similaridade'][int(index)]
+    
+    similars_processes = []
+    for i, row in similars_data.iterrows():
+        if re.search(r"\d{4}\.\d{3}\.\d{6}-\d",row['similar_processo']).group(0) not in similars_processes: 
+            similars_processes.append(
+                (
+                    re.search(r"\d{4}\.\d{3}\.\d{6}-\d",row['similar_processo']).group(0),
+                    "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(row['similar_file']),
+                    row['similaridade'],
+                )
+            ) 
 
-        similars_processes = sorted(list(set(similars_processes)),key=itemgetter(2), reverse=True)
+    similars_processes = sorted(list(set(similars_processes)),key=itemgetter(2), reverse=True)
 
-        #paginação
-        pages = similars_data['processo'].count()-1
+    #paginação
+    pages = similars_data['processo'].count()-1
 
-        has_previous = True if int(index) > 0 else False
-        has_next = True if int(index) < pages else False
-        previousIndex = int(index)-1 if int(index) > 0 else 0
-        nextIndex = int(index)+1 if int(index) < pages else pages
+    has_previous = True if int(index) > 0 else False
+    has_next = True if int(index) < pages else False
+    previousIndex = int(index)-1 if int(index) > 0 else 0
+    nextIndex = int(index)+1 if int(index) < pages else pages
 
-        return render(request, 'search/sentenca.html', {
-            'cod':cod,'process_serventia':process_serventia,'process_comarca':process_comarca,'process_movimento_url':process_movimento_url,'process_inicial_url':process_inicial_url,'process_contestacao_url':process_contestacao_url,'similar_cod':similar_cod,'similar_atual_cod':similar_atual_cod,'similar_serventia':similar_serventia, 'similar_comarca':similar_comarca,'similar_sentence':similar_sentence,'similar_author':similar_author,'similar_reu':similar_reu,'similar_movimento_url':similar_movimento_url,'similar_inicial_url':similar_inicial_url,'similar_contestacao_url':similar_contestacao_url,'similar_percentage':similar_percentage,'similars_processes':similars_processes,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next, 'index':index
-            })
-    except:
-        error = True
-        return render(request, 'search/sentenca.html', {'error':error})
+    return render(request, 'search/sentenca.html', {
+        'cod':cod,'process_serventia':process_serventia,'process_comarca':process_comarca,'process_movimento_url':process_movimento_url,'process_inicial_url':process_inicial_url,'process_contestacao_url':process_contestacao_url,'similar_cod':similar_cod,'similar_atual_cod':similar_atual_cod,'similar_serventia':similar_serventia, 'similar_comarca':similar_comarca,'similar_sentence':similar_sentence,'similar_author':similar_author,'similar_reu':similar_reu,'similar_movimento_url':similar_movimento_url,'similar_inicial_url':similar_inicial_url,'similar_contestacao_url':similar_contestacao_url,'similar_percentage':similar_percentage,'similars_processes':similars_processes,'pages':pages, 'previousindex':previousIndex,'nextindex':nextIndex,'has_previous':has_previous,'has_next':has_next, 'index':index
+        })
+# except:
+#     error = True
+#     return render(request, 'search/sentenca.html', {'error':error})
         
 
 

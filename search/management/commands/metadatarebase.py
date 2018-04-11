@@ -40,13 +40,14 @@ class Command(BaseCommand):
                     Process.objects.create(cod=cod_process,serventia=serventia,comarca=comarca)
                     print('{} cadastrado'.format(cod_process))
             
+                print("**** cadastro dos codigos em {} completado *****".format(f))
             del df
     #end of rebasedabase
 
 
     def handle(self, *args, **options):
-        print("Apagando metadados de processos armazenados...")
-        self.cleardatabase()
-        print("Metadados antigos de processos apagados.")
+        #print("Apagando metadados de processos armazenados...")
+        #self.cleardatabase()
+        #print("Metadados antigos de processos apagados.")
         self.rebasedatabase()
         print("Metadados de processos cadastrados")
