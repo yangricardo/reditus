@@ -40,7 +40,7 @@
             <div class="col-sm-2 ">
                 <strong>Similaridade</small>: </strong>
                 <div class="card-text justify-content-center">
-                    <span class="badge badge-success">{{ similar_percentage | percentage}}</span>
+                    <span class="badge {% if similar_percentage < 0.5 %}badge-danger{% elif similar_percentage < 0.7 %}badge-warning{%else%}badge-success{% endif %}">{{ similar_percentage | percentage}}</span>
                 </div>
             </div>
             <div class="col-sm-3 ">
