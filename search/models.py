@@ -52,8 +52,8 @@ class Character(models.Model):
 class ProcessCharacter(models.Model):
     objects = models.Manager()  
     
-    process_cod = models.ForeignKey(Process,on_delete=models.CASCADE)    
-    character_cod = models.ForeignKey(Character,on_delete=models.CASCADE)    
+    process = models.ForeignKey(Process,on_delete=models.CASCADE)    
+    character = models.ForeignKey(Character,on_delete=models.CASCADE)    
     typerel = models.CharField(max_length=1)
 
     class Meta:
