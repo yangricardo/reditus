@@ -40,7 +40,7 @@
             <div class="col-sm-2 ">
                 <strong>Similaridade</small>: </strong>
                 <div class="card-text justify-content-center">
-                    <span class="badge {% if similar_percentage < 0.5 %}badge-danger{% elif similar_percentage < 0.7 %}badge-warning{% endif %}">{{ similar_percentage | percentage}}</span>
+                    <span class="badge {% if similar_percentage < 0.5 %}badge-danger{% elif similar_percentage < 0.7 %}badge-warning{%else%}badge-success{% endif %}">{{ similar_percentage | percentage}}</span>
                 </div>
             </div>
             <div class="col-sm-3 ">
@@ -66,15 +66,15 @@
                 <div class="card-text justify-content-center text-dark">{{similar_author}}</div>
             </div>
             <div class="col-sm-5 card-text">
-                <strong>Réu:</strong>
-                <div class="card-text justify-content-center text-dark">{{similar_reu}}</div>
+                <strong>Comarca:</strong>
+                <div class="card-text justify-content-center text-dark">{{ similar_comarca }}</div>
             </div>
         </div>
         <hr>
         <div class="row row-container row-height">
             <div class="col-sm-7 card-text">
-                <strong>Comarca:</strong>
-                <div class="card-text justify-content-center text-dark">{{ similar_comarca }}</div>
+                <strong>Réu:</strong>
+                <div class="card-text justify-content-center text-dark">{{similar_reu}}</div>
             </div>
             <div class="col-sm-5 card-text">
                 <strong>Serventia:</strong>

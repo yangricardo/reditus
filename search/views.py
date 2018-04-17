@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, get_list_or_404, redirect
 from .forms import SearchForm
-from .models import Process, ProcessFile
+from .models import Process, ProcessFile, Character, ProcessCharacter
 from django.views.generic.edit import FormView
 from .apps import SearchConfig as sc
 import pandas as pd
@@ -43,7 +43,6 @@ def process_view(request,cod, index):
     process_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['constestacao_buscado'][int(index)])
     process_inicial_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['inicial_buscado'][int(index)])
 
-    print(similars_data['similar_processo'][int(index)])
     #dados do similar
     similar_cod = re.search(r"\d{4}\.\d{3}\.\d{6}-\d",similars_data['similar_processo'][int(index)]).group(0)
 
@@ -56,6 +55,9 @@ def process_view(request,cod, index):
     similar_atual_cod = re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{3,4}",similar_sentence).group(0) if re.search(r"\d{5,7}-\d{2}\.\d{4}\.\d\.\d{2}\.\d{3,4}",similar_sentence) else ""
     similar_author = re.search(r"(autor|Autor|AUTOR|Autora|autora|AUTORA)(\s*:\s*)(.{0,60})[^\n]",similar_sentence).group(3) if re.search(r"(autor|Autor|AUTOR|Autora|autora|AUTORA)(\s*:\s*)(.{0,60})[^\n]",similar_sentence) else ""
     similar_reu = re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(.{0,60})[^\n]",similar_sentence).group(3) if re.search(r"(reu|Reu|Réu|réu|REU|RÉU|RÉ|Ré|ré)(\s*:\s*)(.{0,60})[^\n]",similar_sentence) else ""
+
+    similar_author = get_list_or_404(ProcessCharacter,process_cod=similar_cod,typerel='A')[0].character_cod.name[:60]
+    similar_reu = get_list_or_404(ProcessCharacter,process_cod=similar_cod,typerel='P')[0].character_cod.name[:60]
 
     similar_movimento_url = "http://www4.tjrj.jus.br/consultaProcessoWebV2/consultaMov.do?v=2&numProcesso={}&acessoIP=internet&tipoUsuario=".format(similar_cod)
     similar_contestacao_url = "http://gedweb.tjrj.jus.br/gedcacheweb/default.aspx?gedid={}".format(similars_data['similar_file'][int(index)])
