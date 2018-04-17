@@ -21,7 +21,7 @@ class Command(BaseCommand):
 
     def similarrebase(self):
         regex_file = re.compile(r"similar_to_([0-9A-Z]+)\.csv")
-        path = os.path.join(settings.BASE_DIR, 'static/data/similar_data/similares_const/'),
+        path = os.path.join(settings.BASE_DIR, 'data/similar_data/similares_const/'),
         #cria a lista com o nome de todos os arquivos do diretorio que se adequam ao regex_file
         try:
             similarfiles = get_list_or_404(ProcessFile)

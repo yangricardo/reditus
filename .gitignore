@@ -103,5 +103,6 @@ reditus-env/
 staticfiles/
 search/__pycache__/
 reditus/__pycache__/
+data/
 static/data/elastic_data/
 static/data/similar_data/

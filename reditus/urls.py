@@ -23,3 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('search.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+handler400 = 'search.views.handler400'
+handler403 = 'search.views.handler403'
+handler404 = 'search.views.handler404'
+handler500 = 'search.views.handler500'

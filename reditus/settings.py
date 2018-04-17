@@ -23,8 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '$_n0#ujg=p0&b9%g7t(hmo310$ls!9wf=)z1&*rci11h&)185j')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
-DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
+import socket
+
+if socket.gethostname() == 'Yang-MacBook-Air':
+    DEBUG = TEMPLATE_DEBUG = True
+else:
+    DEBUG = TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = ['139.82.24.220','localhost','127.0.0.1','0.0.0.0']
 
@@ -72,6 +76,10 @@ TEMPLATES = [
         },
     },
 ]
+
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates'), 
+)
 
 WSGI_APPLICATION = 'reditus.wsgi.application'
 

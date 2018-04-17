@@ -20,7 +20,7 @@ class Command(BaseCommand):
     #end of cleardatabase
 
     def charactersrebase(self):
-        path = os.path.join(settings.BASE_DIR, 'static/data/elastic_data/'),
+        path = os.path.join(settings.BASE_DIR, 'data/elastic_data/'),
         regex_file = re.compile(r"Personagem\d{4}\.csv")
         
         onlyfiles = [ f for f in listdir(path[0]) if isfile(join(path[0], f)) and regex_file.match(f) ]  
@@ -41,7 +41,7 @@ class Command(BaseCommand):
     # end of charactersrebase
 
     def processcharactersrebase(self):
-        path = os.path.join(settings.BASE_DIR, 'static/data/elastic_data/'),
+        path = os.path.join(settings.BASE_DIR, 'data/elastic_data/'),
         regex_file = re.compile(r"PersonagemProcesso\d{4}\.csv")
         
         onlyfiles = [ f for f in listdir(path[0]) if isfile(join(path[0], f)) and regex_file.match(f) ]  
