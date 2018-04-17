@@ -31,3 +31,34 @@ class ProcessFile(models.Model):
     def __str__(self):
         return self.id
 
+
+
+class Character(models.Model):
+    objects = models.Manager()
+
+    id = models.IntegerField(primary_key=True)
+    name = models.CharField(max_length=120)
+
+    class Meta:
+        verbose_name = 'character'
+        verbose_name_plural = 'characters'
+
+
+    def __str__(self):
+        return self.name
+
+
+
+class ProcessCharacter(models.Model):
+    objects = models.Manager()  
+    
+    process_cod = models.ForeignKey(Process,on_delete=models.CASCADE)    
+    character_cod = models.ForeignKey(Character,on_delete=models.CASCADE)    
+    typerel = models.CharField(max_length=1)
+
+    class Meta:
+        verbose_name = 'processcharacter'
+        verbose_name_plural = 'processcharacters'
+
+    def __str__(self):
+        return self.typerel
